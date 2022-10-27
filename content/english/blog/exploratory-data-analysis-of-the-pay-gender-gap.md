@@ -186,7 +186,7 @@ plt.title('Comparison Of Gender Median Base Pay', fontsize=17);
 
 **The gender pay gap is 8.46% or USD8,300 a year.**
 
-![1666856317434](image/README/1666856317434.png)
+![1666856317434](images/1666856317434.png)
 
 ## Compute the gender pay gap
 
