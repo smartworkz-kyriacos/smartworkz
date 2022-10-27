@@ -6,7 +6,7 @@ date = 2022-10-26T22:00:00Z
 description = ""
 image = ""
 tags = []
-title = "test"
+title = "Hugo on GitHub Pages with Forestry and Netlify"
 type = "post"
 
 +++
