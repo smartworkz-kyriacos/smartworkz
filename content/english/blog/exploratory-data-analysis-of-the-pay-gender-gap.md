@@ -68,9 +68,9 @@ memory usage: 70.4+ KB
 pay.columns
 ```
 
-Index(['JobTitle', 'Gender', 'Age', 'PerfEval', 'Education', 'Dept',
-       'Seniority', 'BasePay', 'Bonus'],
-      dtype='object')
+Index(\['JobTitle', 'Gender', 'Age', 'PerfEval', 'Education', 'Dept',
+'Seniority', 'BasePay', 'Bonus'\],
+dtype='object')
 
 ## Convert column names to lowercase
 
@@ -84,9 +84,9 @@ pay.columns = pay.columns.map(lambda x: x.lower())
 pay.columns
 ```
 
-Index(['jobtitle', 'gender', 'age', 'perfeval', 'education', 'dept',
-       'seniority', 'basepay', 'bonus'],
-      dtype='object')
+Index(\['jobtitle', 'gender', 'age', 'perfeval', 'education', 'dept',
+'seniority', 'basepay', 'bonus'\],
+dtype='object')
 
 ## View the first 5 rows
 
@@ -94,13 +94,13 @@ Index(['jobtitle', 'gender', 'age', 'perfeval', 'education', 'dept',
 pay.head()
 ```
 
-|   |            jobtitle | gender | age | perfeval | education |           dept | seniority | basepay | bonus |
-| -: | ------------------: | -----: | --: | -------: | --------: | -------------: | --------: | ------: | ----: |
-| 0 |    Graphic Designer | Female |  18 |        5 |   College |     Operations |         2 |   42363 |  9938 |
-| 1 |   Software Engineer |   Male |  21 |        5 |   College |     Management |         5 |  108476 | 11128 |
-| 2 | Warehouse Associate | Female |  19 |        4 |       PhD | Administration |         5 |   90208 |  9268 |
-| 3 |   Software Engineer |   Male |  20 |        5 |   Masters |          Sales |         4 |  108080 | 10154 |
-| 4 |    Graphic Designer |   Male |  26 |        5 |   Masters |    Engineering |         5 |   99464 |  9319 |
+|  | jobtitle | gender | age | perfeval | education | dept | seniority | basepay | bonus |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 0 | Graphic Designer | Female | 18 | 5 | College | Operations | 2 | 42363 | 9938 |
+| 1 | Software Engineer | Male | 21 | 5 | College | Management | 5 | 108476 | 11128 |
+| 2 | Warehouse Associate | Female | 19 | 4 | PhD | Administration | 5 | 90208 | 9268 |
+| 3 | Software Engineer | Male | 20 | 5 | Masters | Sales | 4 | 108080 | 10154 |
+| 4 | Graphic Designer | Male | 26 | 5 | Masters | Engineering | 5 | 99464 | 9319 |
 
 ## Value counts of all unique values of job title
 
@@ -155,12 +155,10 @@ plt.title('Comparing Basepay Between Gender', fontsize=17);
 
 ![1666856234633](/images/1666856234633.png)
 
-/images/1666856234633.png
-
 **Is the gender pay gap significant? We will do hypothesis testing to determine whether the pay gap is significant or not.**
 
-- **Null hypothesis: there is no gender pay gap**
-- **Alternative hypothesis: there is a gender pay gap**
+* **Null hypothesis: there is no gender pay gap**
+* **Alternative hypothesis: there is a gender pay gap**
 
 ## Compute differences in average gender pay gap represented by p-value
 
@@ -174,7 +172,7 @@ print(f" The P Value is: {p}, we reject null hypothesis.")
 
 The P Value is: 9.478621943012633e-08, we reject null hypothesis.
 
-**Since the P value is \< 0.05, we will reject the null hypothesis, and determine that the gender pay gap is significant, and cannot be dismissed as a myth!**
+**Since the P value is < 0.05, we will reject the null hypothesis, and determine that the gender pay gap is significant, and cannot be dismissed as a myth!**
 
 ## Visualize the gender pay gap with median base pay
 
@@ -219,7 +217,7 @@ pay[yours].groupby('gender')['basepay'].median().plot.bar();
 plt.title('Median Base Pay', fontsize=17);
 ```
 
-![1666856358084](image/README/1666856358084.png)
+![1666856358084](images/1666856358084.png)
 
 ## Import LabelEncoder
 
@@ -240,13 +238,13 @@ pay['education_le'] = le.fit_transform(pay.education)
 pay.head()
 ```
 
-| jobtitle |              gender |    age | perfeval | education |    dept |      seniority | basepay |  bonus | gender_le | jobtitle_le | education_le |   |
-| -------: | ------------------: | -----: | -------: | --------: | ------: | -------------: | ------: | -----: | --------: | ----------: | -----------: | - |
-|        0 |    Graphic Designer | Female |       18 |         5 | College |     Operations |       2 |  42363 |      9938 |           0 |            3 | 0 |
-|        1 |   Software Engineer |   Male |       21 |         5 | College |     Management |       5 | 108476 |     11128 |           1 |            8 | 0 |
-|        2 | Warehouse Associate | Female |       19 |         4 |     PhD | Administration |       5 |  90208 |      9268 |           0 |            9 | 3 |
-|        3 |   Software Engineer |   Male |       20 |         5 | Masters |          Sales |       4 | 108080 |     10154 |           1 |            8 | 2 |
-|        4 |    Graphic Designer |   Male |       26 |         5 | Masters |    Engineering |       5 |  99464 |      9319 |           1 |            3 | 2 |
+| jobtitle | gender | age | perfeval | education | dept | seniority | basepay | bonus | gender_le | jobtitle_le | education_le |  |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| 0 | Graphic Designer | Female | 18 | 5 | College | Operations | 2 | 42363 | 9938 | 0 | 3 | 0 |
+| 1 | Software Engineer | Male | 21 | 5 | College | Management | 5 | 108476 | 11128 | 1 | 8 | 0 |
+| 2 | Warehouse Associate | Female | 19 | 4 | PhD | Administration | 5 | 90208 | 9268 | 0 | 9 | 3 |
+| 3 | Software Engineer | Male | 20 | 5 | Masters | Sales | 4 | 108080 | 10154 | 1 | 8 | 2 |
+| 4 | Graphic Designer | Male | 26 | 5 | Masters | Engineering | 5 | 99464 | 9319 | 1 | 3 | 2 |
 
 **Further examination to determine the reason for the gender pay gap**
 
@@ -281,7 +279,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![1666856464625](image/README/1666856464625.png)
+![1666856464625](images/1666856464625.png)
 
 **By close examination of the data, we can see that the first 6 most highly paid jobs have males than females. This shows occupational segregation by the dominant male group which is one of the reasons for the gender pay gap. This is a sign of occupational segregation leading to the gender pay gap. Therefore we need to do some adjustments to compare base pay based on the same age group, education, job titles, etc.**
 
@@ -307,36 +305,36 @@ summary
   
 ```
 
-| jobtitle |           education | diff_in_median_pay |           |
-| -------: | ------------------: | -----------------: | --------- |
-|        0 |      Data Scientist |                PhD | 0.030486  |
-|        1 |      Data Scientist |            Masters | 0.038273  |
-|        2 |      Data Scientist |            College | -0.005498 |
-|        3 |      Data Scientist |        High School | 0.179747  |
-|        4 |    Graphic Designer |                PhD | -0.312886 |
-|        5 |    Graphic Designer |            Masters | 0.287978  |
-|        6 |    Graphic Designer |            College | 0.158551  |
-|        7 |    Graphic Designer |        High School | 0.007099  |
-|        8 | Warehouse Associate |                PhD | -0.228656 |
-|        9 | Warehouse Associate |            Masters | 0.069365  |
-|       10 | Warehouse Associate |            College | -0.099148 |
-|       11 | Warehouse Associate |        High School | -0.186032 |
-|       12 |     Sales Associate |                PhD | 0.090324  |
-|       13 |     Sales Associate |            Masters | 0.135878  |
-|       14 |     Sales Associate |            College | 0.072941  |
-|       15 |     Sales Associate |        High School | -0.000489 |
-|       16 |   Financial Analyst |                PhD | 0.032547  |
-|       17 |   Financial Analyst |            Masters | -0.015548 |
-|       18 |   Financial Analyst |            College | -0.249484 |
-|       19 |   Financial Analyst |        High School | -0.316858 |
-|       20 |              Driver |                PhD | 0.303038  |
-|       21 |              Driver |            Masters | 0.272451  |
-|       22 |              Driver |            College | 0.095073  |
-|       23 |              Driver |        High School | 0.089049  |
-|       24 |                  IT |                PhD | 0.015750  |
-|       25 |                  IT |            Masters | -0.062694 |
-|       26 |                  IT |            College | 0.109838  |
-|       27 |                  IT |        High School | -0.054867 |
+| jobtitle | education | diff_in_median_pay |  |
+| ---: | ---: | ---: | --- |
+| 0 | Data Scientist | PhD | 0.030486 |
+| 1 | Data Scientist | Masters | 0.038273 |
+| 2 | Data Scientist | College | -0.005498 |
+| 3 | Data Scientist | High School | 0.179747 |
+| 4 | Graphic Designer | PhD | -0.312886 |
+| 5 | Graphic Designer | Masters | 0.287978 |
+| 6 | Graphic Designer | College | 0.158551 |
+| 7 | Graphic Designer | High School | 0.007099 |
+| 8 | Warehouse Associate | PhD | -0.228656 |
+| 9 | Warehouse Associate | Masters | 0.069365 |
+| 10 | Warehouse Associate | College | -0.099148 |
+| 11 | Warehouse Associate | High School | -0.186032 |
+| 12 | Sales Associate | PhD | 0.090324 |
+| 13 | Sales Associate | Masters | 0.135878 |
+| 14 | Sales Associate | College | 0.072941 |
+| 15 | Sales Associate | High School | -0.000489 |
+| 16 | Financial Analyst | PhD | 0.032547 |
+| 17 | Financial Analyst | Masters | -0.015548 |
+| 18 | Financial Analyst | College | -0.249484 |
+| 19 | Financial Analyst | High School | -0.316858 |
+| 20 | Driver | PhD | 0.303038 |
+| 21 | Driver | Masters | 0.272451 |
+| 22 | Driver | College | 0.095073 |
+| 23 | Driver | High School | 0.089049 |
+| 24 | IT | PhD | 0.015750 |
+| 25 | IT | Masters | -0.062694 |
+| 26 | IT | College | 0.109838 |
+| 27 | IT | High School | -0.054867 |
 
 ## Average gap in median gender pay
 
@@ -345,7 +343,7 @@ summary.groupby('jobtitle')['diff_in_median_pay'].mean().plot.bar();
 plt.title('Differences In Gender Median Pay', fontsize=17);
 ```
 
-![1666856502380](image/README/1666856502380.png)
+![1666856502380](images/1666856502380.png)
 
 ## Average gap by job title and education
 
@@ -357,7 +355,7 @@ sns.barplot(data = summary, y='jobtitle', x='diff_in_median_pay', hue='education
 plt.title('Differences In Gender Median Pay', fontsize=17);
 ```
 
-![1666856518911](image/README/1666856518911.png)
+![1666856518911](images/1666856518911.png)
 
 ## The average adjusted gender pay gap
 
@@ -380,19 +378,19 @@ adjusted_jobtitle=pd.concat(adjusted_jobtitle)
 adjusted_jobtitle
 ```
 
-|     |       jobtitle | gender | age | perfeval |   education |           dept | seniority | basepay | bonus | gender_le | jobtitle_le | education_le |
-| --: | -------------: | -----: | --: | -------: | ----------: | -------------: | --------: | ------: | ----: | --------: | ----------: | -----------: |
-|  19 | Data Scientist | Female |  30 |        5 |     College |    Engineering |         5 |   92067 |  9838 |         0 |           0 |            0 |
-|  33 | Data Scientist | Female |  22 |        5 | High School |    Engineering |         3 |   74523 |  9972 |         0 |           0 |            1 |
-|  34 | Data Scientist | Female |  45 |        5 |         PhD |     Management |         5 |  113252 | 10139 |         0 |           0 |            3 |
-|  40 | Data Scientist |   Male |  29 |        5 |         PhD | Administration |         5 |   96355 |  9784 |         1 |           0 |            3 |
-|  41 | Data Scientist |   Male |  32 |        5 |         PhD |     Management |         3 |   87121 |  8703 |         1 |           0 |            3 |
-| ... |            ... |    ... | ... |      ... |         ... |            ... |       ... |     ... |   ... |       ... |         ... |          ... |
-| 963 |             IT |   Male |  55 |        2 |     Masters |     Operations |         1 |   91447 |  3196 |         1 |           4 |            2 |
-| 978 |             IT | Female |  59 |        1 |     College |          Sales |         3 |  110627 |  2041 |         0 |           4 |            0 |
-| 980 |             IT |   Male |  64 |        1 |     Masters |          Sales |         1 |   92950 |  2125 |         1 |           4 |            2 |
-| 984 |             IT | Female |  53 |        1 | High School | Administration |         2 |  112169 |  2763 |         0 |           4 |            1 |
-| 991 |             IT | Female |  65 |        1 |     Masters | Administration |         1 |  106945 |  2041 |         0 |           4 |            2 |
+|  | jobtitle | gender | age | perfeval | education | dept | seniority | basepay | bonus | gender_le | jobtitle_le | education_le |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 19 | Data Scientist | Female | 30 | 5 | College | Engineering | 5 | 92067 | 9838 | 0 | 0 | 0 |
+| 33 | Data Scientist | Female | 22 | 5 | High School | Engineering | 3 | 74523 | 9972 | 0 | 0 | 1 |
+| 34 | Data Scientist | Female | 45 | 5 | PhD | Management | 5 | 113252 | 10139 | 0 | 0 | 3 |
+| 40 | Data Scientist | Male | 29 | 5 | PhD | Administration | 5 | 96355 | 9784 | 1 | 0 | 3 |
+| 41 | Data Scientist | Male | 32 | 5 | PhD | Management | 3 | 87121 | 8703 | 1 | 0 | 3 |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| 963 | IT | Male | 55 | 2 | Masters | Operations | 1 | 91447 | 3196 | 1 | 4 | 2 |
+| 978 | IT | Female | 59 | 1 | College | Sales | 3 | 110627 | 2041 | 0 | 4 | 0 |
+| 980 | IT | Male | 64 | 1 | Masters | Sales | 1 | 92950 | 2125 | 1 | 4 | 2 |
+| 984 | IT | Female | 53 | 1 | High School | Administration | 2 | 112169 | 2763 | 0 | 4 | 1 |
+| 991 | IT | Female | 65 | 1 | Masters | Administration | 1 | 106945 | 2041 | 0 | 4 | 2 |
 
 **Train the machine to identify the relationship between base pay and genders (together with other features such as education, age, job title, etc. If the machine gets it right most of the time, you win. There are patterns and biases that enable the machine to predict correctly.**
 
@@ -443,7 +441,7 @@ print(f"The average accuracy score is {acc_avg:.2f}")
 ```
 
 There are 4 out of 10 tries which are > 0.5
-The accuracy score of all 10 attempts are: [0.42, 0.46, 0.52, 0.51, 0.49, 0.46, 0.47, 0.51, 0.51, 0.38]
+The accuracy score of all 10 attempts are: \[0.42, 0.46, 0.52, 0.51, 0.49, 0.46, 0.47, 0.51, 0.51, 0.38\]
 The average accuracy score is 0.47
 
 ## Plot the graph to show all the outcomes of the prediction
@@ -455,4 +453,5 @@ plt.title('Outcomes In Identifying Genders (Logistic Regression)', fontsize=17);
 plt.xlabel('Number Of Attempts In Prediction' , fontsize=12);
 plt.ylabel('Correct Answer In Proportion To The Total', fontsize=12);
 ```
-![1666856544678](image/README/1666856544678.png)
+
+![1666856544678](images/1666856544678.png)
