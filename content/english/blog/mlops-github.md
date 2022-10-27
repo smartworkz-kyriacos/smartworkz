@@ -2,7 +2,7 @@
 author = "Kyriacos Antoniades"
 bg_image = ""
 categories = ["GitHub", "Git", "SageMaker"]
-date = ""
+date = 2022-10-26T22:00:00Z
 description = ""
 image = "/images/MLOps - Copy.png"
 tags = []
