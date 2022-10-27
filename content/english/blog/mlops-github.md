@@ -10,27 +10,6 @@ title = "CI/CD MLOps with GitHub"
 type = "post"
 
 +++
-***
-
-title: MLOps with CI/CD
-date: 2022-10-26 22:00:00 +0000
-image: "/images/sm-overview.png"
-
-***
-
-\+++
-author = "Kyrie"
-bg_image = ""
-categories = \["GitHub", "Git", "MLOps", "Data Science", "Data Engineering"\]
-date = 2022-10-25T22:00:00Z
-description = "Train, deploy, and host your models on AWS."
-image = "/images/mlops-loop-en.jpg"
-tags = \[\]
-title = "MLOps CI/CD"
-type = "post"
-
-\+++
-
 # CI/CD MLOps with GitHub
 
 **A hands-on lab to train, deploy, and host your models on AWS.**
