@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://hugo-smartworkz.netlify.app"
 buildFuture = true
 disableLanguages = ["nl"]
 disqusShortname = ""
