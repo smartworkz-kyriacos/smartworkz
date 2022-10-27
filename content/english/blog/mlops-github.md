@@ -4,7 +4,6 @@ bg_image = ""
 categories = []
 date = ""
 description = ""
-draft = true
 image = ""
 tags = []
 title = "CI/CD MLOps with GitHub"
