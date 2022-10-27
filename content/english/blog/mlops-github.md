@@ -1,10 +1,10 @@
 +++
-author = ""
+author = "Kyriacos Antoniades"
 bg_image = ""
-categories = []
+categories = ["GitHub", "Git", "SageMaker"]
 date = ""
 description = ""
-image = ""
+image = "/images/MLOps - Copy.png"
 tags = []
 title = "CI/CD MLOps with GitHub"
 type = "post"
