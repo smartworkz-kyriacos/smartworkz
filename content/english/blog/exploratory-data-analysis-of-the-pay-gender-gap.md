@@ -4,7 +4,6 @@ bg_image = ""
 categories = []
 date = 2022-10-26T22:00:00Z
 description = ""
-draft = true
 image = "/images/equal-pay-man-woman-gender.jpg"
 tags = []
 title = "Exploratory Data Analysis of the Pay Gender Gap"
@@ -155,6 +154,8 @@ plt.title('Comparing Basepay Between Gender', fontsize=17);
 ```
 
 ![1666856234633](/images/1666856234633.png)
+
+/images/1666856234633.png
 
 **Is the gender pay gap significant? We will do hypothesis testing to determine whether the pay gap is significant or not.**
 
