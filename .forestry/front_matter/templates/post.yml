@@ -38,5 +38,6 @@ fields:
 pages:
 - content/english/blog/amazon-sagemaker-studio.md
 - content/english/blog/dockerizing-your-development-environment.md
+- content/english/blog/exploratory-data-analysis-of-the-pay-gender-gap.md
 - content/english/blog/mlops-github.md
 - content/english/blog/test-2.md
