@@ -7,32 +7,34 @@ description = ""
 draft = true
 image = ""
 tags = []
-title = ""
+title = "CI/CD MLOps with GitHub"
 type = "post"
 
 +++
----
+***
+
 title: MLOps with CI/CD
 date: 2022-10-26 22:00:00 +0000
 image: "/images/sm-overview.png"
 
----
-+++
+***
+
+\+++
 author = "Kyrie"
 bg_image = ""
-categories = ["GitHub", "Git", "MLOps", "Data Science", "Data Engineering"]
+categories = \["GitHub", "Git", "MLOps", "Data Science", "Data Engineering"\]
 date = 2022-10-25T22:00:00Z
 description = "Train, deploy, and host your models on AWS."
 image = "/images/mlops-loop-en.jpg"
-tags = []
+tags = \[\]
 title = "MLOps CI/CD"
 type = "post"
 
-+++
-# MLOps with CI/CD
+\+++
+
+# CI/CD MLOps with GitHub
 
 **A hands-on lab to train, deploy, and host your models on AWS.**
-[![Netlify Status](https://api.netlify.com/api/v1/badges/50131926-bd9b-4c67-96ab-643947664611/deploy-status)](https://app.netlify.com/sites/smartworkz-site/deploys)
 
 * We will download code from an S3 bucket to use throughout this workshop.
 * It contains image classification (MNIST) code using ConvNets based on [PyTorch examples,](https://github.com/pytorch/examples) and a CloudFormation stack.
