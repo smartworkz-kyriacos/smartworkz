@@ -10,24 +10,6 @@ title = "Hugo on GitHub Pages with Forestry and Netlify"
 type = "post"
 
 +++
----
-title: Hugo on GitHub Pages with Forestry and Netlify
-date: 2022-10-26 22:00:00 +0000
-image: "/images/JAMStack.png"
-
----
-+++
-author = "Kyrie"
-bg_image = ""
-categories = ["Netlify", "Forestry", "GitHub", "Hugo"]
-date = 2022-10-25T22:00:00Z
-description = "Set up Generator, Versioning, CMS, and CDN "
-image = ""
-tags = []
-title = "Hugo with GitHub Pages, Forestry, and Netlify"
-type = "post"
-
-+++
 # Hugo on GitHub Pages with Forestry and Netlify
 
 ![1665592517375](/images/1665592517375.png)
