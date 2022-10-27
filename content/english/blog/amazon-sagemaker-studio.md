@@ -1,13 +1,12 @@
 +++
-author = ""
+author = "Kyriacos Antoniades"
 bg_image = ""
-categories = []
-date = ""
-description = ""
-draft = true
-image = ""
+categories = ["SageMaker Studio", "Data Analytics", "Data Engineering", "Data Science"]
+date = 2022-10-26T22:00:00Z
+description = "Amazon SageMaker Studio Workshop and Labs "
+image = "/images/sagemaker.png"
 tags = []
-title = ""
+title = "Amazon Sagemaker Studio"
 type = "post"
 
 +++
