@@ -4,7 +4,7 @@
 - id: contact_form
   translation: Contact form
 - id: send
-  translation: stuur bericht
+  translation: Send
 - id: contact_info
   translation: Contact info
 - id: subscribe_newsletter
