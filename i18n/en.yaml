@@ -28,7 +28,7 @@
 - id: blogs_by
   translation: Blogs By
 - id: date
-  translation: Datum
+  translation: Date
 - id: time
   translation: tijd
 - id: category
