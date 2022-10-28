@@ -50,7 +50,7 @@
 - id: event_speaker
   translation: Event Speaker
 - id: more_event
-  translation: Andere events
+  translation: More events
 - id: join
   translation: Meedoen
 - id: enter_email
