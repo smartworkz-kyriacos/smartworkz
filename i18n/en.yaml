@@ -34,7 +34,7 @@
 - id: category
   translation: Category
 - id: related_course
-  translation: Verwante workshop
+  translation: Related Workshop
 - id: duration
   translation: duur
 - id: weekly
