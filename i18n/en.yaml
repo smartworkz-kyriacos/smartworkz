@@ -62,7 +62,7 @@
 - id: courses
   translation: Workshops
 - id: new_notice
-  translation: nieuw bericht
+  translation: Mew Notice
 - id: call
   translation: bel
 - id: email
