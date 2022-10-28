@@ -14,6 +14,8 @@ type = "post"
 
 ## Dataset
 
+As a cloud consultant working for ING, I received a call from the head of People's Analytics to discuss the gender pay gap.
+
 https://www.kaggle.com/nilimajauhari/glassdoor-analyze-gender-pay-gap
 
 ## Import Libraries
