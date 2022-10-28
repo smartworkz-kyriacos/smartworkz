@@ -82,6 +82,6 @@
 - id: contact_email
   translation: Contact Email
 - id: contact_subject
-  translation: Jouw onderwerp
+  translation: Contact Subject
 - id: contact_message
   translation: Jouw bericht
