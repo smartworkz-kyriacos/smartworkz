@@ -34,6 +34,6 @@ description: |-
 
   • Optimize model deployment
 url: about/team
-image: "/images/artificial_intelligence.png"
+image: ''
 
 ---
