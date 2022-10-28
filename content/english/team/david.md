@@ -1,8 +1,8 @@
 ---
 title: 'Sander Martijn Kerkdijk '
-bg_image: "/images/banner/banner-2.jpg"
+bg_image: "/images/banner/banner-1.jpg"
 description: ''
-image: "/images/poepbroek.jpeg"
+image: "/images/artificial_intelligence.png"
 course: Data science
 bio: ''
 interest:
