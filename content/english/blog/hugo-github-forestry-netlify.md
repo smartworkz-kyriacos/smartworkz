@@ -6,7 +6,7 @@ date = 2022-10-26T22:00:00Z
 description = "Generator, Version Control, CMS, and CDN"
 image = "/images/hugo.jpg"
 tags = []
-title = "Hugo with Forestry and Netlify"
+title = "Hugo Forestry and Netlify"
 type = "post"
 
 +++
