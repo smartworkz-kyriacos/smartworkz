@@ -1,6 +1,6 @@
 +++
 author = "Kyriakos Antoniadis"
-bg_image = ""
+bg_image = "/images/banner/banner-1.jpg"
 categories = ["GitHub", "Git", "SageMaker"]
 date = 2022-10-26T22:00:00Z
 description = ""
