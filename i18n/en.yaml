@@ -80,7 +80,7 @@
 - id: contact_surname
   translation: Contact Surname
 - id: contact_email
-  translation: Je email
+  translation: Contact Email
 - id: contact_subject
   translation: Jouw onderwerp
 - id: contact_message
