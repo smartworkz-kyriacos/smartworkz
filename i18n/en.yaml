@@ -44,7 +44,7 @@
 - id: teacher
   translation: Trainer
 - id: location
-  translation: location
+  translation: Location
 - id: entry_fee
   translation: kosten
 - id: event_speaker
