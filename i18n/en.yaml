@@ -54,7 +54,7 @@
 - id: join
   translation: Join
 - id: enter_email
-  translation: Geef je email op…
+  translation: Enter Email
 - id: company
   translation: bedrijf
 - id: links
