@@ -12,7 +12,7 @@ type = "post"
 +++
 # CI/CD MLOps with GitHub
 
-**A hands-on lab to train, deploy, and host your models on AWS.**
+**A hands-on lab to train, deploy, and host your models on AWS.**                  
 
 * We will download code from an S3 bucket to use throughout this workshop.
 * It contains image classification (MNIST) code using ConvNets based on [PyTorch examples,](https://github.com/pytorch/examples) and a CloudFormation stack.
