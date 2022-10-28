@@ -6,11 +6,11 @@ date = 2022-10-26T22:00:00Z
 description = ""
 image = "/images/equal-pay-man-woman-gender.jpg"
 tags = []
-title = "Exploratory Data Analysis of the Pay Gender Gap"
+title = "Exploratory Data Analysis of the Gender Pay Gap"
 type = "post"
 
 +++
-# Exploratory Data Analysis of the Pay Gender Gap
+# Exploratory Data Analysis of the Gender Pay Gap
 
 ## Dataset
 
