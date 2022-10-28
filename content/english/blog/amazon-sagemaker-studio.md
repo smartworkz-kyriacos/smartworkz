@@ -1,5 +1,5 @@
 +++
-author = "Kyriacos Antoniades"
+author = "Kyriakos Antoniadis"
 bg_image = "/images/banner/banner-1.jpg"
 categories = ["SageMaker Studio", "Data Analytics", "Data Engineering", "Data Science"]
 date = 2022-10-26T22:00:00Z
