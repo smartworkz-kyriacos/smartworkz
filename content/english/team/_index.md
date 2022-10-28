@@ -1,6 +1,6 @@
 ---
 title: Our Team
-bg_image: "/images/AI_edited.png"
+bg_image: "/images/banner/banner-2.jpg"
 description: At Smartworkz we all have our own specialisms. Look around and see who
   you want to work with!
 url: about/team
