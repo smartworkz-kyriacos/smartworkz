@@ -185,7 +185,7 @@ plt.title('Comparison Of Gender Median Base Pay', fontsize=17);
 
 **The gender pay gap is 8.46% or USD8,300 a year.**
 
-![1666856317434](images/1666856317434.png)
+![1666856317434](/images/1666856317434.png)
 
 ## Compute the gender pay gap
 
@@ -217,7 +217,7 @@ pay[yours].groupby('gender')['basepay'].median().plot.bar();
 plt.title('Median Base Pay', fontsize=17);
 ```
 
-![1666856358084](images/1666856358084.png)
+![1666856358084](/images/1666856358084.png)
 
 ## Import LabelEncoder
 
@@ -279,7 +279,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![1666856464625](images/1666856464625.png)
+![1666856464625](/images/1666856464625.png)
 
 **By close examination of the data, we can see that the first 6 most highly paid jobs have males than females. This shows occupational segregation by the dominant male group which is one of the reasons for the gender pay gap. This is a sign of occupational segregation leading to the gender pay gap. Therefore we need to do some adjustments to compare base pay based on the same age group, education, job titles, etc.**
 
@@ -343,7 +343,7 @@ summary.groupby('jobtitle')['diff_in_median_pay'].mean().plot.bar();
 plt.title('Differences In Gender Median Pay', fontsize=17);
 ```
 
-![1666856502380](images/1666856502380.png)
+![1666856502380](/images/1666856502380.png)
 
 ## Average gap by job title and education
 
@@ -355,7 +355,7 @@ sns.barplot(data = summary, y='jobtitle', x='diff_in_median_pay', hue='education
 plt.title('Differences In Gender Median Pay', fontsize=17);
 ```
 
-![1666856518911](images/1666856518911.png)
+![1666856518911](/images/1666856518911.png)
 
 ## The average adjusted gender pay gap
 
