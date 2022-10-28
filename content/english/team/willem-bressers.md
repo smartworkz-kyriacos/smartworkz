@@ -1,6 +1,6 @@
 ---
 title: Kyriacos Antoniades
-bg_image: "/images/me.jpg"
+bg_image: "/images/artificial_intelligence.png"
 description: Your favourite Amazonian, Pythonista, Docker Captain, HashiCorp Chief...;)
 image: "/images/me.jpg"
 course: AWS Machine Learning Specialty
