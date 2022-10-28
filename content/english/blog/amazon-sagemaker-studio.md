@@ -6,7 +6,7 @@ date = 2022-10-26T22:00:00Z
 description = "Amazon SageMaker Studio Workshop and Labs "
 image = "/images/maxresdefault.jpg"
 tags = []
-title = "Amazon Sagemaker Studio"
+title = "Amazon Sagemaker Workshop"
 type = "post"
 
 +++
