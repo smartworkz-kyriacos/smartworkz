@@ -3,7 +3,7 @@ title: Kyriakos Antoniadis
 bg_image: "/images/banner/banner-1.jpg"
 description: Your favourite Amazonian, Pythonista, Docker Captain, HashiCorp Chief...;)
 image: "/images/artificial_intelligence.png"
-course: AWS Machine Learning Specialty
+course: Data Engineer
 bio: "I help companies to keep up with new technologies and the emerging requirement
   to operate data-driven: This varies from essential Business Intelligence to Data
   Science and embracing the latest developments in the field of A.I. I love to help
