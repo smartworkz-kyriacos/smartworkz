@@ -42,7 +42,7 @@
 - id: fee
   translation: Fee
 - id: teacher
-  translation: docent
+  translation: Trainer
 - id: location
   translation: location
 - id: entry_fee
