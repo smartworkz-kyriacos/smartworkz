@@ -40,7 +40,7 @@
 - id: weekly
   translation: Weekly
 - id: fee
-  translation: kosten
+  translation: Fee
 - id: teacher
   translation: docent
 - id: location
