@@ -76,7 +76,7 @@
 - id: download
   translation: Download
 - id: contact_name
-  translation: Je naam
+  translation: Contact Name
 - id: contact_name
   translation: Je naam
 - id: contact_email
