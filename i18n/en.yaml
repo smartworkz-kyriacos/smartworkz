@@ -58,7 +58,7 @@
 - id: company
   translation: Company
 - id: links
-  translation: links
+  translation: Links
 - id: courses
   translation: Workshops
 - id: new_notice
