@@ -1,8 +1,8 @@
 ---
 title: Kyriacos Antoniades
-bg_image: "/images/artificial_intelligence.png"
+bg_image: ''
 description: Your favourite Amazonian, Pythonista, Docker Captain, HashiCorp Chief...;)
-image: "/images/me.jpg"
+image: "/images/MeHEAD.jpg"
 course: AWS Machine Learning Specialty
 bio: "I help companies to keep up with new technologies and the emerging requirement
   to operate data-driven: This varies from essential Business Intelligence to Data
