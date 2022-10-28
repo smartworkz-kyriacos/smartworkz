@@ -1,5 +1,5 @@
 ---
-title: Sander
+title: 'Sander Martijn Kerkdijk '
 bg_image: "/images/banner/banner-2.jpg"
 description: ''
 image: "/images/poepbroek.jpeg"
