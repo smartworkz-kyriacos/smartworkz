@@ -1,5 +1,5 @@
 +++
-author = "Kyriacos Antoniades"
+author = "Kyriakos Antoniadis"
 bg_image = ""
 categories = ["GitHub", "Git", "SageMaker"]
 date = 2022-10-26T22:00:00Z
