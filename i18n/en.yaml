@@ -46,7 +46,7 @@
 - id: location
   translation: Location
 - id: entry_fee
-  translation: kosten
+  translation: Entry Fee
 - id: event_speaker
   translation: Event sprekers
 - id: more_event
