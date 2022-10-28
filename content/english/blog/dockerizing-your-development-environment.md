@@ -6,7 +6,7 @@ date = 2020-04-27T22:00:00Z
 description = ""
 image = "/images/docker.jpg"
 tags = []
-title = "Dockerizing your development environment"
+title = "Dockerize your Environment"
 type = "post"
 
 +++
