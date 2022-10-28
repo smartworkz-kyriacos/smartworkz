@@ -16,7 +16,7 @@
 - id: latest_article
   translation: Latest Article
 - id: categories
-  translation: Categorien
+  translation: Caterories
 - id: tags
   translation: Tags
 - id: see_all
