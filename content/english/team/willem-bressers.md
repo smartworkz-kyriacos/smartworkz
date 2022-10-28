@@ -1,6 +1,6 @@
 ---
-title: Sander
-bg_image: "/images/banner/banner-2.jpg"
+title: Kyriacos Antoniades
+bg_image: "/images/me.jpg"
 description: ''
 image: "/images/poepbroek.jpeg"
 course: Data science
@@ -10,5 +10,4 @@ interest:
 contact: 
 
 ---
-* test
-* test
+* Here it is...
