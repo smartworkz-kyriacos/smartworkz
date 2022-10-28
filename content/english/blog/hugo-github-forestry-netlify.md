@@ -1,10 +1,10 @@
 +++
 author = "Kyriakos Antoniadis"
-bg_image = ""
+bg_image = "/images/banner/banner-1.jpg"
 categories = ["JAMStack", "Netlify", "Forestry", "GitHub", "Git", "Hugo"]
 date = 2022-10-26T22:00:00Z
 description = "Generator, Version Control, CMS, and CDN"
-image = "/images/JAMStack.png"
+image = "/images/hugo.jpg"
 tags = []
 title = "Hugo with Forestry and Netlify"
 type = "post"
