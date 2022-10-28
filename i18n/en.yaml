@@ -48,7 +48,7 @@
 - id: entry_fee
   translation: Entry Fee
 - id: event_speaker
-  translation: Event sprekers
+  translation: Event Speaker
 - id: more_event
   translation: Andere events
 - id: join
