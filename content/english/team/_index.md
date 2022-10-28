@@ -2,7 +2,7 @@
 title: Our Team
 bg_image: "/images/banner/banner-2.jpg"
 description: |-
-  At Smartworkz we all have our specialists. Look around and see who you want to collaborate with and complete your projects the smart way!
+  At Smartworkz we all have our specialists. Find out with who you want to collaborate and complete your projects the smart way!
 
   Our Aim
 
