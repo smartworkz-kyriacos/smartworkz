@@ -1,10 +1,10 @@
 +++
-author = ""
-bg_image = ""
+author = "Kyriakos Antoniadis"
+bg_image = "/images/banner/banner-1.jpg"
 categories = []
 date = 2022-10-26T22:00:00Z
 description = ""
-image = "/images/equal-pay-man-woman-gender.jpg"
+image = "/images/eda.jpg"
 tags = []
 title = "EDA of the Gender Pay Gap"
 type = "post"
@@ -13,6 +13,8 @@ type = "post"
 # Exploratory Data Analysis of the Gender Pay Gap
 
 ## Dataset
+
+As a cloud consultant working for ING, I received a call from the head of People's Analytics to discuss the gender pay gap.
 
 https://www.kaggle.com/nilimajauhari/glassdoor-analyze-gender-pay-gap
 
