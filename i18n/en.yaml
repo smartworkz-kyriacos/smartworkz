@@ -30,7 +30,7 @@
 - id: date
   translation: Date
 - id: time
-  translation: tijd
+  translation: time
 - id: category
   translation: Category
 - id: related_course
