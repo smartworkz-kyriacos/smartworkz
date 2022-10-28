@@ -1,5 +1,5 @@
 ---
-title: Kyriacos Antoniades
+title: Kyriakos Antoniadis
 bg_image: ''
 description: Your favourite Amazonian, Pythonista, Docker Captain, HashiCorp Chief...;)
 image: "/images/MeHEAD.jpg"
