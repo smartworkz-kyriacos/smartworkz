@@ -1,5 +1,5 @@
 +++
-author = "Kyriacos Antoniades"
+author = "Kyriakos Antoniadis"
 bg_image = ""
 categories = ["JAMStack", "Netlify", "Forestry", "GitHub", "Git", "Hugo"]
 date = 2022-10-26T22:00:00Z
