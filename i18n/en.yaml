@@ -56,7 +56,7 @@
 - id: enter_email
   translation: Enter Email
 - id: company
-  translation: bedrijf
+  translation: Company
 - id: links
   translation: links
 - id: courses
