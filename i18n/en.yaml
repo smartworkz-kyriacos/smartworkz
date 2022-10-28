@@ -36,7 +36,7 @@
 - id: related_course
   translation: Related Workshop
 - id: duration
-  translation: duur
+  translation: Duration
 - id: weekly
   translation: wekelijks
 - id: fee
