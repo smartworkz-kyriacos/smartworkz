@@ -8,9 +8,9 @@
 - id: contact_info
   translation: Contact info
 - id: subscribe_newsletter
-  translation: Inschrijven nieuwsbrief
+  translation: Subscribe Newsletter
 - id: subscribe
-  translation: Inschrijven
+  translation: subscribe
 - id: contact_us
   translation: Contact opnemen
 - id: latest_article
