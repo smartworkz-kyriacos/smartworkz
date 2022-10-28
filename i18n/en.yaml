@@ -77,8 +77,8 @@
   translation: Download
 - id: contact_name
   translation: Contact Name
-- id: contact_name
-  translation: Je naam
+- id: contact_surname
+  translation: Contact Surname
 - id: contact_email
   translation: Je email
 - id: contact_subject
