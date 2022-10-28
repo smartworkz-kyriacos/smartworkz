@@ -1,10 +1,10 @@
 +++
 author = ""
-bg_image = ""
+bg_image = "/images/banner/banner-1.jpg"
 categories = []
 date = 2022-10-26T22:00:00Z
 description = ""
-image = "/images/equal-pay-man-woman-gender.jpg"
+image = "/images/eda.jpg"
 tags = []
 title = "EDA of the Gender Pay Gap"
 type = "post"
