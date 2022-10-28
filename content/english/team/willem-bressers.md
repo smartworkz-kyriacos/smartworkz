@@ -42,7 +42,7 @@ contact: []
 type: Machine Learning Engineer
 
 ---
-![](/images/me.jpg)
+![](/images/me.jpg =250x250)
 
 I help companies to keep up with new technologies and the emerging requirement to operate data-driven: This varies from essential Business Intelligence to Data Science and embracing the latest developments in the field of A.I. I love to help individuals and groups learn to work with these technologies by developing several courses and workshops.
 
