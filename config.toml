@@ -27,7 +27,7 @@ weight = 1
 [[menu.company]]
 URL = "contact"
 name = "Contact"
-weight = 3
+weight = 2
 [[menu.footer]]
 URL = "team"
 name = "Team"
@@ -55,14 +55,14 @@ name = "Workshops"
 parent = "Solutions"
 weight = 3
 [[menu.main]]
-URL = "solutions#data-consulting"
-name = "Consulting"
-parent = "Solutions"
-weight = 2
-[[menu.main]]
 URL = "about/team"
 name = "Our Team"
 parent = "About"
+weight = 2
+[[menu.main]]
+URL = "solutions#data-consulting"
+name = "Consulting"
+parent = "Solutions"
 weight = 2
 [[menu.main]]
 URL = "about"
@@ -78,11 +78,11 @@ weight = 1
 footerDisplay = false
 hasChildren = true
 name = "Solutions"
-weight = 3
+weight = 1
 [[menu.main]]
 footerDisplay = true
 name = "About"
-weight = 1
+weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contact"

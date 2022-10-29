@@ -10,6 +10,7 @@ name = "Over"
 weight = 2
 [menu.main]
 URL = "blog"
-name = "Blogs"
+footerDisplay = true
+name = "Insights"
 parent = "Insights"
-weight = 1
+weight = 3
