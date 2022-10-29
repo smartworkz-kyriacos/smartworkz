@@ -4,6 +4,10 @@ publish = "public"
 [build.environment]
 HUGO_THEME = "educenter"
 HUGO_VERSION = "0.84.1"
+[menu.company]
+URL = "about"
+name = "Over"
+weight = 2
 [menu.main]
 URL = "blog"
 name = "Blogs"
