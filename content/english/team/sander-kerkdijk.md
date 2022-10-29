@@ -3,7 +3,7 @@ title: 'Sander Martijn Kerkdijk '
 bg_image: "/images/banner/banner-1.jpg"
 description: Managing Director of Smartworkz
 image: "/images/artificial_intelligence.png"
-course: Data science
+course: Managing Director of Smartworkz
 bio: I believe that data solutions evolves. With this ideology, and passion, I started
   my consultancy company to gather passionate professionals to collaborate on innovative
   solutions.
