@@ -49,4 +49,5 @@ fields:
   default: event
 pages:
 - content/english/event/blipz-on-the-radar.md
+- content/english/event/blipz-on-the-radar.md
 - content/english/event/data-science-meetup-continuous-delivery-for-machine-learning-on-the-right-tracks-with-cd4ml.md
