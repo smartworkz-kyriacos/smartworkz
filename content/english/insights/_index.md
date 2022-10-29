@@ -4,7 +4,9 @@ bg_image: "/images/banner/banner-1.jpg"
 description: ''
 menu:
   main:
-    footerDisplay: true
-    weight: 3
+    name: Events
+    URL: event
+    parent: Insights
+    weight: 2
 
 ---
