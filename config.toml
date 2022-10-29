@@ -109,7 +109,7 @@ weight = 3
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 5
+weight = 4
 [[module.mounts]]
 lang = "nl"
 source = "content/dutch"
