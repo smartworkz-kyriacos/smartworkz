@@ -8,4 +8,4 @@ HUGO_VERSION = "0.84.1"
 URL = "career"
 name = "Our Vacancies"
 parent = "About"
-weight = 2
+weight = 4
