@@ -45,6 +45,10 @@ URL = "work-at"
 name = "Werken bij"
 weight = 4
 [[menu.main]]
+name = "Blogs"
+parent = "Insights"
+weight = 1
+[[menu.main]]
 URL = "career/culture"
 name = "Our Culture"
 parent = "About"
