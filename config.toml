@@ -52,7 +52,7 @@ weight = 4
 URL = "career/culture"
 name = "Our Culture"
 parent = "About"
-weight = 4
+weight = 3
 [[menu.main]]
 URL = "solutions#data-workshop"
 name = "Workshops"
@@ -87,7 +87,7 @@ weight = 1
 URL = "about/team"
 name = "Our Team"
 parent = "About"
-weight = 2
+weight = 4
 [[menu.main]]
 URL = "solutions#data-oplossingen"
 name = "Quick wins"
