@@ -5,7 +5,7 @@ publish = "public"
 HUGO_THEME = "educenter"
 HUGO_VERSION = "0.84.1"
 [menu.main]
-URL = "career"
-name = "Our Vacancies"
-parent = "About"
-weight = 4
+URL = "blog"
+name = "Blogs"
+parent = "Insights"
+weight = 1

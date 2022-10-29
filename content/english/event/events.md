@@ -8,5 +8,9 @@ image = ""
 location = ""
 speaker = []
 title = "Events"
+[menu.main]
+URL = "event"
+parent = "Insights"
+weight = 2
 
 +++

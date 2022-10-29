@@ -49,11 +49,6 @@ URL = "work-at"
 name = "Werken bij"
 weight = 4
 [[menu.main]]
-URL = "solutions#data-oplossingen"
-name = "Quick Wins"
-parent = "Solutions"
-weight = 1
-[[menu.main]]
 URL = "career/culture"
 name = "Our Culture"
 parent = "About"
@@ -64,35 +59,25 @@ name = "Workshops"
 parent = "Solutions"
 weight = 3
 [[menu.main]]
-URL = "about"
-name = "About us"
-parent = "About"
-weight = 1
-[[menu.main]]
-URL = "event"
-name = "Events"
-parent = "Insights"
-weight = 2
-[[menu.main]]
-URL = "insights/radar"
-name = "Tech Radar"
-parent = "Insights"
-weight = 3
-[[menu.main]]
 URL = "solutions#data-consulting"
 name = "Consulting"
 parent = "Solutions"
 weight = 2
 [[menu.main]]
-URL = "blog"
-name = "Blogs"
-parent = "Insights"
-weight = 1
-[[menu.main]]
 URL = "about/team"
 name = "Our Team"
 parent = "About"
 weight = 2
+[[menu.main]]
+URL = "about"
+name = "About us"
+parent = "About"
+weight = 1
+[[menu.main]]
+URL = "solutions#data-oplossingen"
+name = "Quick Wins"
+parent = "Solutions"
+weight = 1
 [[menu.main]]
 footerDisplay = false
 hasChildren = true
