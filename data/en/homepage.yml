@@ -15,7 +15,7 @@ slider:
       link: contact
 banner_feature:
   enable: true
-  bg_image: images/banner/banner-1.jpg
+  image: images/banner/banner-1.jpg
   feature_item:
   - name: Quick Wins
     icon: ti-book
