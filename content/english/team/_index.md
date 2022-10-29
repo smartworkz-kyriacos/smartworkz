@@ -5,5 +5,6 @@ description: At Smartworkz, we all have our specialists. Find out with whom you 
   to collaborate and complete your projects the smartworkz way!
 url: about/team
 image: ''
+type: ''
 
 ---
