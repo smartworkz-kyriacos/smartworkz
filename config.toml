@@ -82,11 +82,11 @@ weight = 1
 footerDisplay = false
 hasChildren = true
 name = "Solutions"
-weight = 1
+weight = 3
 [[menu.main]]
 footerDisplay = true
 name = "About"
-weight = 3
+weight = 1
 [[menu.main]]
 URL = "contact"
 name = "Contact"

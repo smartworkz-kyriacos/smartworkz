@@ -11,6 +11,6 @@ title = "Events"
 [menu.main]
 URL = "event"
 parent = "Insights"
-weight = 2
+weight = 1
 
 +++
