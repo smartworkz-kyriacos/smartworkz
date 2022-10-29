@@ -1,7 +1,7 @@
 ---
 slider:
   enable: true
-  bg_image: images/banner/banner-1.jpg
+  bg_image: /images/banner/banner-1.jpg
   slider_item:
   - title: Your Cloud Specialist 
     content: 'Data has become the most important differentiator for companies. 
@@ -15,7 +15,7 @@ slider:
       link: contact
 banner_feature:
   enable: true
-  image: images/banner/banner-1.jpg
+  image: /images/banner/banner-1.jpg
   feature_item:
   - name: Quick Wins
     icon: ti-book
