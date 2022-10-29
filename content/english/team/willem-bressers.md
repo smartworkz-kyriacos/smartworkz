@@ -20,7 +20,6 @@ interest:
 - Data Science
 - Data Analysis
 contact: []
-type: Machine Learning Engineer
 
 ---
 Current technologies I extensively experiment with include Elastic Container Services and Kubernetes for orchestrating containers, Deep Learning and Machine Learning for building AI capabilities, Docker container services for developing production-ready applications comprising multiple components and AWS to use different services and large capacities from the cloud.
