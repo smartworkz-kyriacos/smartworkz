@@ -1,5 +1,5 @@
 ---
-title: Neem contact met ons op!
+title: Contact us
 bg_image: images/banner/banner-1.jpg
 description: ''
 
