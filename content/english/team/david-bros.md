@@ -2,7 +2,7 @@
 bg_image = "/images/banner/banner-1.jpg"
 bio = "I specialize in Data Engineering and DevOps engineering, integrating data sources, establishing standards to create data platforms, developing processing/enrichment applications and deploying them."
 contact = []
-course = " Data / DevOps Engineering"
+course = " Data / DevOps Engineer"
 description = " Data / DevOps Engineer"
 image = "/images/artificial_intelligence.png"
 interest = []
