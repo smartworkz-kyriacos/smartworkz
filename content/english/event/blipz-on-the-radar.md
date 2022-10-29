@@ -1,7 +1,7 @@
 +++
 apply_url = "https://www.blipz.io/tickets"
 bg_image = "/images/banner/banner-1.jpg"
-date = 2022-10-31T23:00:00Z
+date = 2001-01-01T12:00:00Z
 description = "Opportunity for LIVE experience 10 hot trends in data, cloud, security, software and CI/CD engineering in one conference in one day!"
 fee = "49"
 image = "/images/Blipz.png"
