@@ -109,9 +109,15 @@ name = "Quick wins"
 parent = "Solutions"
 weight = 1
 [[menu.main]]
+<<<<<<< HEAD
 URL = "blog"
 name = "Blogs"
 parent = "Insights"
+=======
+URL = "career"
+name = "Vacatures"
+parent = "career"
+>>>>>>> parent of 0843b2b (Vacatures-->Vacancies in config.toml file)
 weight = 1
 [[menu.main]]
 URL = "about/team"
