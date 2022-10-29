@@ -1,6 +1,6 @@
 ---
 title: Culture bij Smartworkz
-bg_image: images/banner/banner-1.jpg
+bg_image: "/images/banner/banner-1.jpg"
 description: ''
 url: "/career/culture"
 layout: culture

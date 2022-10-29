@@ -1,6 +1,6 @@
 ---
 title: Tech Radar
-bg_image: images/banner/banner-1.jpg
+bg_image: "/images/banner/banner-1.jpg"
 description: ''
 url: insights/radar
 layout: tech-radar

@@ -2,7 +2,7 @@
 title: "Klanten en partners"
 draft: false
 # page title background image
-bg_image: "images/banner/banner-1.jpg"
+bg_image: "/images/banner/banner-1.jpg"
 # image
 image: "images/about/about-page.jpg"
 # meta description
