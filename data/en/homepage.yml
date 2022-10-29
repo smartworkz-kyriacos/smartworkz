@@ -15,11 +15,11 @@ slider:
       link: contact
 banner_feature:
   enable: true
-  image: images/banner/banner-feature.png
+  image: images/banner/banner-1.png
   feature_item:
   - name: Quick Wins
     icon: ti-book
-    content: 'We have developed Qick Wins for typical problems in the data world.
+    content: 'We have developed Quick Wins for typical problems in the data world.
        Do you recognize a challenge? 
        Then we can solve it for you with a concrete
        and baked result within approximately 2 weeks.'
