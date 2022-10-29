@@ -1,4 +1,4 @@
-baseURL = "https://hugo-smartworkz.netlify.app"
+baseURL = "https://shugo-martworkz.netlify.com"
 buildFuture = true
 disableLanguages = ["nl"]
 disqusShortname = ""
@@ -36,19 +36,6 @@ weight = 1
 URL = "work-at"
 name = "Werken bij"
 weight = 4
-<<<<<<< HEAD
-[[menu.footer]]
-URL = "blog"
-name = "Blogs"
-weight = 3
-[[menu.footer]]
-URL = "event"
-name = "Events"
-weight = 2
-[[menu.footer]]
-URL = "blog"
-name = "Blogs"
-=======
 [[menu.footer]]
 URL = "blog"
 name = "Blogs"
@@ -64,7 +51,6 @@ weight = 1
 [[menu.main]]
 URL = "blog"
 name = "Blogs"
->>>>>>> parent of b03ff69 (Update from Forestry.io - Updated menus)
 parent = "Insights"
 weight = 1
 [[menu.main]]
@@ -108,28 +94,9 @@ name = "Quick wins"
 parent = "Solutions"
 weight = 1
 [[menu.main]]
-<<<<<<< HEAD
-<<<<<<< HEAD
-URL = "blog"
-name = "Blogs"
-parent = "Insights"
-=======
 URL = "career"
 name = "Vacatures"
 parent = "career"
->>>>>>> parent of 0843b2b (Vacatures-->Vacancies in config.toml file)
-weight = 1
-[[menu.main]]
-URL = "about/team"
-name = "Team"
-parent = "About"
-weight = 1
-[[menu.main]]
-=======
->>>>>>> parent of b03ff69 (Update from Forestry.io - Updated menus)
-URL = "career"
-name = "Vacancies"
-parent = "Career"
 weight = 1
 [[menu.main]]
 name = "career"
@@ -139,10 +106,6 @@ URL = "contact"
 name = "Contact"
 weight = 4
 [[menu.main]]
-<<<<<<< HEAD
-name = "Career"
-weight = 5
-=======
 footerDisplay = true
 name = "about"
 weight = 3
@@ -155,7 +118,6 @@ footerDisplay = false
 hasChildren = true
 name = "Solutions"
 weight = 1
->>>>>>> parent of b03ff69 (Update from Forestry.io - Updated menus)
 [[module.mounts]]
 lang = "nl"
 source = "content/dutch"
