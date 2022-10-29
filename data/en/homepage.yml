@@ -27,7 +27,7 @@ banner_feature:
       enable: true
       label: More info
       link: "/solutions#data-oplossingen"
-  - name: Data Workshops and Training
+  - name: Workshops and Training
     icon: ti-blackboard
     content: 'From the first steps in Python to creating your first deep learning
        projects. With our course we take your employees into the new and exciting
@@ -36,7 +36,7 @@ banner_feature:
       enable: true
       label: More info
       link: "/solutions#data-workshop"
-  - name: Data consultancy
+  - name: Data Consultancy
     icon: ti-agenda
     content: Whether it concerns long projects or short assignments. With any consultant
        do you get the knowledge of the entire Dataworkz at your disposal to state of the
@@ -64,11 +64,11 @@ about:
      step.....
   button:
     enable: true
-    label: Want to Learn more about Smartworkz?
+    label: Want to know more about Smartworkz?
     link: about
 course:
   enable: false
-  title: Our workshops
+  title: Our Workshops
 cta:
   enable: false
   subtitle: Want to know with which customers we work with?
@@ -83,7 +83,7 @@ tech:
   title: Our choices for technology
   button:
     enable: false
-    label: see more
+    label: See more
     link: customers
 success_story:
   enable: true
