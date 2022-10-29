@@ -95,7 +95,7 @@ parent = "Solutions"
 weight = 1
 [[menu.main]]
 URL = "career"
-name = "Vacatures"
+name = "Vacancies"
 parent = "career"
 weight = 1
 [[menu.main]]
