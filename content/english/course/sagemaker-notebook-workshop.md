@@ -1,12 +1,12 @@
 +++
 apply_url = ""
-bg_image = "/images/sagemaker.png"
+bg_image = "/images/banner/banner-1.jpg"
 category = "SageMaker Notebook"
 date = 2022-10-28T22:00:00Z
 description = ""
 duration = ""
 fee = ""
-image = ""
+image = "/images/sagemaker.png"
 teacher = "Kyriakos Antoniadis"
 title = "AWS SageMaker Notebook Workshop"
 weekly = ""
