@@ -8,7 +8,7 @@ duration = ""
 fee = ""
 image = "/images/sagemaker.png"
 teacher = "Kyriakos Antoniadis"
-title = "AWS SageMaker Notebook Workshop"
+title = "SageMaker Notebook"
 weekly = ""
 
 +++
