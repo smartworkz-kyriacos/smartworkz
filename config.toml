@@ -85,10 +85,6 @@ name = "Solutions"
 weight = 1
 [[menu.main]]
 footerDisplay = true
-name = "Insights"
-weight = 2
-[[menu.main]]
-footerDisplay = true
 name = "About"
 weight = 3
 [[menu.main]]
