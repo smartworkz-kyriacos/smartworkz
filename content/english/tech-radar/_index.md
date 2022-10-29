@@ -5,8 +5,8 @@ description: ''
 url: insights/radar
 layout: tech-radar
 ---
-Wij houden van technologie. Voor onze klanten willen we natuurlijk altijd de juiste keuze maken maar stiekem is het natuurlijk ook gewoon leuk om over technologie te discusseren. Om dit te kunnen doen - keuzes maken en discusseren - gebruiken wij een tech radar - gebaseerd op de idee van ThoughtWorks. Het is een platform op basis waarvan wij elkaar inspireren, kennis kunnen delen en op gebied van innovatie vooraan blijven lopen in een zich snel ontwikkelende gebied.
+We love technology. Of course we always want to make the right choice for our customers, but secretly it is also just fun to discuss technology. To do this - make choices and discuss - we use a tech radar - based on the idea of ThoughtWorks. It is a platform on the basis of which we inspire each other, share knowledge and remain at the forefront of innovation in a rapidly developing area.
 
-Het tech radar is een lijst van tools, technieken, platformen en frameworks, die we een voor een elke 2 weken gedurende lunch sessies met elkaar discusseren ... en vervolgens beoordelen. Hoort een bepaald framework tot de basis en kan je dit (onder de juiste omstandigheden) gewoon gebruiken, dan komt het op ons **adopt** lijstje. Of moet je juist de fingers afhouden hiervan en het on **hold** zetten? Hot items, die veel beloven en we nauwer willen onderzoeken komen op ons **assess** lijst. En technologien, die je in ieder geval moet kennen en wellicht een keertje proberen, staan bij ons op het **trial** backlog.
+The tech radar is a list of tools, techniques, platforms and frameworks, which we discuss with each other one by one every 2 weeks during lunch sessions ... and then assess. If a certain framework is part of the basics and you can use it (under the right circumstances), it will be added to our **adopt** list. Or should you just keep your fingers off this and put it on **hold**? Hot items that promise a lot and that we want to explore more closely are on our **assess** list. And technologies, which you should in any case know and perhaps try once, are on our **trial** backlog.
 
-Zo kan iederen bij Smartworkz in een oogopslaag zien what’s hot or not. En weet jij waarvoor wij staan.
+This way everyone at Smartworkz can see at a glance what's hot or not. And do you know what we stand for?
