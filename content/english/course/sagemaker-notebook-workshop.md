@@ -1,5 +1,5 @@
 +++
-apply_url = ""
+apply_url = "/contact"
 bg_image = "/images/banner/banner-1.jpg"
 category = "SageMaker Notebook"
 date = 2022-10-28T22:00:00Z
