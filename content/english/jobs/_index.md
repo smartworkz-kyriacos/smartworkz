@@ -5,5 +5,11 @@ image: images/career/hero.jpg
 description: ''
 url: "/career"
 layout: career-jobs
+menu:
+  main:
+    name: Career with Smartworkz
+    weight: 5
+    parent: About
+
 ---
 ## lora lora
