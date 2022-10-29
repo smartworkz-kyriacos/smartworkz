@@ -8,7 +8,7 @@ menu:
   main:
     name: Cases
     weight: 3
-    parent: career
+    parent: Career
 
 ---
 ## Wat doen we nu eigenlijk bij Smartworkz?
