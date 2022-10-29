@@ -3,9 +3,9 @@ apply_url = "https://www.blipz.io/tickets"
 bg_image = "/images/banner/banner-1.jpg"
 date = 2022-10-31T23:00:00Z
 description = ""
-fee = ""
+fee = "49"
 image = "/images/Blipz.png"
-location = ""
+location = "Werkspoorkathedraal, Tractieweg 41, 3541AP Utrecht"
 speaker = []
 title = "Blipz on the Radar"
 
