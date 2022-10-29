@@ -1,6 +1,7 @@
 ---
 title: Start Smartworkz
 date: 2022-08-01T12:00:00+02:00
+image: "/images/AI_edited.png"
 
 ---
 We’re entering the fourth industrial revolution, where AI-enabled technologies are disrupting the very foundations of business. 
