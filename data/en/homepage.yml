@@ -3,7 +3,7 @@ slider:
   enable: true
   bg_image: images/banner/banner-1.jpg
   slider_item:
-  - title: Specialism for your cloud customizations
+  - title: Your Cloud Specialist 
     content: 'Data has become the most important differentiator for companies. 
     You need experts for this. We have those data engineers who understand how to make data technically accessible 
     and the data scientists who will extract the right information from your data.'
