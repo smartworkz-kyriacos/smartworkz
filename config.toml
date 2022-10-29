@@ -89,11 +89,6 @@ name = "Our Team"
 parent = "About"
 weight = 4
 [[menu.main]]
-URL = "solutions#data-oplossingen"
-name = "Quick wins"
-parent = "Solutions"
-weight = 1
-[[menu.main]]
 footerDisplay = false
 hasChildren = true
 name = "Solutions"
