@@ -1,10 +1,9 @@
 ---
 title: Tech Radar
-bg_image: images/backgrounds/page-title.jpg
+bg_image: images/banner/banner-1.jpg
 description: ''
 url: insights/radar
 layout: tech-radar
-
 ---
 Wij houden van technologie. Voor onze klanten willen we natuurlijk altijd de juiste keuze maken maar stiekem is het natuurlijk ook gewoon leuk om over technologie te discusseren. Om dit te kunnen doen - keuzes maken en discusseren - gebruiken wij een tech radar - gebaseerd op de idee van ThoughtWorks. Het is een platform op basis waarvan wij elkaar inspireren, kennis kunnen delen en op gebied van innovatie vooraan blijven lopen in een zich snel ontwikkelende gebied.
 
