@@ -1,7 +1,11 @@
 [build]
-  publish = "public"
-  command = "hugo --gc --minify"
-  
+command = "hugo --gc --minify"
+publish = "public"
 [build.environment]
-  HUGO_VERSION = "0.84.1"
-  HUGO_THEME = "educenter"
+HUGO_THEME = "educenter"
+HUGO_VERSION = "0.84.1"
+[menu.main]
+URL = "career"
+name = "Vacancies"
+parent = "About"
+weight = 3

@@ -21,38 +21,48 @@ languageCode = "nl-NL"
 languageName = "Nl"
 weight = 1
 [[menu.company]]
-URL = "contact"
-name = "Contact"
-weight = 3
+URL = "insights"
+name = "Insights"
+weight = 1
 [[menu.company]]
 URL = "about"
 name = "Over"
 weight = 2
 [[menu.company]]
-URL = "insights"
-name = "Insights"
-weight = 1
-[[menu.footer]]
-URL = "work-at"
-name = "Werken bij"
-weight = 4
-[[menu.footer]]
-URL = "blog"
-name = "Blogs"
+URL = "contact"
+name = "Contact"
 weight = 3
+[[menu.footer]]
+URL = "team"
+name = "Team"
+weight = 1
 [[menu.footer]]
 URL = "event"
 name = "Events"
 weight = 2
 [[menu.footer]]
-URL = "team"
-name = "Team"
-weight = 1
-[[menu.main]]
 URL = "blog"
 name = "Blogs"
-parent = "Insights"
-weight = 1
+weight = 3
+[[menu.footer]]
+URL = "work-at"
+name = "Werken bij"
+weight = 4
+[[menu.main]]
+URL = "career/culture"
+name = "Culture"
+parent = "About"
+weight = 4
+[[menu.main]]
+URL = "solutions#data-workshop"
+name = "Workshops"
+parent = "Solutions"
+weight = 3
+[[menu.main]]
+URL = "about"
+name = "About us"
+parent = "About"
+weight = 2
 [[menu.main]]
 URL = "event"
 name = "Events"
@@ -62,21 +72,6 @@ weight = 2
 URL = "insights/radar"
 name = "Tech Radar"
 parent = "Insights"
-weight = 2
-[[menu.main]]
-URL = "about/team"
-name = "Team"
-parent = "about"
-weight = 1
-[[menu.main]]
-URL = "about"
-name = "Over ons"
-parent = "about"
-weight = 2
-[[menu.main]]
-URL = "solutions#data-workshop"
-name = "Workshops"
-parent = "Solutions"
 weight = 3
 [[menu.main]]
 URL = "solutions#data-consulting"
@@ -84,40 +79,37 @@ name = "Consulting"
 parent = "Solutions"
 weight = 2
 [[menu.main]]
-URL = "career/culture"
-name = "Cultuur"
-parent = "career"
-weight = 2
+URL = "blog"
+name = "Blogs"
+parent = "Insights"
+weight = 1
+[[menu.main]]
+URL = "about/team"
+name = "Team"
+parent = "About"
+weight = 1
 [[menu.main]]
 URL = "solutions#data-oplossingen"
 name = "Quick wins"
 parent = "Solutions"
 weight = 1
 [[menu.main]]
-URL = "career"
-name = "Vacatures"
-parent = "career"
+footerDisplay = false
+hasChildren = true
+name = "Solutions"
 weight = 1
-[[menu.main]]
-name = "career"
-weight = 5
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
-[[menu.main]]
-footerDisplay = true
-name = "about"
-weight = 3
 [[menu.main]]
 footerDisplay = true
 name = "Insights"
 weight = 2
 [[menu.main]]
-footerDisplay = false
-hasChildren = true
-name = "Solutions"
-weight = 1
+footerDisplay = true
+name = "About"
+weight = 4
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
 [[module.mounts]]
 lang = "nl"
 source = "content/dutch"
