@@ -1,6 +1,6 @@
 ---
 title: Timeline
-bg_image: "/images/banner/banner-1.jpg
+bg_image: images/banner/banner-1.jpg
 image: images/about/about-us.jpg
 description: ''
 ---
