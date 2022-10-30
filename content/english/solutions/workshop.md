@@ -3,6 +3,6 @@ focus = "workshop"
 icon = "ti-layout"
 image = ""
 title = "Workshop"
-weight = 2
+weight = 3
 
 +++
