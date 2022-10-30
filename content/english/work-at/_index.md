@@ -1,5 +1,5 @@
 ---
-title: Work at  Smartworkz
+title: Work at Smartworkz
 bg_image: "/images/banner/banner-1.jpg"
 image: images/career/hero.jpg
 description: ''
