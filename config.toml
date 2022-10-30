@@ -35,7 +35,7 @@ name = "Blogs"
 weight = 3
 [[menu.footer]]
 URL = "work-at"
-name = "Werken bij"
+name = "Werken at"
 weight = 4
 [[menu.main]]
 name = "Blogs"
