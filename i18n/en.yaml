@@ -1,0 +1,87 @@
+---
+- id: read_more
+  translation: Read More
+- id: contact_form
+  translation: Contact form
+- id: send
+  translation: Send
+- id: contact_info
+  translation: Contact info
+- id: subscribe_newsletter
+  translation: Subscribe Newsletter
+- id: subscribe
+  translation: subscribe
+- id: contact_us
+  translation: Contact us
+- id: latest_article
+  translation: Latest Article
+- id: categories
+  translation: Caterories
+- id: tags
+  translation: Tags
+- id: see_all
+  translation: See All
+- id: apply_now
+  translation: Apply Now
+- id: posted_by
+  translation: Posted By
+- id: blogs_by
+  translation: Blogs By
+- id: date
+  translation: Date
+- id: time
+  translation: time
+- id: category
+  translation: Category
+- id: related_course
+  translation: Related Workshop
+- id: duration
+  translation: Duration
+- id: weekly
+  translation: Weekly
+- id: fee
+  translation: Fee
+- id: teacher
+  translation: Trainer
+- id: location
+  translation: Location
+- id: entry_fee
+  translation: Entry Fee
+- id: event_speaker
+  translation: Event Speaker
+- id: more_event
+  translation: More events
+- id: join
+  translation: Join
+- id: enter_email
+  translation: Enter Email
+- id: company
+  translation: Company
+- id: links
+  translation: Links
+- id: courses
+  translation: Workshops
+- id: new_notice
+  translation: Mew Notice
+- id: call
+  translation: Call
+- id: email
+  translation: email
+- id: all
+  translation: All
+- id: interest
+  translation: INTEREST
+- id: our_teachers
+  translation: Our Trainers
+- id: download
+  translation: Download
+- id: contact_name
+  translation: Contact Name
+- id: contact_surname
+  translation: Contact Surname
+- id: contact_email
+  translation: Contact Email
+- id: contact_subject
+  translation: Contact Subject
+- id: contact_message
+  translation: Contact Message

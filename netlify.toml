@@ -1,0 +1,16 @@
+[build]
+command = "hugo --gc --minify"
+publish = "public"
+[build.environment]
+HUGO_THEME = "educenter"
+HUGO_VERSION = "0.84.1"
+[menu.company]
+URL = "about"
+name = "Over"
+weight = 2
+[menu.main]
+URL = "blog"
+footerDisplay = true
+name = "Insights"
+parent = "Insights"
+weight = 3
