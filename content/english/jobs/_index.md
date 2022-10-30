@@ -7,7 +7,7 @@ url: "/career"
 layout: career-jobs
 menu:
   main:
-    name: Career with Smartworkz
+    name: Vacancies at Smartworkz
     weight: 5
     parent: About
 ---
