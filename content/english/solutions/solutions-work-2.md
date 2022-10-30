@@ -7,6 +7,8 @@ weight: 1
 focus: solutions
 
 ---
+![](/images/artificial_intelligence.png)
+
 **FOUNDATIONAL**
 
 **Six months** of fundamental AWS Cloud and industry  
