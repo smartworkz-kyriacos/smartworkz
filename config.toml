@@ -28,6 +28,10 @@ weight = 1
 URL = "contact"
 name = "Contact"
 weight = 2
+[[menu.company]]
+URL = "insights"
+name = "Insights"
+weight = 1
 [[menu.footer]]
 URL = "team"
 name = "Team"
