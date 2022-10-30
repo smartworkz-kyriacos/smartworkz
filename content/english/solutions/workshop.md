@@ -1,5 +1,5 @@
 +++
-focus = "consulting"
+focus = "workshop"
 icon = "ti-layout"
 image = ""
 title = "Workshop"
