@@ -28,14 +28,7 @@ weight = 1
 URL = "contact"
 name = "Contact"
 weight = 2
-[[menu.footer]]
-URL = "team"
-name = "Team"
-weight = 1
-[[menu.footer]]
-URL = "event"
-name = "Events"
-weight = 2
+
 [[menu.footer]]
 URL = "blog"
 name = "Blogs"
