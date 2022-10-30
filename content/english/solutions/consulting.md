@@ -1,5 +1,4 @@
 +++
-draft = true
 focus = "consulting"
 icon = "ti-thumb-up"
 image = ""
