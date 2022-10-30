@@ -16,7 +16,7 @@ sections:
 - type: heading
   label: Team
 - type: directory
-  path: content/english/about/team
+  path: content/english/team
   label: Team (en)
   create: documents
   match: "**/*"
