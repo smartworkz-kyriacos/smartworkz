@@ -3,7 +3,7 @@ title: Solutions
 bg_image: "/images/banner/banner-1.jpg"
 image: "/images/AI_edited.png"
 icon: ti-cup
-weight: 2
+weight: 1
 focus: solutions
 
 ---
