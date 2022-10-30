@@ -1,7 +1,7 @@
 +++
 focus = "consulting"
 icon = ""
-image = ""
+image = "/images/video-3.png"
 title = "Consulting 1"
 weight = nil
 
