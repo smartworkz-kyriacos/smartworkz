@@ -1,13 +1,13 @@
 ---
 title: Solutions
 bg_image: "/images/banner/banner-1.jpg"
-image: "/images/AI_edited.png"
+image: "/images/Cert.png"
 icon: ti-cup
 weight: 1
 focus: solutions
 
 ---
-![](/images/artificial_intelligence.png)
+![](/images/Cert.png)
 
 **FOUNDATIONAL**
 
