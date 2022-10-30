@@ -8,14 +8,14 @@ theme = "educenter"
 title = "Smartworkz | Smart experts in data science & data engineering"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
+copyright = "Copyright &copy; 2022 by [Smartworkz](https://www.smartworkz.nl)"
 home = "Home"
 languageCode = "nl-NL"
 languageName = "En"
 weight = 2
 [Languages.nl]
 contentDir = "content/dutch"
-copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
+copyright = "Copyright &copy; 2022 by [Smartworkz](https://www.smartworkz.nl)"
 home = "Home"
 languageCode = "nl-NL"
 languageName = "Nl"
