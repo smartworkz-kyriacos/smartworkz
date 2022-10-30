@@ -1,9 +1,9 @@
 ---
 title: Solutions
 bg_image: "/images/banner/banner-1.jpg"
-image: "/images/cd4ml.jpg"
+image: images/banner/banner-1.jpg
 icon: ti-cup
-weight: 1
+weight: 2
 focus: solutions
 ---
 Our Microsoft-certified trainers take you into the AWS world of AI and ML.

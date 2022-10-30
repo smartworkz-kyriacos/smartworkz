@@ -22,7 +22,3 @@ fields:
   name: weight
   label: weight
   description: order
-pages:
-- content/english/solutions/consulting.md
-- content/english/solutions/solution-1.md
-- content/english/solutions/workshop.md
