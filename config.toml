@@ -64,7 +64,7 @@ name = "Tech Radar"
 parent = "Insights"
 weight = 2
 [[menu.main]]
-URL = "about/team"
+URL = "team"
 name = "Team"
 parent = "about"
 weight = 1
