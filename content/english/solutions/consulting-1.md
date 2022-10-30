@@ -1,5 +1,4 @@
 +++
-draft = true
 focus = "consulting"
 icon = ""
 image = ""
