@@ -1,0 +1,109 @@
+{{ define "main" }}
+{{ $image := .Params.Image | printf "static/%s" | resources.Get }}
+{{ $image := $image.Resize "600x" }}
+
+<!-- teacher details -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 content">
+        <div class="text-center">
+          <figure>
+            {{ if .Params.Image }}
+            <img class="img-fluid mb-4" src="{{ $image.RelPermalink }}">
+            {{else if .Params.Email}}
+            <img class="rounded-circle img-fluid mb-4"
+              src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
+            {{ end }}
+            <figcaption>
+              <h3 class="font-weight-bold">
+                {{ .Title }}
+              </h3>
+              <h6 class="text-color">{{ .Params.Course }}</h6>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      {{ if .Params.showContact }}
+      <div class="col-md-6 mb-5">
+        <p class="mb-5">{{ .Params.Bio | markdownify }}</p>
+        <div class="row">
+          <div class="col-md-6 mb-5 mb-md-0">
+            <h4 class="mb-4">{{ i18n "contact_info" | upper}}:</h4>
+            <ul class="list-unstyled">
+              {{ range .Params.Contact }}
+              <li class="mb-3"><a class="text-color" href="{{ .link | safeURL }}"><i
+                    class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-4">{{ i18n "interest" | upper }}</h4>
+            <ul class="list-unstyled">
+              {{ range .Params.Interest }}
+              <li class="mb-3">{{ . | title }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      {{ end }}
+      <div class="col-12 content">
+        {{ .Content }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="title text-center">
+          <h3 class="mb-5">{{ i18n "courses" | upper}}</h3>
+        </div>
+      </div>
+      <!-- course item -->
+      {{ $workshops := where site.RegularPages "Type" "course" }}
+      {{ $workshops := $workshops | intersect (where $workshops "Params.teacher" .Title )}}
+
+      {{ if lt (len $workshops) 1 }}
+      <div class="col-12 mb-5">
+        <p>{{ .Title }} heeft nog geen workshops gegeven...</p>
+      </div>
+      {{ else }}
+      {{ range $workshops }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "course"}}
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /teacher details -->
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="title text-center">
+          <h3 class="section-title">{{ i18n "blogs_by" }} {{ .Title }}</h3>
+        </div>
+      </div>
+      {{ $posts := where site.RegularPages "Type" "post" }}
+      {{ $posts := $posts | intersect (where $posts "Params.author" .Title )}}
+      {{ if lt (len $posts) 1 }}
+      <div class="col-12 mb-5">
+        <p>{{ .Title }} heeft nog geen blogs geschreven...</p>
+      </div>
+      {{ else }}
+      {{ range $posts }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "post" }}
+      </div>
+      {{ end }}
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

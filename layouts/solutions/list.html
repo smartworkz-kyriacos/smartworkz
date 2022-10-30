@@ -1,0 +1,85 @@
+{{ define "main" }}
+<section class="section solutions">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content">{{ .Content }}</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div>
+          <!-- course item -->
+          <h3 id="data-oplossingen">Quick wins</h3>
+          <div class="row justify-content-center content">
+            {{ range (where .Site.Pages "Params.focus" "solutions") }}
+            {{ .Render "solutions" }}
+            {{ end }}
+          </div>
+          <div class="row justify-content-center">
+            <a href="{{ `/contact` | absLangURL }}" class="btn btn-primary">Neem contact op!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="">
+          <!-- course item -->
+          <h3 id="data-consulting">Data consulting</h3>
+          <div class="row justify-content-center content">
+            {{ range (where .Site.Pages "Params.focus" "consulting") }}
+            {{ .Render "solutions" }}
+            {{ end }}
+          </div>
+          <div class="row justify-content-center">
+            <a href="{{ `/contact` | absLangURL }}" class="btn btn-primary">Neem contact op!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    {{ if .Params.Workshops }}
+    <div class="row">
+      <div class="col-12">
+        <div class="">
+          <!-- course item -->
+          <h3 id="data-workshoppen">Data Workshops</h3>
+          <div class="row justify-content-center content">
+            {{ range (where .Site.Pages "Params.focus" "workshop") }}
+            {{ .Render "solutions" }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+
+  <!-- courses -->
+  {{ $courses := first 6 (where site.RegularPages "Type" "course") }}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="">
+          <h3 id="data-workshop">Data Workshops</h3>
+        </div>
+      </div>
+    </div>
+    <!-- course list -->
+    <div class="row justify-content-center">
+      <!-- course item -->
+      {{ range $courses }}
+      <div class="col-lg-4 col-sm-6 mb-5">{{ .Render "course" }}</div>
+      {{ end }}
+    </div>
+    <!-- /course list -->
+  </div>
+</section>
+<!-- /courses -->
+
+{{ end }}

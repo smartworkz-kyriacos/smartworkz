@@ -1,0 +1,215 @@
+baseURL = "/"
+buildFuture = true
+disableLanguages = ["nl"]
+disqusShortname = ""
+paginate = "6"
+summaryLength = "10"
+theme = "educenter"
+title = "Smartworkz | Smart experts in data science & data engineering"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
+home = "Home"
+languageCode = "nl-NL"
+languageName = "En"
+weight = 2
+[Languages.nl]
+contentDir = "content/dutch"
+copyright = "Copyright &copy; 2021 by [kokkelaar](https://kokkelaar.nl)"
+home = "Home"
+languageCode = "nl-NL"
+languageName = "Nl"
+weight = 1
+[[menu.company]]
+URL = "contact"
+name = "Contact"
+weight = 3
+[[menu.company]]
+URL = "about"
+name = "Over"
+weight = 2
+[[menu.company]]
+URL = "insights"
+name = "Insights"
+weight = 1
+[[menu.footer]]
+URL = "work-at"
+name = "Werken bij"
+weight = 4
+[[menu.footer]]
+URL = "blog"
+name = "Blogs"
+weight = 3
+[[menu.footer]]
+URL = "event"
+name = "Events"
+weight = 2
+[[menu.footer]]
+URL = "team"
+name = "Team"
+weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Blogs"
+parent = "Insights"
+weight = 1
+[[menu.main]]
+URL = "event"
+name = "Events"
+parent = "Insights"
+weight = 2
+[[menu.main]]
+URL = "insights/radar"
+name = "Tech Radar"
+parent = "Insights"
+weight = 2
+[[menu.main]]
+URL = "about/team"
+name = "Team"
+parent = "about"
+weight = 1
+[[menu.main]]
+URL = "about"
+name = "Over ons"
+parent = "about"
+weight = 2
+[[menu.main]]
+URL = "solutions#data-workshop"
+name = "Workshops"
+parent = "Solutions"
+weight = 3
+[[menu.main]]
+URL = "solutions#data-consulting"
+name = "Consulting"
+parent = "Solutions"
+weight = 2
+[[menu.main]]
+URL = "career/culture"
+name = "Cultuur"
+parent = "career"
+weight = 2
+[[menu.main]]
+URL = "solutions#data-oplossingen"
+name = "Quick wins"
+parent = "Solutions"
+weight = 1
+[[menu.main]]
+URL = "career"
+name = "Vacatures"
+parent = "career"
+weight = 1
+[[menu.main]]
+name = "career"
+weight = 5
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+[[menu.main]]
+footerDisplay = true
+name = "about"
+weight = 3
+[[menu.main]]
+footerDisplay = true
+name = "Insights"
+weight = 2
+[[menu.main]]
+footerDisplay = false
+hasChildren = true
+name = "Solutions"
+weight = 1
+[[module.mounts]]
+lang = "nl"
+source = "content/dutch"
+target = "content"
+[[module.mounts]]
+lang = "en"
+source = "content/english"
+target = "content"
+[[module.mounts]]
+source = "static"
+target = "static"
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+[[module.mounts]]
+source = "data"
+target = "data"
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "static"
+target = "assets/static"
+[[module.mounts]]
+source = "i18n"
+target = "i18n"
+[[module.mounts]]
+source = "archetypes"
+target = "archetypes"
+[params]
+address = "Tractieweg 41 studio E, 3534 AP Utrecht"
+author = "Smartworkz BV."
+contact_form_action = "https://formspree.io/xleodbng"
+description = "Smartworkz - Slimmere oplossingen voor jou"
+email = "info@smartworkz.nl"
+google_analitycs_id = "G-3PG6NYRP8M"
+logo = "images/logo-cropped.svg"
+mobile = "+31 (0)6 22 55 71 92"
+top_header = false
+[params.map]
+enable = false
+map_latitude = "52.105107"
+map_longitude = "5.079772"
+map_marker = "images/marker.png"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/owl.carousel/assets/owl.carousel.min.css"
+[[params.plugins.css]]
+link = "plugins/owl.carousel/assets/owl.theme.default.min.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/owl.carousel/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "plugins/scrollreveal/scrollreveal.min.js"
+[[params.plugins.js]]
+link = "plugins/rellax/rellax.min.js"
+[[params.plugins.js]]
+link = "plugins/tech-radar/d3.min.js"
+[[params.plugins.js]]
+link = "plugins/tech-radar/random.js"
+[[params.plugins.js]]
+link = "plugins/tech-radar/tech-radar.js"
+[params.preloader]
+enable = false
+preloader = "images/preloader.gif"
+[params.subscription]
+enable = false
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/smartworkz-nl"
+title = "github"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/smartworkznl/"
+title = "linkedin"
