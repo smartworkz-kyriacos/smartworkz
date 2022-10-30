@@ -1,5 +1,5 @@
 +++
-focus = "solution"
+focus = "solutions"
 icon = ""
 image = "/images/xenonstack-aws-sagemaker-ml-platform.webp"
 title = "Solution 1"
