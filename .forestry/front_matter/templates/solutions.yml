@@ -24,5 +24,4 @@ fields:
   description: order
 pages:
 - content/english/solutions/consulting.md
-- content/english/solutions/solution.md
 - content/english/solutions/workshop.md
