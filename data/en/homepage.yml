@@ -58,9 +58,9 @@ about:
   enable: true
   title: About Smartworkz
   image: images/about/about-us.jpg
-  content: It all started in the summer of 2022 with a few phone calls and dinner with the existing shareholders. 
+  content: 'It all started in the summer of 2022 with a few phone calls and dinner with the existing shareholders. 
   We discussed the demanding need for specialists in the fields of Data Analytics, Science, Engineering, Machine/Deep Learning, 
-  and Operations in Business Intelligence.
+  and Operations in Business Intelligence.'
   button:
     enable: true
     label: Meer zien van Smartworkz?
