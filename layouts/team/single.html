@@ -66,7 +66,7 @@
 
       {{ if lt (len $workshops) 1 }}
       <div class="col-12 mb-5">
-        <p>{{ .Title }} heeft nog geen workshops gegeven...</p>
+        <p>{{ .Title }} hasn't given any workshops yet...</p>
       </div>
       {{ else }}
       {{ range $workshops }}
@@ -92,7 +92,7 @@
       {{ $posts := $posts | intersect (where $posts "Params.author" .Title )}}
       {{ if lt (len $posts) 1 }}
       <div class="col-12 mb-5">
-        <p>{{ .Title }} heeft nog geen blogs geschreven...</p>
+        <p>{{ .Title }} hasn't blogged yet...</p>
       </div>
       {{ else }}
       {{ range $posts }}
