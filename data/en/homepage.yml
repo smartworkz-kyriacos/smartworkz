@@ -11,7 +11,7 @@ slider:
     animation_out: ''
     button:
       enable: true
-      label: Neem contact op
+      label: Contact us
       link: contact
 banner_feature:
   enable: true
