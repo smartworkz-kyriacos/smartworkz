@@ -1,4 +1,4 @@
-baseURL = "https://smartworkz-site.netlify.com"
+baseURL = "/"
 buildFuture = true
 disableLanguages = ["nl"]
 disqusShortname = ""
