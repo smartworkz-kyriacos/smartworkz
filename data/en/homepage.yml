@@ -3,102 +3,100 @@ slider:
   enable: true
   bg_image: images/banner/banner-1.jpg
   slider_item:
-  - title: Your Cloud Specialist 
-    content: Data has become the most important differentiator for companies. 
-    You need experts for this. We have those data engineers who understand how to make data technically accessible 
-    and the data scientists who will extract the right information from your data.
+  - title: Specialisme voor uw data maatwerk
+    content: Data is de nieuwe manier van sturen. Hier heeft men nieuwe specialisme
+      voor nodig....
     animation_in: ''
     animation_out: ''
     button:
       enable: true
-      label: Contact us
+      label: Neem contact op
       link: contact
 banner_feature:
   enable: true
-  image: images/banner/banner-1.jpg
+  image: images/banner/banner-feature.png
   feature_item:
-  - name: Quick Wins
+  - name: Quick wins
     icon: ti-book
-    content: We have developed Quick Wins for typical problems in the data world.
-       Do you recognize a challenge? 
-       Then we can solve it for you with a concrete
-       and baked result within approximately 2 weeks.
+    content: Wij hebben quickwins voor typische problemen in de data wereld ontwikkeld.
+      Herken je een uitdaging? Dan kunnen wij het voor jou oplossen met een concreet
+      en afgebakken resultaat binnen circa 2 weken.
     button:
       enable: true
-      label: More info
+      label: meer info
       link: "/solutions#data-oplossingen"
-  - name: Workshops and Training
+  - name: Data workshops en Trainingen
     icon: ti-blackboard
-    content: From the first steps in Python to creating your first deep learning
-       projects. With our course we take your employees into the new and exciting
-       world of Data Science and Machine Learning.
+    content: Van de eerste stappen in Python tot het maken van je eerste deep learning
+      projecten. Met onze cursus nemen we je medewerkers mee in de nieuwe en spannende
+      wereld van Data Science en Machine Learning.
     button:
       enable: true
-      label: More info
+      label: meer info
       link: "/solutions#data-workshop"
-  - name: Data Consultancy
+  - name: Data consultancy
     icon: ti-agenda
-    content: Whether it concerns long projects or short assignments. With any consultant
-       do you get the knowledge of the entire Dataworkz at your disposal to state of the
-       art data platforms or machine learning applications.
+    content: Of het nu gaat om lange projecten of korte opdrachten. Met elke consultant
+      krijg jij de kennis van heel Dataworkz tot jouw beschikking om state of the
+      art data platformen of machine learning applicaties te ontwikkelen.
     button:
       enable: true
-      label: More info
+      label: meer info
       link: "/solutions#data-consulting"
   - name: Partnership
     icon: ti-face-smile
     button:
       enable: false
-    content: We consider good cooperation with our partnerships very important.
-       Not only with customers, but also with the community and leading companies.
-       As a Microsoft Silver Partner we have a lot of experience in the field
-       of Azure-based data platforms and ML solutions. And because we also find
-       that enterprise AI platforms should love code, we can as a Dataiku partner
-       quickly and reliably realize Data Science and ML flows on production.
+    content: 'We vinden een goede samenwerking met onze partnerships heel belangrijk.
+      Niet alleen met klanten, maar ook met de community en toonaangevende bedrijven.
+      Als Microsoft Silver Partner hebben we bijzonder veel ervaring op het gebied
+      van Azure gebaseerde data platformen en ML solutions. En omdat we ook vinden
+      dat enterprise AI platformen van code moeten houden, kunnen we als Dataiku partner
+      snel en betrouwbaar Data Science en ML flows op productie realiseren. '
 about:
   enable: true
-  title: About Smartworkz
+  title: Over Smartworkz
   image: images/about/about-us.jpg
-  content: It all started in the late summer of 2022. After watching some good
-     customers we thought the market was ready for the next one
-     step.....
+  content: Het begon allemaal in de nazomer van 2021. Nadat we bij een paar goede
+    klanten hadden gezeten dachten we dat de markt wel klaar was voor de volgende
+    stap.....
   button:
     enable: true
-    label: Want to know more about Smartworkz?
+    label: Meer zien van Smartworkz?
     link: about
 course:
   enable: false
-  title: Our Workshops
+  title: Onze workshops
 cta:
   enable: false
-  subtitle: Want to know with which customers we work with?
-  title: Our customers and partners
+  subtitle: Weten met welke klanten wij werken?
+  title: Onze klanten en partners
   button:
     enable: true
-    label: See more
+    label: Meer zien
     link: customers
 tech:
   enable: false
   subtitle: ''
-  title: Our choices for technology
+  title: Onze keuzes voor technologie
   button:
     enable: false
-    label: See more
+    label: Meer zien
     link: customers
 success_story:
   enable: true
   bg_image: images/backgrounds/success-story.jpg
-  title: Do you want to come and work for Smartworkz?
-  content: We are looking for driven Data Enthusiasts (Engineering and Science) who
-     make a difference to our customers. Professionals who like to work in
-     seize opportunities for a young company and work on performance together with colleagues
-     of size. Professionals who are communicative, want to work in Agile projects
-     working at leading clients, wanting to be part of a fun team of
-     experts, like to share knowledge and want to be rewarded for their value.
+  title: Wil je komen werken voor Smartworkz?
+  content: Wij zoeken gedreven Data Enthousiasts (Engineering en Science) die het
+    verschil kunnen maken bij onze klanten. Professionals die het leuk vinden om in
+    een jong bedrijf kansen te pakken en samen met vakgenoten te werken aan prestaties
+    van formaat. Professionals die communicatief sterk zijn, in Agile projecten willen
+    werken bij toonaangevende klanten, deel willen uitmaken van een leuk team van
+    experts, graag kennis delen en beloond willen worden op hun waarde.
   video_link: https://www.youtube.com/watch?v=IdV4n4hgIRY
   button:
     enable: true
-    label: Want to know more?
+    label: Meer weten?
     link: career
 event:
   enable: true
@@ -119,4 +117,4 @@ funfacts:
     count: "1400"
 blog:
   enable: true
-  title: Latest blogs
+  title: Laatste blogs
