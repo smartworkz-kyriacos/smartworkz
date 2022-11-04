@@ -9,8 +9,8 @@ menu:
     name: Cases
     weight: 3
     parent: career
-
 ---
-## Wat doen we nu eigenlijk bij Smartworkz?
+
+## What do we actually do at Smartworkz?
 
 Lora Lora
