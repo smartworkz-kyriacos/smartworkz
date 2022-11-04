@@ -19,7 +19,7 @@
             {{ $events := where site.RegularPages "Type" "event" }}
             {{ $events := $events | intersect (where $events "Date" "ge" now) }}
             {{ if and (lt (len ($events)) 1)  }}
-            <p>Er zijn nog geen events gepland, houd de site in de gaten!</p>
+            <p>There are no events planned yet, keep an eye on the site!</p>
             {{ end }}
             <!-- event -->
             {{ range first 3 ($events)}}
@@ -50,7 +50,7 @@
         <div class="row justify-content-center">
             {{ $blogs := where site.RegularPages "Type" "post" }}
             {{ if and (lt (len ($blogs)) 1)  }}
-            <p>Er zijn nog geen blogs gepost, we zijn hiermee hard aan het werk!</p>
+            <p>No blogs have been posted yet, we are working hard on this!</p>
             {{ end }}
             <!-- blog post -->
             {{ range first 3 (where site.RegularPages "Type" "post")}}
