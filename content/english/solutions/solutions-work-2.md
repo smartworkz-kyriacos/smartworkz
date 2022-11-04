@@ -1,10 +1,9 @@
 ---
-title: Solutions
-bg_image: "/images/banner/banner-1.jpg"
-image: ''
+title: Word een AWS Certified Analytics expert
+image: images/solutions/hero.jpg
 icon: ti-cup
-weight: 1
-focus: solutions
+weight: 2
+focus: workshop
 
 ---
-![](/images/Cert.png)
+Onze Microsoft gecertificeerde trainers nemen je mee in de AWS wereld van AI en ML. 

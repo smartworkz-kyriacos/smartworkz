@@ -1,87 +1,125 @@
----
 - id: read_more
-  translation: Read More
+  translation: Lees meer
+
 - id: contact_form
-  translation: Contact form
+  translation: Contact formulier
+
 - id: send
-  translation: Send
+  translation: stuur bericht
+
 - id: contact_info
   translation: Contact info
+
 - id: subscribe_newsletter
-  translation: Subscribe Newsletter
+  translation: Inschrijven nieuwsbrief
+
 - id: subscribe
-  translation: subscribe
+  translation: Inschrijven
+
 - id: contact_us
-  translation: Contact us
+  translation: Contact opnemen
+
 - id: latest_article
-  translation: Latest Article
+  translation: Laatste artikel
+
 - id: categories
-  translation: Caterories
+  translation: Categorien
+
 - id: tags
   translation: Tags
+
 - id: see_all
-  translation: See All
+  translation: Alle items
+
 - id: apply_now
-  translation: Apply Now
+  translation: Nu aanmelden
+
 - id: posted_by
-  translation: Posted By
+  translation: Gepost door
+
 - id: blogs_by
-  translation: Blogs By
+  translation: Blogs door
+
 - id: date
-  translation: Date
+  translation: Datum
+
 - id: time
-  translation: time
+  translation: tijd
+
 - id: category
   translation: Category
+
 - id: related_course
-  translation: Related Workshop
+  translation: Verwante workshop
+
 - id: duration
-  translation: Duration
+  translation: duur
+
 - id: weekly
-  translation: Weekly
+  translation: wekelijks
+
 - id: fee
-  translation: Fee
+  translation: kosten
+
 - id: teacher
-  translation: Trainer
+  translation: docent
+
 - id: location
-  translation: Location
+  translation: location
+
 - id: entry_fee
-  translation: Entry Fee
+  translation: kosten
+
 - id: event_speaker
-  translation: Event Speaker
+  translation: Event sprekers
+
 - id: more_event
-  translation: More events
+  translation: Andere events
+
 - id: join
-  translation: Join
+  translation: Meedoen
+  
 - id: enter_email
-  translation: Enter Email
+  translation: Geef je email op…
+
 - id: company
-  translation: Company
+  translation: bedrijf
+
 - id: links
-  translation: Links
+  translation: links
+
 - id: courses
   translation: Workshops
+
 - id: new_notice
-  translation: Mew Notice
+  translation: nieuw bericht
+
 - id: call
-  translation: Call
+  translation: bel
+
 - id: email
   translation: email
+
 - id: all
-  translation: All
+  translation: Allen
+
 - id: interest
-  translation: INTEREST
+  translation: OPSOMMING VAN ACTIVITEITEN
+
 - id: our_teachers
-  translation: Our Trainers
+  translation: Our docenten
+
 - id: download
   translation: Download
+
 - id: contact_name
-  translation: Contact Name
-- id: contact_surname
-  translation: Contact Surname
+  translation: Je naam
+
+- id: contact_name
+  translation: Je naam
 - id: contact_email
-  translation: Contact Email
+  translation: Je email
 - id: contact_subject
-  translation: Contact Subject
+  translation: Jouw onderwerp
 - id: contact_message
-  translation: Contact Message
+  translation: Jouw bericht

@@ -36,7 +36,7 @@ fields:
   label: type
   default: post
 pages:
-- content/english/blog/amazon-sagemaker-studio.md
 - content/english/blog/dockerizing-your-development-environment.md
-- content/english/blog/exploratory-data-analysis-of-the-pay-gender-gap.md
-- content/english/blog/mlops-github.md
+- content/english/blog/hugo-with-github-pages-forestry-and-nrtlify.md
+- content/english/blog/mlops-ci-cd.md
+- content/english/blog/sagemaker-workshop.md

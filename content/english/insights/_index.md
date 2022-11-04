@@ -1,10 +1,8 @@
 ---
-title: Insights
-bg_image: "/images/banner/banner-1.jpg"
-description: ''
-menu:
-  main:
-    weight: 1
-    parent: Insights
-
+title: "Insights"
+draft: false
+# page title background image
+bg_image: "images/backgrounds/page-title.jpg"
+# meta description
+description : ""
 ---

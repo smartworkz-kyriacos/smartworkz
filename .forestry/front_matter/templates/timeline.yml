@@ -16,5 +16,3 @@ fields:
 - type: datetime
   name: date
   label: date
-pages:
-- content/english/timeline/big-data-expo-big-data-expo.md

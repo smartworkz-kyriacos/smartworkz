@@ -1,6 +1,10 @@
 ---
-title: 'Contact '
-bg_image: "/images/banner/banner-1.jpg"
-description: ''
+title: "Neem contact met ons op!"
+draft: false
+# page title background image
+bg_image: "images/backgrounds/contact.jpg"
+# meta description
+description : ""
 ---
-**Send us a message**
+
+Stuur ons een bericht of bezoek ons op ons adres.

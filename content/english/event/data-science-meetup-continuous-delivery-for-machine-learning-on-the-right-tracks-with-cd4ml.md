@@ -1,10 +1,10 @@
 +++
 apply_url = "https://www.meetup.com/Hamburg-Data-Science-Meetup/events/279530699"
-bg_image = "images/banner/banner-1.jpg"
+bg_image = ""
 date = 2021-08-26T06:15:00Z
 description = ""
 fee = ""
-image = "/images/cd4ml.jpg"
+image = "/images/copy-of-untitled-3.png"
 location = "Talk at Hamburg Data Science meetup."
 title = "Continuous Delivery for Machine Learning - On the right tracks with CD4ML"
 [[speaker]]
