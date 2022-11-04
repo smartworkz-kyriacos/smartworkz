@@ -4,7 +4,7 @@ bg_image = ""
 date = 2021-08-26T06:15:00Z
 description = ""
 fee = ""
-image = "/images/copy-of-untitled-3.png"
+image = "/images/cd4ml.jpg"
 location = "Talk at Hamburg Data Science meetup."
 title = "Continuous Delivery for Machine Learning - On the right tracks with CD4ML"
 [[speaker]]
