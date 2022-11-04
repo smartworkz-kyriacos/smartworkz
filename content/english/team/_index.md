@@ -1,8 +1,8 @@
 ---
-title: Ons team
-bg_image: "/images/banner/banner-2.jpg"
-description: Bij Smartworkz hebben we allemaal onze eigen specialismes. Kijk rond
-  en kijk met wie jij wilt samenwerken!
+title: Our team
+bg_image: ''
+description: At Smartworkz we all have our own specialisms. Look around and see who
+  you want to work with!
 url: about/team
 
 ---
