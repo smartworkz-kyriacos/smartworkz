@@ -14,7 +14,9 @@ contact:
 ---
 When you harness the power of analytics, automation, and artificial intelligence (AI), you can uncover hidden relationships from vast amounts of data. Implementing the right strategy and technology will balance speed, cost, and quality to deliver measurable business value.
 
-Think about humans _with_ machines, strategy _with_ insights, cost reduction _with_ automation, data _with_ purpose, and speed with precision. The power of _with_ has never been greater. Deloitte is helping companies harness that power to identify transformative advantages and move faster with greater precision, improve decision-making, and create beneficial connections with customers.
+Think about humans _with_ machines, strategy _with_ insights, cost reduction _with_ automation, data _with_ purpose, and speed with precision. The power of _with_ has never been greater. 
+
+Smartworkz is helping companies harness that power to identify transformative advantages and move faster with greater precision, improve decision-making, and create beneficial connections with customers.
 
 We can help you leverage the power and versatility of AI to reach new levels of organizational excellence. Starting with defining an **AI strategy** to develop new business models, and improve outcomes in key areas of your operations, we can help you along every step of the journey as you turn data into insights and apply them.
 

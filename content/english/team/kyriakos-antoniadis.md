@@ -3,7 +3,7 @@ title: Kyriakos Antoniadis
 bg_image: "/images/banner/banner-1.jpg"
 description: Your favourite Amazonian, Pythonista, Docker Captain, HashiCorp Chief...;)
 image: "/images/artificial_intelligence.png"
-course: Machine Learning Engineer
+course: Machine / Deep Learning Engineer
 bio: 'I help companies keep up with new technologies and the emerging requirement
   to operate data-driven: This varies from essential Business Intelligence to Data
   Science and embracing the latest developments in Artificial Intelligence (AI). I
@@ -19,6 +19,8 @@ interest:
 contact: []
 
 ---
+![](/images/MeHEAD.jpg)
+
 Current technologies I extensively experiment with include Elastic Container Services and Kubernetes for orchestrating containers, Deep Learning and Machine Learning for building AI capabilities, Docker container services for developing production-ready applications comprising multiple components and AWS to use different services and large capacities from the cloud.
 
 I am fortunate that I could turn one of my favourite activities into my job and own company. I am crazy about developing Data Driven applications, experimenting with Artificial Intelligence (AI) and Machine (ML)/Deep Learning (DL) and have developed a background where Data Science and Data Engineering come together.
