@@ -26,7 +26,7 @@ name = "Contact"
 weight = 3
 [[menu.company]]
 URL = "about"
-name = "Over"
+name = "About"
 weight = 2
 [[menu.company]]
 URL = "insights"
@@ -34,7 +34,7 @@ name = "Insights"
 weight = 1
 [[menu.footer]]
 URL = "work-at"
-name = "Werken bij"
+name = "Work at"
 weight = 4
 [[menu.footer]]
 URL = "blog"
@@ -70,7 +70,7 @@ parent = "about"
 weight = 1
 [[menu.main]]
 URL = "about"
-name = "Over ons"
+name = "About us"
 parent = "about"
 weight = 2
 [[menu.main]]
@@ -85,17 +85,17 @@ parent = "Solutions"
 weight = 2
 [[menu.main]]
 URL = "career/culture"
-name = "Cultuur"
+name = "Culture"
 parent = "career"
 weight = 2
 [[menu.main]]
 URL = "solutions#data-oplossingen"
-name = "Quick wins"
+name = "Quick Wins"
 parent = "Solutions"
 weight = 1
 [[menu.main]]
 URL = "career"
-name = "Vacatures"
+name = "Vacancies"
 parent = "career"
 weight = 1
 [[menu.main]]
