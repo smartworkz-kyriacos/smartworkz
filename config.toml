@@ -33,6 +33,10 @@ URL = "contact"
 name = "Contact"
 weight = 3
 [[menu.footer]]
+URL = "team"
+name = "Team"
+weight = 1
+[[menu.footer]]
 URL = "work-at"
 name = "Work at"
 weight = 4
