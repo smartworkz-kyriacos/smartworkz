@@ -63,41 +63,41 @@ about:
   and Operations in Business Intelligence.'
   button:
     enable: true
-    label: Meer zien van Smartworkz?
+    label: See more from Smartworkz?
     link: about
 course:
   enable: false
   title: Onze workshops
 cta:
   enable: false
-  subtitle: Weten met welke klanten wij werken?
-  title: Onze klanten en partners
+  subtitle: Know which customers we work with?
+  title: Our customers and partners
   button:
     enable: true
-    label: Meer zien
+    label: See more
     link: customers
 tech:
   enable: false
   subtitle: ''
-  title: Onze keuzes voor technologie
+  title: Our choices for technology
   button:
     enable: false
-    label: Meer zien
+    label: See more
     link: customers
 success_story:
   enable: true
   bg_image: images/backgrounds/success-story.jpg
-  title: Wil je komen werken voor Smartworkz?
-  content: Wij zoeken gedreven Data Enthousiasts (Engineering en Science) die het
-    verschil kunnen maken bij onze klanten. Professionals die het leuk vinden om in
-    een jong bedrijf kansen te pakken en samen met vakgenoten te werken aan prestaties
-    van formaat. Professionals die communicatief sterk zijn, in Agile projecten willen
-    werken bij toonaangevende klanten, deel willen uitmaken van een leuk team van
-    experts, graag kennis delen en beloond willen worden op hun waarde.
+  title: Do you want to come and work for Smartworkz?
+  content: We are looking for driven Data Enthusiasts (Engineering and Science) who
+     make a difference to our customers. Professionals who like to work in
+     seize opportunities for a young company and work on performance together with colleagues
+     of size. Professionals who are communicative, want to work in Agile projects
+     working at leading clients, wanting to be part of a fun team of
+     experts, like to share knowledge and want to be rewarded for their value.
   video_link: https://www.youtube.com/watch?v=IdV4n4hgIRY
   button:
     enable: true
-    label: Meer weten?
+    label: Want to know more?
     link: career
 event:
   enable: true
