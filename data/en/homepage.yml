@@ -3,9 +3,10 @@ slider:
   enable: true
   bg_image: images/banner/banner-1.jpg
   slider_item:
-  - title: Specialisme voor uw data maatwerk
-    content: Data is de nieuwe manier van sturen. Hier heeft men nieuwe specialisme
-      voor nodig....
+  - title: Your Cloud Specialist
+    content: Data has become the most important differentiator for companies. 
+    You need experts for this. We have those data engineers who understand how to make data technically accessible 
+    and the data scientists who will extract the right information from your data...
     animation_in: ''
     animation_out: ''
     button:
@@ -18,48 +19,48 @@ banner_feature:
   feature_item:
   - name: Quick wins
     icon: ti-book
-    content: Wij hebben quickwins voor typische problemen in de data wereld ontwikkeld.
-      Herken je een uitdaging? Dan kunnen wij het voor jou oplossen met een concreet
-      en afgebakken resultaat binnen circa 2 weken.
+    content: We have developed Quick Wins for typical problems in the data world.
+       Do you recognize a challenge? Then we can solve it for you with a concrete
+       and baked result within approximately 2 weeks.
     button:
       enable: true
-      label: meer info
+      label: More info
       link: "/solutions#data-oplossingen"
-  - name: Data workshops en Trainingen
+  - name: Workshops and Training
     icon: ti-blackboard
-    content: Van de eerste stappen in Python tot het maken van je eerste deep learning
-      projecten. Met onze cursus nemen we je medewerkers mee in de nieuwe en spannende
-      wereld van Data Science en Machine Learning.
+    content: From the first steps in Python to creating your first deep learning
+       projects. With our course we take your employees into the new and exciting
+       world of Data Science and Machine Learning.
     button:
       enable: true
-      label: meer info
+      label: More info
       link: "/solutions#data-workshop"
   - name: Data consultancy
     icon: ti-agenda
-    content: Of het nu gaat om lange projecten of korte opdrachten. Met elke consultant
-      krijg jij de kennis van heel Dataworkz tot jouw beschikking om state of the
-      art data platformen of machine learning applicaties te ontwikkelen.
+    content: Whether it concerns long projects or short assignments. With any consultant
+       do you get the knowledge of the entire Dataworkz at your disposal to state of the
+       art data platforms or machine learning applications.
     button:
       enable: true
-      label: meer info
+      label: More info
       link: "/solutions#data-consulting"
   - name: Partnership
     icon: ti-face-smile
     button:
       enable: false
-    content: 'We vinden een goede samenwerking met onze partnerships heel belangrijk.
-      Niet alleen met klanten, maar ook met de community en toonaangevende bedrijven.
-      Als Microsoft Silver Partner hebben we bijzonder veel ervaring op het gebied
-      van Azure gebaseerde data platformen en ML solutions. En omdat we ook vinden
-      dat enterprise AI platformen van code moeten houden, kunnen we als Dataiku partner
-      snel en betrouwbaar Data Science en ML flows op productie realiseren. '
+    content: We consider good cooperation with our partnerships very important.
+       Not only with customers, but also with the community and leading companies.
+       As a Microsoft Silver Partner we have a lot of experience in the field
+       of Azure-based data platforms and ML solutions. And because we also find
+       that enterprise AI platforms should love code, we can as a Dataiku partner
+       quickly and reliably realize Data Science and ML flows on production.
 about:
   enable: true
-  title: Over Smartworkz
+  title: About Smartworkz
   image: images/about/about-us.jpg
-  content: Het begon allemaal in de nazomer van 2021. Nadat we bij een paar goede
-    klanten hadden gezeten dachten we dat de markt wel klaar was voor de volgende
-    stap.....
+  content: It all started in the late summer of 2022. After watching some good
+     customers we thought the market was ready for the next one
+     step...
   button:
     enable: true
     label: Meer zien van Smartworkz?
