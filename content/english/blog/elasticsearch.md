@@ -1,10 +1,10 @@
 +++
 author = "David Bros"
 bg_image = ""
-categories = []
+categories = ["Elasticsearch"]
 date = 2022-11-04T23:00:00Z
 description = ""
-image = ""
+image = "/images/elasticsearch.png"
 tags = []
 title = "Elasticsearch"
 type = "post"
@@ -241,8 +241,3 @@ You are now the proud owner of a free ElasticSearch Node!
 
 
 Follow me for part 2, where we'll set up Logstash in 5 minutes!
-
-
-
-
-
