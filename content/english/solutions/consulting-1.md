@@ -6,4 +6,3 @@ title = "Consulting 1"
 weight = 1
 
 +++
-![](/images/mlops.png)

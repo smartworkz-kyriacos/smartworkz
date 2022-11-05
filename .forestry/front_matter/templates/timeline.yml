@@ -16,3 +16,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- content/english/timeline/blipz-on-the-radar.md
