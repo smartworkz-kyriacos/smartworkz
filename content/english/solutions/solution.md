@@ -3,6 +3,6 @@ focus = "solutions"
 icon = "ti-cup"
 image = ""
 title = "Solution"
-weight = 2
+weight = 1
 
 +++
