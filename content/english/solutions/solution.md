@@ -1,6 +1,6 @@
 +++
 focus = "solutions"
-icon = "ti-cup"
+icon = "ti-loop"
 image = ""
 title = "Clean code for data scientists"
 weight = 1
