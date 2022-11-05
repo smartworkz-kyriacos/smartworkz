@@ -1,6 +1,6 @@
 +++
 focus = "solutions"
-icon = "ti-cup"
+icon = "ti-trash"
 image = ""
 title = "No more messy data"
 weight = 2
