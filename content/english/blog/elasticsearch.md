@@ -1,7 +1,7 @@
 +++
 author = "David Bros"
 bg_image = ""
-categories = []
+categories = ["Elasticsearch"]
 date = 2022-11-04T23:00:00Z
 description = ""
 image = "/images/elasticsearch.png"
