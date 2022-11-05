@@ -23,4 +23,5 @@ fields:
   label: weight
   description: order
 pages:
+- content/english/solutions/solution-2.md
 - content/english/solutions/solution.md
