@@ -4,3 +4,4 @@ image = ""
 title = "Blipz on the Radar"
 
 +++
+Lora LOra
