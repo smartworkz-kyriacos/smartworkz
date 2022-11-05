@@ -1,8 +1,8 @@
 +++
 focus = "consulting"
-icon = "ti-thumb-up"
+icon = "bird"
 image = ""
-title = "Consulting 1"
+title = "Audit and Second Opinion"
 weight = 1
 
 +++
