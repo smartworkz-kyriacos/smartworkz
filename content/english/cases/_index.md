@@ -1,5 +1,5 @@
 ---
-title: Cases bij Smartworkz
+title: Cases at Smartworkz
 bg_image: "/images/untitled-design-25.png"
 image: images/career/hero.jpg
 description: ''
@@ -9,7 +9,6 @@ menu:
     name: Cases
     weight: 3
     parent: career
-
 ---
 ## What do we actually do at Smartworkz?
 
