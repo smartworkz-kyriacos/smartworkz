@@ -1,6 +1,6 @@
 +++
 focus = "workshop"
-icon = "ti-layout"
+icon = "ti-cup"
 image = ""
 title = "Workshop"
 weight = 3
