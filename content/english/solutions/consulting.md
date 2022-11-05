@@ -6,4 +6,3 @@ title = "Consulting"
 weight = 2
 
 +++
-![](/images/JAMStac.jpg)
