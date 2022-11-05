@@ -1,7 +1,7 @@
 +++
 draft = true
 focus = "solutions"
-icon = ""
+icon = "ti-cup"
 image = ""
 title = "Solution"
 weight = nil
