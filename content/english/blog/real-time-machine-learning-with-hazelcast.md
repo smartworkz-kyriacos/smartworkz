@@ -10,7 +10,6 @@ title = "Real-time ML with Hazelcast"
 type = "post"
 
 +++
-
 ### Introduction
 
 Real-Time Machine Learning is a technique of continuously improving a machine learning model by training it with real-time rich data. Real-time machine learning models can be deployed to production using event-driven architectures in which rich data streams are fed into these models by combining data-at-rest with data-in-motion. However, deploying real-time machine learning models has its challenges: such as complexity, scalability and performance. In this seminar, Fawaz will address those challenges and demonstrate the best practices for real-time machine learning models, written in Python, Java or using remote services, from training to inference and deployment with ultra-low latency at scale and speed, using the Hazelcast platform.
@@ -25,8 +24,8 @@ Before moving forward, we should install the Hazelcast client. Hazelcast clients
 
 ***
 
-To use the Hazelcast client, you need to have a running Hazelcast cluster. You can quickly create a new account in Hazelcast Viridian and create a cluster. After creating the cluster, we need your cluster name, discovery token and SSL password token to connect from this notebook. You can find these tokens from **Connect Client > Advanced Setup** tab in the Hazelcast Viridian dashboard. Also, please download the certificate ZIP file by clicking "Download Keystore file", we will need SSL certificate files to establish a secure connection with the cluster.  
-  
+To use the Hazelcast client, you need to have a running Hazelcast cluster. You can quickly create a new account in Hazelcast Viridian and create a cluster. After creating the cluster, we need your cluster name, discovery token and SSL password token to connect from this notebook. You can find these tokens from **Connect Client > Advanced Setup** tab in the Hazelcast Viridian dashboard. Also, please download the certificate ZIP file by clicking "Download Keystore file", we will need SSL certificate files to establish a secure connection with the cluster.
+
 ![this slowpoke moves](https://media.giphy.com/media/vs7z8uXBd6v9044ZTL/giphy.gif =600x)
 
 ***
@@ -73,7 +72,18 @@ Reminder: If you want to connect to a local cluster in Jupyter Notebook, you sho
 
 ***
 
-    hazelcast.discovery.HazelcastCloudDiscovery._CLOUD_URL_BASE = "api.viridian.hazelcast.com"client = hazelcast.HazelcastClient(    cluster_name=CLUSTER_NAME,    cloud_discovery_token=DISCOVERY_TOKEN,    statistics_enabled=True,    ssl_enabled=True,    ssl_cafile=CA_PATH,    ssl_certfile=CERT_PATH,    ssl_keyfile=KEY_PATH,    ssl_password=SSL_PASSWORD)print("Connection successful. You are connected to your Viridian cluster named %s." % CLUSTER_NAME)
+    hazelcast.discovery.HazelcastCloudDiscovery._CLOUD_URL_BASE = "api.viridian.hazelcast.com"
+    client = hazelcast.HazelcastClient(
+    cluster_name=CLUSTER_NAME,
+    cloud_discovery_token=DISCOVERY_TOKEN,
+    statistics_enabled=True,
+    ssl_enabled=True,
+    ssl_cafile=CA_PATH,
+    ssl_certfile=CERT_PATH,
+    ssl_keyfile=KEY_PATH,
+    ssl_password=SSL_PASSWORD
+    )
+    print("Connection successful. You are connected to your Viridian cluster named %s." % CLUSTER_NAME)
 
 ***
 
@@ -81,10 +91,10 @@ Reminder: If you want to connect to a local cluster in Jupyter Notebook, you sho
 
 ***
 
-Here is the critical part. We will insert the data from TMDB API into our Hazelcast Cluster. You can do this in two ways. Firstly, you can get a map by calling `hazelcast.get_map()` method and use `put()`, `remove()` and other methods of the returned distributed map object. Secondly, you can create a mapping for your data schema using SQL syntax and it directly creates both a map and mapping. We preferred the second way to show SQL functions in this notebook.  
-  
-In the mapping query, you should specify the fields of the data schema. It can be both primitive types or complex types. Using this mapping, we will execute SQL queries on our maps. You can select any column you want to map; not all fields are mandatory. For more information about mapping, you can visit [https://docs.hazelcast.com/hazelcast/5.1/sql/mapping-to-maps](https://docs.hazelcast.com/hazelcast/5.1/sql/mapping-to-maps "https://docs.hazelcast.com/hazelcast/5.1/sql/mapping-to-maps")  
-  
+Here is the critical part. We will insert the data from TMDB API into our Hazelcast Cluster. You can do this in two ways. Firstly, you can get a map by calling `hazelcast.get_map()` method and use `put()`, `remove()` and other methods of the returned distributed map object. Secondly, you can create a mapping for your data schema using SQL syntax and it directly creates both a map and mapping. We preferred the second way to show SQL functions in this notebook.
+
+In the mapping query, you should specify the fields of the data schema. It can be both primitive types or complex types. Using this mapping, we will execute SQL queries on our maps. You can select any column you want to map; not all fields are mandatory. For more information about mapping, you can visit [https://docs.hazelcast.com/hazelcast/5.1/sql/mapping-to-maps](https://docs.hazelcast.com/hazelcast/5.1/sql/mapping-to-maps "https://docs.hazelcast.com/hazelcast/5.1/sql/mapping-to-maps")
+
 Now, execute the following cells to create mappings to execute SQL queries against your data.
 
 ***
@@ -196,7 +206,7 @@ You can try the same thing with movie descriptions to find specific movie inform
 
 ***
 
-# Conclusion
+### Conclusion
 
 ***
 
