@@ -6,7 +6,7 @@ date = 2022-11-05T23:00:00Z
 description = ""
 image = "/images/hazelcast.jpg"
 tags = []
-title = "Real-time Machine Learning with Hazelcast"
+title = "Real-time ML with Hazelcast"
 type = "post"
 
 +++
