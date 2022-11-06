@@ -2,11 +2,10 @@
 title: Hugo on GitHub Pages with Forestry and Netlify
 date: 2022-10-26 22:00:00 +0000
 image: "/images/JAMStack.png"
-
 ---
 +++
 author = "Kyrie"
-bg_image = ""
+bg_image = "images/banner/banner-1.jpg"
 categories = ["Netlify", "Forestry", "GitHub", "Hugo"]
 date = 2022-10-25T22:00:00Z
 description = "Set up Generator, Versioning, CMS, and CDN "
@@ -16,6 +15,7 @@ title = "Hugo with GitHub Pages, Forestry, and Netlify"
 type = "post"
 
 +++
+
 # Hugo on GitHub Pages with Forestry and Netlify
 
 ![1665592517375](/images/1665592517375.png)
@@ -156,28 +156,28 @@ Git submodules are  nested repositories. By making the `.github.io` repository a
 ### _Automate deployment by creating a bash file `deploy.sh` file_
 
     #!/bin/sh
-    
+
     # If a command fails then the deploy stops
     set -e
-    
+
     printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
-    
+
     # Build the project.
-    hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
-    
+    hugo # if using a theme, replace with`hugo -t <YOURTHEME>`
+
     # Go To Public folder
     cd public
-    
+
     # Add changes to git.
     git add .
-    
+
     # Commit changes.
     msg="rebuilding site $(date)"
     if [ -n "$*" ]; then
     	msg="$*"
     fi
     git commit -m "$msg"
-    
+
     # Push source and build repos.
     git push origin master
 

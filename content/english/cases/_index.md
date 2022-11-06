@@ -1,6 +1,6 @@
 ---
 title: Cases at Smartworkz
-bg_image: "/images/untitled-design-25.png"
+bg_image: "images/banner/banner-1.jpg"
 image: images/career/hero.jpg
 description: ''
 url: "/cases"

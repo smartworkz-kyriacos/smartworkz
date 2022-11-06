@@ -2,11 +2,10 @@
 title: MLOps with CI/CD
 date: 2022-10-26 22:00:00 +0000
 image: "/images/sm-overview.png"
-
 ---
 +++
 author = "Kyrie"
-bg_image = ""
+bg_image = "images/banner/banner-1.jpg"
 categories = ["GitHub", "Git", "MLOps", "Data Science", "Data Engineering"]
 date = 2022-10-25T22:00:00Z
 description = "Train, deploy, and host your models on AWS."
@@ -16,6 +15,7 @@ title = "MLOps CI/CD"
 type = "post"
 
 +++
+
 # MLOps with CI/CD
 
 **A hands-on lab to train, deploy, and host your models on AWS.**
@@ -182,8 +182,6 @@ Now that you created CI/CD pipeline, it's time to start experimenting with it.
 * _Select your created pipeline_
 
 ![](/images/pipeline-green.png)
-
-* 
 
 ## The steps include:
 

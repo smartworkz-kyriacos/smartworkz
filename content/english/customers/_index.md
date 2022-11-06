@@ -2,13 +2,12 @@
 title: "Klanten en partners"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/banner/banner-1.jpg"
 # image
 image: "images/about/about-page.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 ---
-
 ## Klanten en partners
 
 **_Our campuses are living laboratories for sustainability._**

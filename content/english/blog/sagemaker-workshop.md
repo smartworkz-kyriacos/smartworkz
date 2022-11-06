@@ -2,11 +2,10 @@
 title: Amazon SageMaker Workshop
 date: 2022-10-27T11:00:00.000+00:00
 image: "/images/sagemaker.png"
-
 ---
 +++
 author = "Kyrie"
-bg_image = ""
+bg_image = "images/banner/banner-1.jpg"
 categories = ["SageMaker", "Data Analytics", "Data Science", "Data Engineering"]
 date = 2022-10-25T22:00:00Z
 description = "Hands on Workshop and Labs with Sagemaker"
@@ -16,6 +15,7 @@ title = "SageMaker Workshop"
 type = "post"
 
 +++
+
 ## Amazon SageMaker Workshop
 
 Amazon SageMaker is a fully managed service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. This workshop will guide you through using the numerous features of SageMaker.

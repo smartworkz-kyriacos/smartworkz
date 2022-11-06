@@ -1,6 +1,6 @@
 +++
 author = "David Bros"
-bg_image = ""
+bg_image = "images/banner/banner-1.jpg"
 categories = ["Logstash"]
 date = 2022-11-04T23:00:00Z
 description = ""
@@ -16,7 +16,7 @@ In this article we will learn what Logstash is and how it works, we will also se
 
 For this article, I have set up a [GitHub Repository](https://github.com/TheHunter896/logstash-in-five-minutes) where you can find all the files needed to complete some of the steps as well as the images within this article.
 
-***
+---
 
 **What is Logstash**
 
@@ -42,7 +42,7 @@ However, the true power of Logstash comes in its data manipulation functions: Tr
 
 We will be setting up a free Logstash processor version 8. x
 
-***
+---
 
 **Step 1, Docker**
 
@@ -64,7 +64,7 @@ Connect to the container:
 
 `docker exec -it logstash-centos7 /bin/bash`
 
-***
+---
 
 **Step 2, Machine Setup**
 
@@ -76,7 +76,7 @@ Install a text editor (any):
 
 `yum install vim -y`
 
-***
+---
 
 **Step 3, Install Logstash**
 
@@ -122,7 +122,7 @@ Now stop logstash, we'll restart it later down the line
 
 `systemctl stop logstash`
 
-***
+---
 
 **Step 4, set up an elastic node**
 
@@ -178,7 +178,7 @@ Now set your replicas to 0, do this step for both **test_pipeline** and **test_p
 
 `curl -X PUT -u elastic http://localhost:9200/**test_pipeline**/_settings -H 'Content-Type: application/json' --data '{"index": {"number_of_replicas": 0}}'`
 
-***
+---
 
 **Step 5, set up a logstash pipeline**
 
