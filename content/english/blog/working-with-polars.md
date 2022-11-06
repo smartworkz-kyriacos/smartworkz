@@ -71,7 +71,7 @@ Before moving forward we have to take care of the null values if present. We can
 
     data.null_count()
 
-![null values](images/63342p10.png =884x98)
+![](/images/63342p10.png)
 
 Therefore around 13.5k entries are missing values for the price column. We can either drop these rows since it’s less than 10% of the whole dataset, but we can put some other value like the _mean_:
 
@@ -89,7 +89,7 @@ Our goal is to compare how price_s_ and points vary from country to country.
     print(f'Maximum price: {data["price"].max()}')
     print(f'Minimum price: {data["price"].min()}')
 
-![median price polars](images/19918p11.png =527x70)
+![](/images/19918p11.png)
 
     # Analyses of wine points
     print(f'Median points: {data["points"].median()}')
@@ -97,7 +97,7 @@ Our goal is to compare how price_s_ and points vary from country to country.
     print(f'Maximum points: {data["points"].max()}')
     print(f'Minimum points: {data["points"].min()}')
 
-![](images/69478p12.png)
+![](/images/69478p12.png)
 
 Thus we can see that a wine can be as cheap as 4 dollars but still have great taste. Now let’s see which countries sell wine.
 
@@ -109,7 +109,7 @@ Scrolling through the dataset, we can see that there are 2 strange values in the
 
     print(data[(data['country'] == '') | (data['country'] == 'US-France')])
 
-![print data](images/53330p13.png =1015x692)
+![](/images/53330p13.png)
 
 Since there are just 6 entries with these weird values, so I think it’s safe if we dropped the rows.
 
@@ -120,12 +120,12 @@ Now we look into countries which have the best and the costliest wines.
     #wines with high points
     print(data.groupby('country').select('points').mean().sort(by_column='points_mean', reverse=True))
 
-![wines with high points](images/38521p14.png =646x446)
+![](/images/38521p14.png)
 
     #Wines which are costly
     print(data.groupby('country').select('price').max().sort(by_column='price_max', reverse=True))
 
-![costly wines pypolars](images/35986p15.png =587x460)
+![costly wines pypolars](/images/35986p15.png)
 
 Thus we can see that England has one of the best wines, but the costliest one is from France.
 
@@ -143,7 +143,7 @@ It is always nice to have some visualizations to have a better understanding of 
     plt.ylabel('Average points')
     plt.show()
 
-![plotting with polars](images/16050p16.png =981x360)
+![](/images/16050p16.png)
 
 ## Endnotes
 
