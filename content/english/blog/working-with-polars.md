@@ -18,8 +18,6 @@ In this article, we look at an alternative for Pandas that is almost 3 times fas
 
 Polars is a DataFrame library written in the [Rust](https://www.rust-lang.org/) programming language and uses [Apache Arrow](https://arrow.apache.org/) as a foundation. Polars utilizes parallelization of data computing on multiple cores of the device, and this is what gives Polars its speed. The goal of Polars is to give a much more fluid and swift experience than pandas, and personally, I think it does a pretty decent job. [H2Oai’s DB-benchmark](https://h2oai.github.io/db-benchmark/) shows that it is the fastest DataFrame library.
 
-![polars vs pandas execution time](https://editor.analyticsvidhya.com/uploads/75971p6.png "polars vs pandas" =1310x448) [_Inner Join Polars vs. Pandas execution time_]()
-
 Here is an excerpt taken from the [Polars book](https://pola-rs.github.io/polars-book/user-guide/index.html):
 
 ![](https://editor.analyticsvidhya.com/uploads/63032p3.png)
