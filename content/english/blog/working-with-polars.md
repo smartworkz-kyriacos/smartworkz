@@ -61,7 +61,7 @@ Let us start with a basic Data Analysis.
 
     data.head()
 
-![](images/75570p9.png)
+![](/images/75570p9.png)
 
 As you can see this is a huge dataset. with over 11 columns and 150k+ entries, we have a lot of data to analyze. The columns I am interested in are Country, points, and price. Let us see what we can find.
 
