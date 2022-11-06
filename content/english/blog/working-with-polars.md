@@ -20,7 +20,7 @@ Polars is a DataFrame library written in the [Rust](https://www.rust-lang.org/) 
 
 Here is an excerpt taken from the [Polars book](https://pola-rs.github.io/polars-book/user-guide/index.html):
 
-![](/images/63032p3.png)
+![](/images/63342p10.png)
 
 In this article, we present an introduction to the Polars library covering most of the basic stuff. For we will use the [Wine Reviews dataset](https://www.kaggle.com/zynicide/wine-reviews) which you can find on Kaggle.
 
@@ -53,15 +53,15 @@ Let us start with a basic Data Analysis.
     
     data.columns
 
-![columns ](images/96375p7.png =406x192)
+![](/images/96375p7.png)
 
     data.dtypes
 
-![dtypes](images/29576p8.png =497x196)
+![](/images/29576p8.png)
 
     data.head()
 
-![data.head pplars](images/75570p9.png =1078x573)
+![](images/75570p9.png)
 
 As you can see this is a huge dataset. with over 11 columns and 150k+ entries, we have a lot of data to analyze. The columns I am interested in are Country, points, and price. Let us see what we can find.
 
