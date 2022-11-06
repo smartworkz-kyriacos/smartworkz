@@ -16,4 +16,4 @@ weight = 2
 * fully program one data pipeline with automated tests;
 * and provide you with all the necessary knowledge in workshops, so that you can (test) automate the rest of your data pipelines.
 
-Our approach ensures that companies prevent data pollution at the source, namely in the data pipeline.
+Our approach ensures that companies prevent data pollution at the source, namely in the data pipeline. 
