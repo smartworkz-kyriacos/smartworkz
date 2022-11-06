@@ -26,7 +26,7 @@ Before moving forward, we should install the Hazelcast client. Hazelcast clients
 
 To use the Hazelcast client, you need to have a running Hazelcast cluster. You can quickly create a new account in Hazelcast Viridian and create a cluster. After creating the cluster, we need your cluster name, discovery token and SSL password token to connect from this notebook. You can find these tokens from **Connect Client > Advanced Setup** tab in the Hazelcast Viridian dashboard. Also, please download the certificate ZIP file by clicking "Download Keystore file", we will need SSL certificate files to establish a secure connection with the cluster.
 
-![this slowpoke moves](https://media.giphy.com/media/vs7z8uXBd6v9044ZTL/giphy.gif =600x)
+![](/images/giphy.gif)
 
 ***
 
@@ -34,7 +34,28 @@ To use the Hazelcast client, you need to have a running Hazelcast cluster. You c
 
 Run this cell from the top-left corner and paste your Viridian tokens to textboxes that will show up. It will ask for your cluster name, discovery token and Keystore password. Also, a file upload button will be shown up for you to upload the ZIP file that contains your certificates.
 
-Show code
+\#@title Hazelcast Viridian Authentication Tokens #@markdown Run this cell from the top-left corner and paste your Viridian tokens to textboxes that will show up. It will ask for your cluster name, discovery token and Keystore password. Also, a file upload button will be shown up for you to upload the ZIP file that contains your certificates.
+
+    from google.colab import files
+    from getpass import getpass
+    import random
+    import string
+    import zipfile
+    import textwrap
+
+    CLUSTER_NAME = getpass('Your cluster name: ')
+    DISCOVERY_TOKEN = getpass('Your discovery token: ')
+    SSL_PASSWORD = getpass('Your keystore/trustore password token: ')
+
+    uploaded = files.upload()
+    path = "/content/" + list(uploaded.keys())[0]
+    destination = "/content/hz-keys-"+''.join(random.choice(string.ascii_lowercase) for i in range(10))
+
+    !unzip {path} -d {destination}
+
+    CA_PATH  =destination+"/ca.pem"
+    CERT_PATH=destination+"/cert.pem"
+    KEY_PATH =destination+"/key.pem"
 
 ***
 
@@ -134,7 +155,7 @@ Now, execute the following cells to create mappings to execute SQL queries again
 
 You can control your mappings by opening Management Center for your cluster. Select your cluster from your Viridian dashboard and then click on "Management Center". It will open the Management Center in a new tab, you can inspect your cluster properties from this page. Click on "SQL Browser" at the top-right of the page to open the SQL prompt.
 
-![this slowpoke moves](https://media.giphy.com/media/3Htnl3mItmpvcdblDr/giphy.gif =600x)
+![](/images/giphy(1).gif)
 
 ***
 
@@ -169,7 +190,7 @@ After the loading data operations, there should be approximately
 
 You can control your Map size and content from the Management Center.
 
-![this slowpoke moves](https://media.giphy.com/media/TuomuvI4fPUCRzRjkO/giphy.gif =600x)
+![](/image/giphy(2).gif)
 
 ***
 
