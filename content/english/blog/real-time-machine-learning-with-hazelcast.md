@@ -141,15 +141,55 @@ Now, execute the following cells to create mappings to execute SQL queries again
 
 ***
 
-    query = """    CREATE OR REPLACE MAPPING casts (        __key INT,        movie_id INT,        actor_id INT    )    TYPE IMap OPTIONS(        'keyFormat' = 'int',        'valueFormat' = 'json-flat'    )"""client.sql.execute(query).result()print("Mapping for 'cast' has been created.")
+    query = """    
+    	CREATE OR REPLACE MAPPING casts (
+        	__key INT,        
+            movie_id INT,        
+            actor_id INT    
+     	)    
+     	TYPE IMap OPTIONS(
+          'keyFormat' = 'int',        
+        	'valueFormat' = 'json-flat'    
+     	)
+     """
+     client.sql.execute(query).result()
+     print("Mapping for 'cast' has been created.")
 
 ***
 
-    query = """    CREATE OR REPLACE MAPPING actors (        __key INT,        gender INT,        id INT,        name VARCHAR,        popularity DOUBLE    )    TYPE IMap OPTIONS(        'keyFormat' = 'int',        'valueFormat' = 'json-flat'    )"""client.sql.execute(query).result()print("Mapping for 'actors' has been created.")
+    query = """    
+    	CREATE OR REPLACE MAPPING actors (
+        	__key INT,        
+            gender INT,        
+            id INT,        
+            name VARCHAR,        
+            popularity DOUBLE    
+    	)   
+        TYPE IMap OPTIONS(
+        	'keyFormat' = 'int',        
+            'valueFormat' = 'json-flat'    
+        )
+        """
+        client.sql.execute(query).result()
+        print("Mapping for 'actors' has been created.")
 
 ***
 
-    query = """    CREATE OR REPLACE MAPPING reviews (        __key INT,        movie_id INT,        author VARCHAR,        rating DOUBLE,        content VARCHAR    )    TYPE IMap OPTIONS(        'keyFormat' = 'int',        'valueFormat' = 'json-flat'    )"""client.sql.execute(query).result()print("Mapping for 'reviews' has been created.")
+    query = """    
+    	CREATE OR REPLACE MAPPING reviews (
+        	__key INT,        
+            movie_id INT,        
+            author VARCHAR,        
+            rating DOUBLE,        
+            content VARCHAR    
+         )    
+         TYPE IMap OPTIONS(
+         	'keyFormat' = 'int',        
+            	'valueFormat' = 'json-flat'    
+         )
+         """
+         client.sql.execute(query).result()
+         print("Mapping for 'reviews' has been created.")
 
 ***
 
