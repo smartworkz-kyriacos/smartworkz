@@ -99,7 +99,24 @@ Now, execute the following cells to create mappings to execute SQL queries again
 
 ***
 
-    query = """    CREATE OR REPLACE MAPPING movies (        __key INT,         id INT,        title VARCHAR,        description VARCHAR,        popularity DOUBLE,        release_date VARCHAR,        vote_average DOUBLE,        vote_count INT    )    TYPE IMap OPTIONS(        'keyFormat' = 'int',        'valueFormat' = 'json-flat'    )"""client.sql.execute(query).result()print("Mapping for 'movies' has been created.")
+    query = """    
+    	CREATE OR REPLACE MAPPING movies (        
+        	__key INT,         
+            id INT,        
+            title VARCHAR,        
+            description VARCHAR,        
+            popularity DOUBLE,        
+            release_date VARCHAR,        
+            vote_average DOUBLE,        
+            vote_count INT    
+        )    
+        TYPE IMap OPTIONS(        
+            'keyFormat' = 'int',        
+             'valueFormat' = 'json-flat'    
+        )
+        """
+    client.sql.execute(query).result()
+    print("Mapping for 'movies' has been created.")
 
 ***
 
