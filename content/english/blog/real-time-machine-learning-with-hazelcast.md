@@ -42,17 +42,17 @@ Run this cell from the top-left corner and paste your Viridian tokens to textbox
     import string
     import zipfile
     import textwrap
-
+    
     CLUSTER_NAME = getpass('Your cluster name: ')
     DISCOVERY_TOKEN = getpass('Your discovery token: ')
     SSL_PASSWORD = getpass('Your keystore/trustore password token: ')
-
+    
     uploaded = files.upload()
     path = "/content/" + list(uploaded.keys())[0]
     destination = "/content/hz-keys-"+''.join(random.choice(string.ascii_lowercase) for i in range(10))
-
+    
     !unzip {path} -d {destination}
-
+    
     CA_PATH  =destination+"/ca.pem"
     CERT_PATH=destination+"/cert.pem"
     KEY_PATH =destination+"/key.pem"
@@ -190,7 +190,7 @@ After the loading data operations, there should be approximately
 
 You can control your Map size and content from the Management Center.
 
-![](/image/giphy(2).gif)
+![](/images/giphy(2).gif)
 
 ***
 
