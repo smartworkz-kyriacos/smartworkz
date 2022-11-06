@@ -209,15 +209,74 @@ Now, we are ready to pull our data from the TMDB API and load them to our Hazelc
 
 ***
 
-    key = 1for i in range(1,25):    data = requests.get("https://api.themoviedb.org/3/movie/top_rated?api_key=%s&language=en-US&page=%d" % (API_KEY, i)).json()    for m in data['results']:      query = """SINK INTO movies(__key, id, title, description, popularity, release_date, vote_average, vote_count)                 VALUES(?, ?, ?, ?, ?, ?, ?, ?)"""       client.sql.execute(query,                         key,                          m["id"],                          m["original_title"].replace("'","''"),                         m["overview"].replace("'","''"),                          m["popularity"],                          m["release_date"],                          m["vote_average"],                          m["vote_count"]).result()      key += 1print("Movie data has been loaded.")
+    key = 1
+    for i in range(1,25):
+        data = requests.get("https://api.themoviedb.org/3/movie/top_rated?api_key=%s&language=en-US&page=%d" % (API_KEY, i)).json()
+        for m in data['results']:
+          query = """SINK INTO movies(__key, id, title, description, popularity, release_date, vote_average, vote_count)
+                     VALUES(?, ?, ?, ?, ?, ?, ?, ?)""" 
+          client.sql.execute(query,
+                             key, 
+                             m["id"], 
+                             m["original_title"].replace("'","''"),
+                             m["overview"].replace("'","''"), 
+                             m["popularity"], 
+                             m["release_date"], 
+                             m["vote_average"], 
+                             m["vote_count"]).result()
+          key += 1
+    print("Movie data has been loaded.")
 
 ***
 
-    key = 0; cast_key = 0;for i in range(1,50):    data = requests.get("https://api.themoviedb.org/3/person/popular?api_key=%s&language=en-US&page=%d" % (API_KEY,i)).json()    for a in data['results']:        query = """SINK INTO actors(__key, gender, id, name, popularity)                   VALUES(?, ?, ?, ?, ?)"""        client.sql.execute(query,                           key,                            a["gender"],                            a["id"],                           a["name"],                           a["popularity"]).result()        key += 1        for c in a['known_for']:            if c['media_type'] == 'movie':                query = """SINK INTO casts(__key, movie_id, actor_id)                          VALUES(?, ?, ?)"""                client.sql.execute(query,                                   cast_key,                                   c['id'],                                   a['id']).result()                cast_key += 1print("Actor and Cast data has been loaded.")
+    key = 0; cast_key = 0;for i in range(1,50):    data = requests.get("https://api.themoviedb.org/3/person/popular?api_key=%s&language=en-US&page=%d" % (API_KEY,i)).json()    for a in data['results']:        query = """SINK INTO actors(__key, gender, id, name, popularity)                   VALUES(?, ?, ?, ?, ?)"""        client.sql.execute(query,                           key,                            a["gender"],                            a["id"],                           a["name"],                           a["popularity"]).result()        key += 1        for c in a['known_for']:            if c['media_type'] == 'movie':                query = """SINK INTO casts(__key, movie_id, actor_id)                          VALUES(?, ?, ?)"""                client.sql.execute(query,                                   cast_key,                                   c['id'],                                   a['id']).result()                cakey = 0; cast_key = 0;
+    for i in range(1,50):
+        data = requests.get("https://api.themoviedb.org/3/person/popular?api_key=%s&language=en-US&page=%d" % (API_KEY,i)).json()
+        for a in data['results']:
+    
+            query = """SINK INTO actors(__key, gender, id, name, popularity)
+                       VALUES(?, ?, ?, ?, ?)"""
+            client.sql.execute(query,
+                               key, 
+                               a["gender"], 
+                               a["id"],
+                               a["name"],
+                               a["popularity"]).result()
+            key += 1
+            for c in a['known_for']:
+                if c['media_type'] == 'movie':
+                    query = """SINK INTO casts(__key, movie_id, actor_id)
+                              VALUES(?, ?, ?)"""
+                    client.sql.execute(query,
+                                       cast_key,
+                                       c['id'],
+                                       a['id']).result()
+                    cast_key += 1
+    print("Actor and Cast data has been loaded.")st_key += 1print("Actor and Cast data has been loaded.")
 
 ***
 
-    key = 0with client.sql.execute("SELECT id FROM movies WHERE __key< %d "% 200).result() as result:    for row in result:      id = row['id']      url = "https://api.themoviedb.org/3/movie/%d/reviews?api_key=%s&language=en-US&page=1" % (id, API_KEY)      data = requests.get(url).json()      for r in data['results']:        query = """SINK INTO reviews(__key, movie_id, author, rating, content)                   VALUES(?, ?, ?, ?, ?)"""        client.sql.execute(query,                          key,                          id,                           r['author_details']['username'],                           r['author_details']['rating'],                           r['content'].replace("'","''")).result()        key += 1print("Review data has been loaded.")
+    key = 0
+    with client.sql.execute("SELECT id FROM movies WHERE __key< %d "% 200).result() as result:
+        for row in result:
+          id = row['id']
+    
+          url = "https://api.themoviedb.org/3/movie/%d/reviews?api_key=%s&language=en-US&page=1" % (id, API_KEY)
+          data = requests.get(url).json()
+    
+          for r in data['results']:
+    
+            query = """SINK INTO reviews(__key, movie_id, author, rating, content)
+                       VALUES(?, ?, ?, ?, ?)"""
+            client.sql.execute(query,
+                              key,
+                              id, 
+                              r['author_details']['username'], 
+                              r['author_details']['rating'], 
+                              r['content'].replace("'","''")).result()
+            key += 1
+    
+    print("Review data has been loaded.")
 
 ***
 
@@ -246,17 +305,40 @@ In this first query, we will use essential features of SQL, like the `WHERE` cla
 
 ***
 
-    query = """    SELECT m.title AS name, m.vote_average AS average, m.vote_count AS cont    FROM movies m    WHERE m.vote_count > 20000 AND m.vote_average > 7 AND m.release_date < '2015-01-01'    ORDER BY m.popularity DESC"""result = client.sql.execute(query).result()for row in result:    print('%s has vote average is %.2f with %s voting.' % (row['name'], row['average'], row['cont']) )
+    query = """
+        SELECT m.title AS name, m.vote_average AS average, m.vote_count AS cont
+        FROM movies m
+        WHERE m.vote_count > 20000 AND m.vote_average > 7 AND m.release_date < '2015-01-01'
+        ORDER BY m.popularity DESC
+    """
+    
+    result = client.sql.execute(query).result()
+    
+    for row in result:
+        print('%s has vote average is %.2f with %s voting.' % (row['name'], row['average'], row['cont']) )
 
 ***
 
-## Here are all-star cast movies for you
+### Here are all-star cast movies for you
 
 Sometimes you may want to watch a movie with many star actors! Easy to find those movies among thousands of entries! You need to `JOIN` your two maps on `movie id` and filter those with a total actor popularity point larger than 500. You can use `SUM()` the function to find the total value of a column for a group, in this case, for every movie since we are grouping according to `title` of movie. You don't have to deal with any loops, control statements, or additional storage!
 
 ***
 
-    query = """    SELECT m.title AS title, m.release_date AS r_date, SUM(a.popularity) AS point    FROM movies m    JOIN casts c ON m.id = c.movie_id    JOIN actors a ON c.actor_id = a.id    GROUP BY m.title, m.release_date    HAVING SUM(a.popularity) > 150    ORDER BY point DESC"""result = client.sql.execute(query).result()for row in result:        print("{0:30} {1:30} Total Popularity Point: {2}".format(row['title'], row['r_date'], row['point']))
+    query = """
+        SELECT m.title AS title, m.release_date AS r_date, SUM(a.popularity) AS point
+        FROM movies m
+        JOIN casts c ON m.id = c.movie_id
+        JOIN actors a ON c.actor_id = a.id
+        GROUP BY m.title, m.release_date
+        HAVING SUM(a.popularity) > 150
+        ORDER BY point DESC
+    """
+    
+    result = client.sql.execute(query).result()
+    
+    for row in result:
+            print("{0:30} {1:30} Total Popularity Point: {2}".format(row['title'], row['r_date'], row['point']))
 
 ***
 
@@ -268,7 +350,20 @@ Don't give up, we are there for you! Using the Hazelcast SQL support, you can us
 
 ***
 
-    query = """    SELECT m.title as name, AVG(r.rating) as rating    FROM movies m    JOIN reviews r ON r.movie_id = m.id    GROUP BY m.title    HAVING AVG(r.rating) > 8 AND COUNT(*) > 5    ORDER BY rating DESC    LIMIT 10"""result = client.sql.execute(query).result()for row in result:        print("Movie Name: %s - Average Rating: %.2f" % (row['name'], row.get_object('rating')))
+    query = """
+        SELECT m.title as name, AVG(r.rating) as rating
+        FROM movies m
+        JOIN reviews r ON r.movie_id = m.id
+        GROUP BY m.title
+        HAVING AVG(r.rating) > 8 AND COUNT(*) > 5
+        ORDER BY rating DESC
+        LIMIT 10
+    """
+    
+    result = client.sql.execute(query).result()
+    
+    for row in result:
+            print("Movie Name: %s - Average Rating: %.2f" % (row['name'], row.get_object('rating')))
 
 ***
 
@@ -280,7 +375,25 @@ You can try the same thing with movie descriptions to find specific movie inform
 
 ***
 
-    query = """    SELECT m.title, r.author, r.rating, r.content    FROM movies m, reviews r    WHERE r.movie_id=m.id AND           r.content LIKE '%recommend%' AND           r.rating IS NOT NULL    ORDER BY RAND()    LIMIT 1"""result = client.sql.execute(query).result()for row in result:        print(("Movie Name: %s") % row.get_object('title'))        print("-"*75)        print("Review by %s rating is %s/10" % (row.get_object('author'), row.get_object('rating')))        print("-"*75)        print(textwrap.fill(row.get_object('content'), 75))
+    query = """
+        SELECT m.title, r.author, r.rating, r.content
+        FROM movies m, reviews r
+        WHERE r.movie_id=m.id AND 
+              r.content LIKE '%recommend%' AND 
+              r.rating IS NOT NULL
+        ORDER BY RAND()
+        LIMIT 1
+    """
+    
+    result = client.sql.execute(query).result()
+    
+    for row in result:
+            print(("Movie Name: %s") % row.get_object('title'))
+            print("-"*75)
+    
+            print("Review by %s rating is %s/10" % (row.get_object('author'), row.get_object('rating')))
+            print("-"*75)
+            print(textwrap.fill(row.get_object('content'), 75))
 
 ***
 
