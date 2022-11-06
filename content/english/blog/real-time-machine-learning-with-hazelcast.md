@@ -1,12 +1,12 @@
 +++
 author = ""
 bg_image = "/images/banner/banner-1.jpg"
-categories = []
+categories = ["Redis", "Hazelcast"]
 date = 2022-11-05T23:00:00Z
 description = ""
 image = "/images/hazelcast.jpg"
 tags = []
-title = "REAL-TIME MACHINE LEARNING WITH HAZELCAST"
+title = "Real-time Machine Learning with Hazelcast"
 type = "post"
 
 +++
