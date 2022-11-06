@@ -4,7 +4,6 @@ bg_image = ""
 categories = ["Logstash"]
 date = 2022-11-04T23:00:00Z
 description = ""
-draft = true
 image = "/images/elasticsearch.jpg"
 tags = []
 title = "Logstash"
