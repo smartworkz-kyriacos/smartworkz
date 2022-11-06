@@ -10,7 +10,7 @@ title = "Logstash"
 type = "post"
 
 +++
-This is a continuation of the [previous](https://dev.to/thehunter896/elk-elasticsearch-in-5-minutes-5bfn) article Elasticsearch in 5 minutes. Logstash is the second essential tool for Data Engineering. Like Elasticsearch it is developed and maintained by the Elastic team and it also has a free version available (which will cover all your needs).
+This is a continuation of the [previous](https://dev.to/thehunter896/elk-elasticsearch-in-5-minutes-5bfn) article Elasticsearch in 5 minutes, Logstash is the second essential tool for Data Engineering. Like Elasticsearch it is developed and maintained by the Elastic team and it also has a free version available (which will cover all your needs).
 
 In this article we will learn what Logstash is and how it works, we will also set up a Logstash processor and play with some of the plugins it has to offer. All in under 5 minutes!
 
