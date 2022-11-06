@@ -1,7 +1,7 @@
 ---
 slider:
   enable: true
-  bg_image: https://www.youtube.com/watch?v=-MKapbz0GIo&list=PLZ2Ee0n3vmhNylAHcq065fSP6jWP3jRp-&index=5
+  bg_image: images/banner/banner-1.jpg 
   slider_item:
   - title: Your Cloud Specialist
     content: 'Data has become the most important differentiator for companies. 
@@ -67,7 +67,7 @@ about:
     link: about
 course:
   enable: false
-  title: Onze workshops
+  title: Our workshops
 cta:
   enable: false
   subtitle: Know which customers we work with?
