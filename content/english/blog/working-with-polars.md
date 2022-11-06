@@ -145,7 +145,7 @@ It is always nice to have some visualizations to have a better understanding of 
 
 ![](/images/16050p16.png)
 
-## Endnotes
+## Notes
 
 Polars is still an ongoing project and in the early stages of development. If you are interested in having a more in-depth look at the workings of the library, we highly recommend you read this article by the creator of Polars himself:
 
