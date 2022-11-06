@@ -125,7 +125,7 @@ Now we look into countries which have the best and the costliest wines.
     #Wines which are costly
     print(data.groupby('country').select('price').max().sort(by_column='price_max', reverse=True))
 
-![costly wines pypolars](/images/35986p15.png)
+![](/images/35986p15.png)
 
 Thus we can see that England has one of the best wines, but the costliest one is from France.
 
