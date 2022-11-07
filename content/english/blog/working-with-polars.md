@@ -1,5 +1,5 @@
 +++
-author = "Kyriakos Antoniadis"
+author = "Sander Martijn Kerkdijk"
 bg_image = "/images/banner/banner-1.jpg"
 categories = ["Pandas", "Polars"]
 date = 2022-11-05T23:00:00Z
