@@ -10,7 +10,9 @@ title = "Human-Learn"
 type = "post"
 
 +++
-## human-learn: Create a Human Learning Model by Drawing
+## Human-Learn 
+
+*** Create a Human Learning Model by Drawing
 
 ### Use your Domain Knowledge to Label your Data
 
