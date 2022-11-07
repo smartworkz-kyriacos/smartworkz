@@ -20,13 +20,13 @@ type = "post"
 
 Nowadays, data scientists often give machine learning model data with labels so that they can figure out the rules. These rules can be used to predict the labels of new data.
 
-![](/images/1*lAG4xlZWtRQcFkrt2dkoTg.png)
+![](/images/1*lAG4xlZWtRQcFkrt2dkoTg.gif)
 
 This is convenient, but some information may be lost in this process. It is also difficult to know what is going on under the hood and why the machine learning model comes up with a particular prediction.
 
 Instead of letting a machine learning model figure out everything, is there a way that we can use our domain knowledge to set the rules for data labelling?
 
-![](/images/1*5NLMRismhkeXze-BdO5o0A.png)
+![](/images/1*5NLMRismhkeXze-BdO5o0A.gif)
 
 ### What is human-learn?
 
@@ -44,13 +44,13 @@ I will use Iris data from sklearn to show how human-learn works.
 
 Human-learn allows you to draw over your datasets, and then use your drawings to convert them to models. To demonstrate how this can be useful, imagine you create a scatter plot of your dataset like below:
 
-![](/images/1*C75bN2iFe8AqVN05XoTk1w.png)
+![](/images/1*C75bN2iFe8AqVN05XoTk1w.gif)
 
 Image by Author
 
 When looking at the plot above, you can see how you can split them into 3 different regions like the below:
 
-![](/images/1*eMnFM9ceLquSPQIlLbuOqw.png)
+![](/images/1*eMnFM9ceLquSPQIlLbuOqw.gif)
 
 Image by Author
 
@@ -64,11 +64,11 @@ Now you can start drawing over your chart like below!
 
 We also do the same things with other columns:
 
-![](/images/1*SunRl4nEdKiT173hM2qmeg.png)
+![](/images/1*SunRl4nEdKiT173hM2qmeg.gif)
 
-![](/images/1*IaRVbTP-D8y7vv-9xghUoQ.png)
+![](/images/1*IaRVbTP-D8y7vv-9xghUoQ.gif)
 
-![](/images/1*_SKQDEhqDNdaWkoK680AUw.png)
+![](/images/1*_SKQDEhqDNdaWkoK680AUw.gif)
 
 ### Creating a Model and Predict
 
@@ -98,17 +98,17 @@ Start with creating a function to visualize our new sample.
 
 Use the function above to plot a new sample on the `petal_length` vs `petal_width` plot whose_points are colo_red by the probability that t_ey have label 0_
 
-![](/images/1*TWiLM1N-yXsetittXBxJ1Q.png)
+![](/images/1*TWiLM1N-yXsetittXBxJ1Q.gif)
 
 Note that the **yellow dots** indicate the **high probability** that these dots have a **label of 0**. The more purple the dots are, the less likely that these dots have a label 0.
 
 We can see that the red dot (the new sample) is in the region with many yellow dots. But are there similar patterns in other plots? Let’s find out by applying the same function to other pairs of columns.
 
-![](/images/1*_kATnN0TD0bZcQ3yi0m2dg.png)
+![](/images/1*_kATnN0TD0bZcQ3yi0m2dg.gif)
 
-![](/images/1*s7EFcEElMbz0QnTksd8DnQ.png)
+![](/images/1*s7EFcEElMbz0QnTksd8DnQ.gif)
 
-![](/images/1*h3bE7gJ4wj-Zrkasou7bKA.png)
+![](/images/1*h3bE7gJ4wj-Zrkasou7bKA.gif)
 
 Image by Author
 
