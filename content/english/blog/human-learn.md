@@ -44,13 +44,13 @@ I will use Iris data from sklearn to show how human-learn works.
 
 Human-learn allows you to draw over your datasets, and then use your drawings to convert them to models. To demonstrate how this can be useful, imagine you create a scatter plot of your dataset like below:
 
-![](/images/1*C75bN2iFe8AqVN05XoTk1w.gif)
+![](/images/1_C75bN2iFe8AqVN05XoTk1w.webp)
 
 Image by Author
 
 When looking at the plot above, you can see how you can split them into 3 different regions like the below:
 
-![](/images/1*eMnFM9ceLquSPQIlLbuOqw.gif)
+![](/images/1_eMnFM9ceLquSPQIlLbuOqw.webp)
 
 Image by Author
 
