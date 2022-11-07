@@ -20,7 +20,7 @@ type = "post"
 
 Nowadays, data scientists often give machine learning model data with labels so that they can figure out the rules. These rules can be used to predict the labels of new data.
 
-![](/images/1*lAG4xlZWtRQcFkrt2dkoTg.gif)
+![](/images/1*lAG4xlZWtRQcFkrt2dkoTg.webp)
 
 This is convenient, but some information may be lost in this process. It is also difficult to know what is going on under the hood and why the machine learning model comes up with a particular prediction.
 
