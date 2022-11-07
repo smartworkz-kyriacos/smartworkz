@@ -406,3 +406,9 @@ Most of the data produced by applications are wasted due to the high workload of
 Hazelcast offers a simple solution to evaluate and process all your data more easily and quickly as a real-time data processing platform. Using Hazelcast's SQL engine, you can skip all of the details and directly work on the value of your customer's data. You can infer much information without dealing with hundreds of line codes and slow executions.
 
 You can follow our website and social media channels to learn more about the Hazelcast ecosystem. We would love to answer your questions over our Community channels, find links here: [https://hazelcast.com/dev-community/](https://hazelcast.com/dev-community/ "https://hazelcast.com/dev-community/"), also feel free to reach out at [developer-relations@hazelcast.com](mailto:developer-relations@hazelcast.com).
+
+Having a more in-depth look at the workings of the library, we highly recommend you read this article by the author of Hazelcast himself:
+
+[Fawaz Ghali](https://www.fawazghali.com/aboutme/)
+
+[At the BLIPZ](https://www.blipz.io/speakers/fawaz-ghali)
