@@ -6,7 +6,7 @@ title = "Clean code for data scientists"
 weight = 1
 
 +++
-Data Scientists increasingly operate in a world that extends beyond their local 'island' of RStudio or Jupyter notebooks. There is a need for the business to include the trained models in the production environment of the company. The code starts a long life outside the notebook, where it will be changed and maintained by other data scientists.
+Data Scientists increasingly operate in a world that extends beyond their local 'island' Jupyter notebooks. There is a need for the business to include the trained models in the production environment of the company. The code starts a long life outside the notebook, where it will be changed and maintained by other data scientists.
 
 With this transition, different requirements are suddenly imposed on the code. Where the goal was first to develop a machine learning model that is as accurate as possible, it now appears that the code cannot simply be included in a production environment or is not so well maintained by others. Data or DevOps engineers use their expertise to help with this, but these disciplines do not always speak the same language and often have a different view of how software should be built.
 
