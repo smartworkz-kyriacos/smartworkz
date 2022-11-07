@@ -20,13 +20,13 @@ type = "post"
 
 Nowadays, data scientists often give machine learning model data with labels so that they can figure out the rules. These rules can be used to predict the labels of new data.
 
-![](https://miro.medium.com/max/1400/1*lAG4xlZWtRQcFkrt2dkoTg.png =700x411)
+![](/images/1*lAG4xlZWtRQcFkrt2dkoTg.png)
 
 This is convenient, but some information may be lost in this process. It is also difficult to know what is going on under the hood and why the machine learning model comes up with a particular prediction.
 
 Instead of letting a machine learning model figure out everything, is there a way that we can use our domain knowledge to set the rules for data labelling?
 
-![](https://miro.medium.com/max/1328/1*5NLMRismhkeXze-BdO5o0A.png =664x157)
+![](/images/1*5NLMRismhkeXze-BdO5o0A.png)
 
 ### What is human-learn?
 
@@ -44,13 +44,13 @@ I will use Iris data from sklearn to show how human-learn works.
 
 Human-learn allows you to draw over your datasets, and then use your drawings to convert them to models. To demonstrate how this can be useful, imagine you create a scatter plot of your dataset like below:
 
-![](https://miro.medium.com/max/800/1*C75bN2iFe8AqVN05XoTk1w.png =400x400)
+![](/images/1*C75bN2iFe8AqVN05XoTk1w.png)
 
 Image by Author
 
 When looking at the plot above, you can see how you can split them into 3 different regions like the below:
 
-![](https://miro.medium.com/max/1068/1*eMnFM9ceLquSPQIlLbuOqw.png =534x569)
+![](/images/1*eMnFM9ceLquSPQIlLbuOqw.png)
 
 Image by Author
 
@@ -58,17 +58,17 @@ However, it can be difficult to write your drawing as rules and put them into a 
 
 Now you can start drawing over your chart like below!
 
-![](https://miro.medium.com/max/1400/1*aG1xWjuHYRDP7cBSKwWnHw.gif =700x540)
+![](/images/1*aG1xWjuHYRDP7cBSKwWnHw.gif)
 
 **Drawing instruction**: Use double-click to start drawing a polygon. Then click to create an edge for the polygon. Use double-click again to stop drawing the current polygon. If this is not clear to you, you can watch a video [here](https://www.loom.com/share/5f622a6c40504f2094f4b472fe2b04d0).
 
 We also do the same things with other columns:
 
-![](https://miro.medium.com/max/1268/1*SunRl4nEdKiT173hM2qmeg.png =634x564)
+![](/images/1*SunRl4nEdKiT173hM2qmeg.png)
 
-![](https://miro.medium.com/max/1346/1*IaRVbTP-D8y7vv-9xghUoQ.png =673x565)
+![](/images/1*IaRVbTP-D8y7vv-9xghUoQ.png)
 
-![](https://miro.medium.com/max/1338/1*_SKQDEhqDNdaWkoK680AUw.png =669x566)
+![](/images/1*_SKQDEhqDNdaWkoK680AUw.png)
 
 ### Creating a Model and Predict
 
@@ -98,17 +98,17 @@ Start with creating a function to visualize our new sample.
 
 Use the function above to plot a new sample on the `petal_length` vs `petal_width` plot whose_points are colo_red by the probability that t_ey have label 0_
 
-![](https://miro.medium.com/max/1400/1*TWiLM1N-yXsetittXBxJ1Q.png =700x231)
+![](/images/1*TWiLM1N-yXsetittXBxJ1Q.png)
 
 Note that the **yellow dots** indicate the **high probability** that these dots have a **label of 0**. The more purple the dots are, the less likely that these dots have a label 0.
 
 We can see that the red dot (the new sample) is in the region with many yellow dots. But are there similar patterns in other plots? Let’s find out by applying the same function to other pairs of columns.
 
-![](https://miro.medium.com/max/1400/1*_kATnN0TD0bZcQ3yi0m2dg.png =700x233)
+![](/images/1*_kATnN0TD0bZcQ3yi0m2dg.png)
 
-![](https://miro.medium.com/max/1400/1*s7EFcEElMbz0QnTksd8DnQ.png =700x232)
+![](/images/1*s7EFcEElMbz0QnTksd8DnQ.png)
 
-![](https://miro.medium.com/max/1400/1*h3bE7gJ4wj-Zrkasou7bKA.png =700x239)
+![](/images/1*h3bE7gJ4wj-Zrkasou7bKA.png)
 
 Image by Author
 
