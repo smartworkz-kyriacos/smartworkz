@@ -16,7 +16,7 @@ type = "post"
 
 ### Use your Domain Knowledge to Label your Data
 
-![](images/1*aG1xWjuHYRDP7cBSKwWnHw.gif)
+![](/images/1*aG1xWjuHYRDP7cBSKwWnHw.gif)
 
 Nowadays, data scientists often give machine learning model data with labels so that they can figure out the rules. These rules can be used to predict the labels of new data.
 
