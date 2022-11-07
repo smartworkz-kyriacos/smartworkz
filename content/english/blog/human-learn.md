@@ -12,7 +12,7 @@ type = "post"
 +++
 ## Human-Learn 
 
-*** Create a Human Learning Model by Drawing
+***Create a Human Learning Model by Drawing
 
 ### Use your Domain Knowledge to Label your Data
 
