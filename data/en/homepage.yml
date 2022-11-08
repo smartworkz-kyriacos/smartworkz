@@ -17,7 +17,7 @@ banner_feature:
   enable: true
   image: images/banner/banner-feature.png
   feature_item:
-  - name: Quick wins
+  - name: Quick Wins
     icon: ti-book
     content: We have developed Quick Wins for typical problems in the data world.
        Do you recognize a challenge? Then we can solve it for you with a concrete
