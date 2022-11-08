@@ -1,5 +1,5 @@
 +++
-date = 2022-09-13T22:00:00Z
+date = 2022-09-14T22:00:00Z
 image = ""
 title = "Big Data Expo"
 
