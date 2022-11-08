@@ -1,6 +1,6 @@
 ---
 title: Cases at Smartworkz
-bg_image: "images/banner/banner-1.jpg"
+bg_image: images/banner/banner-1.jpg
 image: images/career/hero.jpg
 description: ''
 url: "/cases"
@@ -9,13 +9,13 @@ menu:
     name: Cases
     weight: 3
     parent: career
+
 ---
 ## What do we actually do at Smartworkz?
 
+That is very varied since we carry out projects for the most diverse customer expertise: from Nike to Prorail and from Royal Haskoning to Care Pay. And from DataEngineering and Data Science to ML Computer Vision. But how does that feel exactly? Why is it so special? And which technologies got us excited?
 
-That is very varied, since we carry out projects for the most diverse customer expertise: from Nike to Prorail and from Royal Haskoning to Care Pay. And from DataEngineering and Data Science to ML Computer Vision. But how does that feel exactly? Why is it so special? And which technologies got us excited?
-
-Our Dataworkerz can best tell you that themselves. Read more about their specific experiences during the projects below.
+Our Smartworkerz can best tell you that themselves. Read more about their specific experiences during the projects below.
 
 #### Carepay - Giving everyone the power to care
 
@@ -23,11 +23,11 @@ Our Dataworkerz can best tell you that themselves. Read more about their specif
 
 ##### What have you done?
 
-At CarePay I work as a Data Engineer on setting up the data platform. We ensure that all data that CarePay generates is available for analysis in an accessible form. The data we provide is used both internally at CarePay and by CarePay customers.
+At CarePay I work as a Data Engineer setting up the data platform. We ensure that all data that CarePay generates is available for analysis in an accessible form. The data we provide is used both internally at CarePay and by CarePay customers.
 
 ##### What particularly appealed to you about this project?
 
-CarePay as a company is really trying to innovate the healthcare industry by automating claims and as a Data team we have worked closely with …
+CarePay as a company is really trying to innovate the healthcare industry by automating claims and as a Data team, we have worked closely with …
 
 [Check the case here](https://dataworkz.nl/cases/carepay-giving-everyone-the-power-to-care/)
 
@@ -63,7 +63,7 @@ Creating solutions that…
 
 ##### What have you done?
 
-At **ProRail** I investigated whether it was possible to check the condition of all sleeper attachments on the Dutch track. This is based on 250,000,000 images that are made every six months. These images are made by a special train with 8 cameras, which travels on the track at night. For this I trained a neural network and then deployed it in an image recognition pipeline.
+At **ProRail** I investigated whether it was possible to check the condition of all sleeper attachments on the Dutch track. This is based on 250,000,000 images that are made every six months. These images are made by a special train with 8 cameras, which travels on the track at night. For this, I trained a neural network and then deployed it in an image recognition pipeline.
 
 ##### What particularly appealed to you about this project?
 
