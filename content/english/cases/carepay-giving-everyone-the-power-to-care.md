@@ -1,5 +1,5 @@
 +++
-bg_image = ""
+bg_image = "/images/banner/banner-1.jpg"
 description = ""
 title = "Carepay - Giving everyone the power to care"
 
