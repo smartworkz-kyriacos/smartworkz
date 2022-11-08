@@ -1,5 +1,5 @@
 ---
-title: 'Sander Martijn Kerkdijk '
+title: Sander Kerkdijk
 bg_image: "/images/banner/banner-1.jpg"
 description: Support
 image: "/images/artificial_intelligence.png"
