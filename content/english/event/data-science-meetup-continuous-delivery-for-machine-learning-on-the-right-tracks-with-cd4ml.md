@@ -13,7 +13,7 @@ image = ""
 name = "Maarten"
 
 +++
-Continuous Delivery for Machine Learning (CD4ML)
+**Continuous Delivery for Machine Learning (CD4ML)**
 
 Companies that have to manage lots of assets (railroads, ports, highways, or other infrastructure-related institutions) have to inspect and administer the configuration and condition manually, multiple times a year.
 
