@@ -6,19 +6,19 @@ description: ''
 ---
 ##### What have you done?
 
-At **ProRail** I investigated whether it was possible to check the condition of all sleeper attachments on the Dutch track. This is based on 250,000,000 images that are made every six months. These images are made by a special train with 8 cameras, which travels on the track at night. For this I trained a neural network and then deployed it in an image recognition pipeline.
+At **ProRail** I investigated whether it was possible to check the condition of all sleeper attachments on the Dutch track. This is based on 250,000,000 images that are made every six months. These images are made by a special train with 8 cameras, which travels on the track at night. For this, I trained a neural network and then deployed it in an image recognition pipeline.
 
 ##### What particularly appealed to you about this project?
 
-The cool thing about this project was the large scale of available image data. For many customers, you start small with a PoC and then collect data. This process was already in order, so I could focus on the assignment. Working on a project for Prorail has an impact because many people in the Netherlands use it. If you can identify and solve a problem early, you prevent frustration for many people.
+The cool thing about this project was the large scale of available image data. For many customers, you start small with a PoC and then collect data. This process was already in order so that I could focus on the assignment. Working on a project for Prorail has an impact because many people in the Netherlands use it. If you can identify and solve a problem early, you prevent frustration for many people.
 
 ##### What have you learned during this project?
 
-Working at Databricks was new to me. Although I was skeptical, this turned out to be a very nice platform to do deep learning on Big Data.
+Working at Databricks was new to me. Although I was sceptical, this turned out to be a very nice platform for deep learning on Big Data.
 
-##### What was special to you and what did you remember the most?
+##### What was unique to you and what did you remember the most?
 
-This project started at the beginning of the pandemic. As a result, we have worked remotely. Despite the fact that I have always said that I want to work from home a lot, I came to the conclusion that a hybrid form between working from home and partly in the office is best for me. Dataworkz offers this new form of working, which creates a good balance.
+This project started at the beginning of the pandemic. As a result, we have worked remotely. Even though I have always said that I want to work from home a lot, I concluded that a hybrid form between working from home and partly in the office is best for me. Dataworkz offers this new form of working, which creates a good balance.
 
 ##### What technology did you use?
 
