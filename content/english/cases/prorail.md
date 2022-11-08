@@ -1,9 +1,9 @@
 ---
 title: Prorail computer vision – We’re on track
-bg_image: images/backgrounds/page-title.jpg
+bg_image: "/images/banner/banner-1.jpg"
 description: ''
----
 
+---
 ##### What have you done?
 
 At **ProRail** I investigated whether it was possible to check the condition of all sleeper attachments on the Dutch track. This is based on 250,000,000 images that are made every six months. These images are made by a special train with 8 cameras, which travels on the track at night. For this I trained a neural network and then deployed it in an image recognition pipeline.
