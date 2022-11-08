@@ -1,5 +1,5 @@
 ---
-title: Become an AWS Certified Azure Expert
+title: Certified Azure Expert
 date: 2019-07-06T09:27:17.000+00:00
 bg_image: images/banner/banner-1.jpg
 description: ''
