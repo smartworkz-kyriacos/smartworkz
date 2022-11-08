@@ -7,7 +7,7 @@ type = ""
 +++
 ![](/images/Blipz.jpg)
 
-**1 Nov. 2022 |  Werkspoor Utrecht, From 13:00 to 21:00**
+**1 Nov. 2022 | Werkspoor Utrecht, From 13:00 to 21:00**
 
 #### WHAT ARE [BLIPZ](https://www.blipz.io/)?
 
