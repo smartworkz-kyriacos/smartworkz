@@ -11,7 +11,7 @@ menu:
     parent: career
 
 ---
-## What do we actually do at Smartworkz?
+## What do we do at Smartworkz?
 
 That is very varied since we carry out projects for the most diverse customer expertise: from Nike to Prorail and from Royal Haskoning to Care Pay. And from DataEngineering and Data Science to ML Computer Vision. But how does that feel exactly? Why is it so special? And which technologies got us excited?
 
