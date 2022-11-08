@@ -29,7 +29,7 @@ At CarePay I work as a Data Engineer setting up the data platform. We ensure th
 
 CarePay as a company is really trying to innovate the healthcare industry by automating claims and as a Data team, we have worked closely with …
 
-[Check the case here](https://dataworkz.nl/cases/carepay-giving-everyone-the-power-to-care/)
+[Check the case here](content\english\cases\carepay-giving-everyone-the-power-to-care.md)
 
 #### CoNet - an ideal CoMbo from Data Science and Data Engineering
 
