@@ -1,27 +1,30 @@
 +++
 bg_image = ""
 description = ""
-title = "Nike - Basketballen met de directeur"
+title = "Nike - Playing Basketball with the Director"
 
 +++
 ![](/images/depositphotos_130066530_l-2015.jpg)
 
-##### Wat heb je gedaan?
 
-Ik werk met mijn team aan een systeem dat infrastructuur automatiseert omtrent het bouwen van datapijplijnen. We hebben een framework gebouwd waarmee onze datapijplijnen geautomatiseerd en gegenereerd worden door een metadata-gestuurde ETL-engine. Hierdoor wordt het mogelijk dat data op een consistente en betrouwbare manier in het Nike Data Foundation platform wordt geladen.
+![](https://dataworkz.nl/images/depositphotos_130066530_l-2015.jpg)
 
-##### Wat sprak je in het bijzonder aan tijdens dit project?
+##### What have you done?
 
-Het creëren van oplossingen die er daadwerkelijk voor zorgen dat bedrijven sneller en kwaliteitsgericht hun werk kunnen doen. Iedereen is gedreven om hetgeen te doen dat het beste is voor het bedrijf, ongeacht de moeite. Do the right thing!
+I am working with my team on a system that automates infrastructure for building data pipelines. We built a framework that automates our data pipelines and generates them by a metadata-driven ETL engine. This enables data to be loaded into the Nike Data Foundation platform in a consistent and reliable manner.
 
-##### Wat heb je geleerd tijdens dit project?
+##### What particularly appealed to you about this project?
 
-Het gaat bijna nooit om de technische oplossing, maar om het goed begrijpen van de gebruikers en het bieden van oplossingen die voor echte verbetering kunnen zorgen.
+Creating solutions that actually ensure that companies can do their work faster and in a quality-oriented way. Everyone is driven to do what's best for the business, no matter the effort. Do the right thing!
 
-##### Wat was voor jou bijzonder en is je het meest bijgebleven?
+##### What have you learned during this project?
 
-Een basketbal partijtje met de senior director tijdens lunchtijd.
+It is almost never about the technical solution, but about understanding the users well and offering solutions that can lead to real improvements.
 
-##### Wat voor technologie heb je gebruikt?
+##### What was special to you and what did you remember the most?
+
+A basketball game with the senior director at lunchtime.
+
+##### What kind of technology did you use?
 
 AWS, kubernetes, python (mainly FastAPI), golang, spark, airflow, Prometheus, Elastic.

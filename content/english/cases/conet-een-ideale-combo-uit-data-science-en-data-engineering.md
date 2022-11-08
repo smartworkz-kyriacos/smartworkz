@@ -1,27 +1,30 @@
 +++
 bg_image = ""
 description = ""
-title = "CoNet - een ideale CoMbo uit Data Science en Data Engineering"
+title = "CoNet - an ideal CoMbo from Data Science and Data Engineering"
 
 +++
 ![](/images/32a6a1cc-144f-4574-a2e1-a5c37a48c80c.png)
 
-##### Wat heb je gedaan?
 
-Ik heb een machine learning model ontwikkeld om afwijkingen in productkwaliteit te signaleren voor complexe, grootschalige industriële productie. De modellen, variërend van neurale netten tot gradient boosting modellen, werden ingezet met behulp van een combinatie van Azure Machine Learning en Azure IoT Hub.
+![](https://dataworkz.nl/images/32a6a1cc-144f-4574-a2e1-a5c37a48c80c.png)
 
-##### Wat sprak je in het bijzonder aan tijdens dit project?
+##### What have you done?
 
-Grote hoeveelheden beschikbare data, snel schakelen naar iteratieve implementatie EN bovenal zeer gemotiveerde visionairs als teamgenoten maakten dit project erg leuk.
+I have developed a machine learning model to identify deviations in product quality for complex, large-scale industrial production. The models, ranging from neural nets to gradient boosting models, were deployed using a combination of Azure Machine Learning and Azure IoT Hub.
 
-##### Wat heb je geleerd tijdens dit project?
+##### What particularly appealed to you about this project?
 
-Echt kunnen focussen op een deployment proces van A tot Z was erg leerzaam.
+Large amounts of available data, quick switching to iterative implementation AND above all highly motivated visionaries as teammates made this project a lot of fun.
 
-##### Wat was voor jou een bijzondere ervaring die je is bijgebleven?
+##### What have you learned during this project?
 
-Niet echt gerelateerd aan het project, sorry. :-) Ik kocht een kapotte e-bike in een winkel in Zaandam en ontdekte later dat de accu gewoon was losgekoppeld!
+Being able to really focus on a deployment process from A to Z was very instructive.
 
-##### Welke technologie heb je gebruikt?
+##### What was a special experience for you that stayed with you?
+
+Not really related to the project, sorry. :-) I bought a broken e-bike in a shop in Zaandam and later discovered that the battery had simply been disconnected!
+
+##### What technology did you use?
 
 Python, Azure Machine Learning, Azure DevOps, Azure IoT Hub, Dash, XGBoost, CatBoost, Keras.

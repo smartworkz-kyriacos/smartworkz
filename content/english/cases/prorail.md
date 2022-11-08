@@ -2,26 +2,24 @@
 title: Prorail computer vision – We’re on track
 bg_image: images/backgrounds/page-title.jpg
 description: ''
-
 ---
-### ![](/images/7f09bd7d-3723-4431-927d-2bd97b6f5642.png)
 
-##### Wat heb je gedaan?
+##### What have you done?
 
-Bij **ProRail** heb ik onderzocht of het mogelijk was om de conditie van alle dwarsligger bevestigingen op het Nederlandse spoor te controleren. Dit op basis van 250.000.000 afbeeldingen die elk half jaar worden gemaakt. Deze beelden worden gemaakt door een speciale trein met 8 camera’s, die ’s nachts over het spoor rijdt. Hiervoor heb ik een neuraal netwerk getraind en vervolgens in een beeldherkenning pipeline ingezet.
+At **ProRail** I investigated whether it was possible to check the condition of all sleeper attachments on the Dutch track. This is based on 250,000,000 images that are made every six months. These images are made by a special train with 8 cameras, which travels on the track at night. For this I trained a neural network and then deployed it in an image recognition pipeline.
 
-##### Wat sprak je in het bijzonder aan tijdens dit project?
+##### What particularly appealed to you about this project?
 
-Het gave aan dit project was de grote schaal aan beschikbare beeld data. Bij veel klanten begin je kleinschalig met een PoC en ga je vervolgens data verzamelen. Dit proces was al op orde, dus ik kon me focussen op de opdracht. Werken aan een project voor Prorail heeft impact omdat heel veel mensen in Nederland er gebruik van maken. Als je een probleem vroegtijdig kunt signaleren en oplossen, dan voorkom je bij veel mensen frustratie.
+The cool thing about this project was the large scale of available image data. For many customers, you start small with a PoC and then collect data. This process was already in order, so I could focus on the assignment. Working on a project for Prorail has an impact because many people in the Netherlands use it. If you can identify and solve a problem early, you prevent frustration for many people.
 
-##### Wat heb je geleerd tijdens dit project?
+##### What have you learned during this project?
 
-Voor mij was het werken op Databricks nieuw. Hoewel ik sceptisch was, bleek dit uiteindelijk een heel fijn platform te zijn om deep learning te doen op Big Data.
+Working at Databricks was new to me. Although I was skeptical, this turned out to be a very nice platform to do deep learning on Big Data.
 
-##### Wat was voor jou bijzonder en is je het meest bijgebleven?
+##### What was special to you and what did you remember the most?
 
-Dit project is gestart aan het begin van de pandemie. Hierdoor hebben we op afstand gewerkt. Ondanks dat ik zelf altijd heb gezegd dat ik veel vanuit huis wil werken, kwam ik tot de conclusie dat een hybride vorm tussen thuis werken en deels op kantoor voor mij het beste is. Dataworkz biedt deze nieuwe vorm van werken, waardoor een goede balans ontstaat.
+This project started at the beginning of the pandemic. As a result, we have worked remotely. Despite the fact that I have always said that I want to work from home a lot, I came to the conclusion that a hybrid form between working from home and partly in the office is best for me. Dataworkz offers this new form of working, which creates a good balance.
 
-##### Welke technologie heb je gebruikt?
+##### What technology did you use?
 
 MobileNet, Python, TensorFlow, OpenCV, Azure, Databricks, Docker, Kubernetes
