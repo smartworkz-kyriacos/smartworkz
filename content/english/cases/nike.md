@@ -1,5 +1,5 @@
 +++
-bg_image = ""
+bg_image = "/images/banner/banner-1.jpg"
 description = ""
 title = "Nike - Playing Basketball with the Director"
 
