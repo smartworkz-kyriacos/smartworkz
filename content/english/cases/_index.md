@@ -29,7 +29,7 @@ At CarePay I work as a Data Engineer setting up the data platform. We ensure th
 
 CarePay as a company is really trying to innovate the healthcare industry by automating claims and as a Data team, we have worked closely with …
 
-[Check the case here](content\english\cases\carepay-giving-everyone-the-power-to-care.md)
+[Check the case here](https://hugo-smartworkz.netlify.app/cases/carepay-giving-everyone-the-power-to-care/)
 
 #### CoNet - an ideal CoMbo from Data Science and Data Engineering
 
@@ -43,7 +43,7 @@ I have developed a machine learning model to identify deviations in product qual
 
 Large amounts of available data, quick switching to iterative implementation AND above all highly motivated …
 
-[Check the case here](https://dataworkz.nl/cases/conet-een-ideale-combo-uit-data-science-en-data-engineering/)
+[Check the case here](https://hugo-smartworkz.netlify.app/cases/conet-een-ideale-combo-uit-data-science-en-data-engineering/)
 
 #### Nike - Playing Basketball with the Director
 
@@ -57,7 +57,7 @@ I am working with my team on a system that automates infrastructure for building
 
 Creating solutions that…
 
-[Check the case here](https://dataworkz.nl/cases/nike/)
+[Check the case here](https://hugo-smartworkz.netlify.app/cases/nike/)
 
 #### Prorail computer vision – We're on track
 
@@ -69,4 +69,4 @@ At **ProRail** I investigated whether it was possible to check the condition o
 
 It …
 
-[Check the case here](https://dataworkz.nl/cases/prorail/)
+[Check the case here](https://hugo-smartworkz.netlify.app/cases/prorail/)
