@@ -1,5 +1,5 @@
 +++
-bg_image = ""
+bg_image = "/images/banner/banner-1.jpg"
 description = ""
 title = "CoNet - an ideal CoMbo from Data Science and Data Engineering"
 
