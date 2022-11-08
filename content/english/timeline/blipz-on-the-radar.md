@@ -7,9 +7,9 @@ type = ""
 +++
 ![](/images/Blipz.jpg)
 
-**November 1, 2022, Utrecht, From 13:00 to 21:00**
+**1 Nov. 2022 |  Werkspoor Utrecht, From 13:00 to 21:00**
 
-## WTF ARE [BLIPZ](https://www.blipz.io/)?
+#### WHAT ARE [BLIPZ](https://www.blipz.io/)?
 
 ###### LIVE experience **10 hot trends** in data, cloud, security, software and CI/CD engineering in one **conference in one day!**
 
