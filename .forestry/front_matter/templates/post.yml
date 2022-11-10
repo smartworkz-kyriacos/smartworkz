@@ -38,8 +38,13 @@ fields:
 pages:
 - content/english/blog/dockerizing-your-development-environment.md
 - content/english/blog/elasticsearch.md
+- content/english/blog/elasticsearch.md
+- content/english/blog/human-learn.md
 - content/english/blog/human-learn.md
 - content/english/blog/logstash.md
+- content/english/blog/logstash.md
+- content/english/blog/real-time-machine-learning-with-hazelcast.md
 - content/english/blog/real-time-machine-learning-with-hazelcast.md
 - content/english/blog/test.md
+- content/english/blog/working-with-polars.md
 - content/english/blog/working-with-polars.md
