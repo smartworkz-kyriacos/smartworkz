@@ -1,12 +1,12 @@
 ---
 slider:
   enable: true
-  bg_image: images/banner/banner-1.jpg 
+  bg_image: images/banner/banner-1.jpg
   slider_item:
-  - title: Your Cloud Specialist
-    content: 'Data has become the most important differentiator for companies. 
-    You need experts for this. We have those data engineers who understand how to make data technically accessible 
-    and the data scientists who will extract the right information from your data...'
+  - title: Your production-worthy Data Science Specialist
+    content: Data is becoming increasingly important in our environment. We offer
+      specialists (Data Engineers, Data Scientist and Machine Learning Engineers)
+      who know how to get your solution from Proof of Concept to Production.
     animation_in: ''
     animation_out: ''
     button:
@@ -17,20 +17,19 @@ banner_feature:
   enable: true
   image: images/banner/banner-feature.png
   feature_item:
-  - name: Quick Wins
+  - name: Wins
     icon: ti-book
-    content: We have developed Quick Wins for typical problems in the data world.
-       Do you recognize a challenge? Then we can solve it for you with a concrete
-       and baked result within approximately 2 weeks.
+    content: We have developed a thirty eye for typical problems in the data world.
+      Do you recognize a challenge? Contact us
     button:
       enable: true
       label: More info
       link: "/solutions#data-oplossingen"
   - name: Workshops and Training
     icon: ti-blackboard
-    content: From the first steps in Python to creating your first deep learning
-       projects. With our course we take your employees into the new and exciting
-       world of Data Science and Machine Learning.
+    content: From the first steps in Python to creating your first deep learning projects.
+      With our course we take your employees into the new and exciting world of Data
+      Science and Machine Learning.
     button:
       enable: true
       label: More info
@@ -38,8 +37,8 @@ banner_feature:
   - name: Data Consultancy
     icon: ti-agenda
     content: Whether it concerns long projects or short assignments. With any consultant
-       do you get the knowledge of the entire Dataworkz at your disposal to state of the
-       art data platforms or machine learning applications.
+      do you get the knowledge of the entire Smartworkz at your disposal to state
+      of the art data platforms or machine learning applications.
     button:
       enable: true
       label: More info
@@ -48,19 +47,14 @@ banner_feature:
     icon: ti-face-smile
     button:
       enable: false
-    content: We consider good cooperation with our partnerships very important.
-       Not only with customers, but also with the community and leading companies.
-       As a Microsoft Silver Partner we have a lot of experience in the field
-       of Azure-based data platforms and ML solutions. And because we also find
-       that enterprise AI platforms should love code, we can as a Dataiku partner
-       quickly and reliably realize Data Science and ML flows on production.
+    content: We consider good cooperation with our partnerships very important. Not
+      only with customers, but also with the community and leading companies.
 about:
   enable: true
   title: About Smartworkz
   image: images/about/about-us.jpg
-  content: 'It all started in the summer of 2022 with a few phone calls and dinner with the existing shareholders. 
-  We discussed the demanding need for specialists in the fields of Data Analytics, Science, Engineering, Machine/Deep Learning, 
-  and Operations in Business Intelligence.'
+  content: It all started in the summer of 2022 we wanted to make impact to take the
+    next step in production ready data science solutions.
   button:
     enable: true
     label: See more from Smartworkz?
@@ -89,11 +83,11 @@ success_story:
   bg_image: images/banner/banner-1.jpg
   title: Do you want to come and work for Smartworkz?
   content: We are looking for driven Data Enthusiasts (Engineering and Science) who
-     make a difference to our customers. Professionals who like to work in
-     seize opportunities for a young company and work on performance together with colleagues
-     of size. Professionals who are communicative, want to work in Agile projects
-     working at leading clients, wanting to be part of a fun team of
-     experts, like to share knowledge and want to be rewarded for their value.
+    make a difference to our customers. Professionals who like to work in seize opportunities
+    for a young company and work on performance together with colleagues of size.
+    Professionals who are communicative, want to work in Agile projects working at
+    leading clients, wanting to be part of a fun team of experts, like to share knowledge
+    and want to be rewarded for their value.
   video_link: https://www.youtube.com/watch?v=IdV4n4hgIRY
   button:
     enable: true

@@ -6,7 +6,7 @@ description: ''
 ---
 ## WE ARE LOOKING FOR
 
-Driven Data Engineers who can make a difference for our customers. DataWorkz employs Data Engineers and Data Scientists who enjoy seizing opportunities in a young company and working together with  colleagues  on major achievements. We are Professionals who have strong communication skills, who want to work in agile projects for leading clients, who want to be part of a nice team of experts, who like to   share knowledge   and who want to be rewarded for their value.
+Driven Data Engineers who can make a difference for our customers. Smartworkz employs Data Engineers and Data Scientists who enjoy seizing opportunities in a young company and working together with  colleagues  on major achievements. We are Professionals who have strong communication skills, who want to work in agile projects for leading clients, who want to be part of a nice team of experts, who like to   share knowledge   and who want to be rewarded for their value.
 
 Are you too?
 

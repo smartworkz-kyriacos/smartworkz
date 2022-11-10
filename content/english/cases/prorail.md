@@ -2,7 +2,6 @@
 title: Prorail computer vision – We’re on track
 bg_image: "/images/banner/banner-1.jpg"
 description: ''
-
 ---
 ##### What have you done?
 
@@ -20,7 +19,7 @@ Working at Databricks was new to me. Although I was sceptical, this turned out 
 
 ##### What was unique to you and what did you remember the most?
 
-This project started at the beginning of the pandemic. As a result, we have worked remotely. Even though I have always said that I want to work from home a lot, I concluded that a hybrid form between working from home and partly in the office is best for me. Dataworkz offers this new form of working, which creates a good balance.
+This project started at the beginning of the pandemic. As a result, we have worked remotely. Even though I have always said that I want to work from home a lot, I concluded that a hybrid form between working from home and partly in the office is best for me. Smartworkz offers this new form of working, which creates a good balance.
 
 ##### What technology did you use?
 
