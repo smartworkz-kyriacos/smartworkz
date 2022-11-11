@@ -28,6 +28,8 @@ Instead of letting a machine learning model figure out everything, is there a wa
 
 ![](/images/1_5NLMRismhkeXze-BdO5o0A.webp)
 
+That can be done with human-learn.
+
 ### What is human-learn?
 
 [Human-learn](https://github.com/koaning/human-learn/) is a tool that allows you to set the rules for data labelling using interactive drawings and custom models. In this article, we will explore how to create a model with interactive drawings using human-learn.
@@ -36,7 +38,19 @@ To install human-learn, type
 
     pip install human-learn
 
-I will use Iris data from sklearn to show how human-learn works.
+We use Iris data from sklearn to show how human-learn works.
+
+    from sklearn.datasets import load_iris
+    from sklearn.model_selection import train_test_split
+    import pandas as pd
+    #Load data
+    X, y = load_iris(return_X_y=True, as_frame=True)
+    X.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+    #Train test split
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
+    #Concatenate features and labels of the training data
+    train = pd.concat([X_train, pd.DataFrame(y_train)], axis=1)
+    train
 
 ### Interactive Drawing
 
