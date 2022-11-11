@@ -1,5 +1,5 @@
 +++
-author = "Lennard"
+author = "Sander Kerkdijk"
 bg_image = "images/banner/banner-1.jpg"
 categories = ["Data Engineering"]
 date = 2020-04-27T22:00:00Z
