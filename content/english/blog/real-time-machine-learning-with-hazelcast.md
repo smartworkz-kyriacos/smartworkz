@@ -6,13 +6,13 @@ date = 2022-11-05T23:00:00Z
 description = ""
 image = "/images/hazelcast.jpg"
 tags = []
-title = "Real-time ML with Hazelcast"
+title = "Hazelcast"
 type = "post"
 
 +++
 ### Introduction
 
-Real-Time Machine Learning is a technique of continuously improving a machine learning model by training it with real-time rich data. Real-time machine learning models can be deployed to production using event-driven architectures in which rich data streams are fed into these models by combining data-at-rest with data-in-motion. However, deploying real-time machine learning models has its challenges: such as complexity, scalability and performance. In this seminar, Fawaz will address those challenges and demonstrate the best practices for real-time machine learning models, written in Python, Java or using remote services, from training to inference and deployment with ultra-low latency at scale and speed, using the Hazelcast platform.
+**_Real-Time Machine Learning_** is a technique of continuously improving a machine learning model by training it with real-time rich data. Real-time machine learning models can be deployed to production using event-driven architectures in which rich data streams are fed into these models by combining data-at-rest with data-in-motion. However, deploying real-time machine learning models has its challenges: such as complexity, scalability and performance. In this seminar, Fawaz will address those challenges and demonstrate the best practices for real-time machine learning models, written in Python, Java or using remote services, from training to inference and deployment with ultra-low latency at scale and speed, using the Hazelcast platform.
 
 ### Install Hazelcast Client
 
