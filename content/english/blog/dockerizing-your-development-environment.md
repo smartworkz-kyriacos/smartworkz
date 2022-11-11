@@ -1,7 +1,7 @@
 +++
 author = "Sander Kerkdijk"
 bg_image = "images/banner/banner-1.jpg"
-categories = ["Data Engineering"]
+categories = ["Docker", "Data Engineering"]
 date = 2020-04-27T22:00:00Z
 description = ""
 image = "/images/1_ovruauqpf4r2xpiwh71rug.jpg"
