@@ -456,4 +456,4 @@ plt.xlabel('Number Of Attempts In Prediction' , fontsize=12);
 plt.ylabel('Correct Answer In Proportion To The Total', fontsize=12);
 ```
 
-![1666856544678](images/1666856544678.png)
+![](/images/1666856544678.png)
