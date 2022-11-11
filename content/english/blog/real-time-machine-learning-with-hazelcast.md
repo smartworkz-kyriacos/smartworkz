@@ -6,7 +6,7 @@ date = 2022-11-05T23:00:00Z
 description = ""
 image = "/images/hazelcast.jpg"
 tags = []
-title = "Hazelcast"
+title = "RT ML with Hazelcast"
 type = "post"
 
 +++
