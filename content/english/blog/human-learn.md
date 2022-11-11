@@ -14,6 +14,8 @@ type = "post"
 
 **Create a Human Learning Model by Drawing**
 
+Excerpt reference from [Khuyen Tran](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
+
 ### Use your Domain Knowledge to Label your Data
 
 ![](/images/1_aG1xWjuHYRDP7cBSKwWnHw.gif)
@@ -144,4 +146,9 @@ Congratulations! You have just learned how to generate rules to label your data 
 
 I hope human-learn will encourage you to visualize your data before applying any machine learning algorithms. In the next article, I will show you other ways to create rules using human-learn.
 
-The source code of this article could be found here:
+The source code of this article could be found [here]()
+
+For more info, see article from Vincent D Warmerdam:
+
+* [Human-Learn](https://koaning.github.io/human-learn/index.html)
+* [At the BLIPZ](https://www.blipz.io/speakers/vincent-warmerdam)
