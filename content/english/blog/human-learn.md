@@ -148,7 +148,8 @@ I hope human-learn will encourage you to visualize your data before applying any
 
 The source code of this article could be found [here]()
 
-For more info, see article from Vincent D Warmerdam:
+For more info, see the articles from Vincent D Warmerdam:
 
 * [Human-Learn](https://koaning.github.io/human-learn/index.html)
 * [At the BLIPZ](https://www.blipz.io/speakers/vincent-warmerdam)
+* [PyPI](https://pypi.org/project/human-learn/)
