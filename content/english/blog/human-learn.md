@@ -60,13 +60,11 @@ Now you can start drawing over your chart like below!
 
 We also do the same things with other columns:
 
-![](/images/1_SunRl4nEdKiT173hM2qmeg.gif)
-
 ![](/images/sepal_files/1_SunRl4nEdKiT173hM2qmeg.png)
 
-![](/images/sepal_files/1_IaRVbTP-D8y7vv-9xghUoQ.gif)
+![](/images/sepal_files/1_IaRVbTP-D8y7vv-9xghUoQ.png)
 
-![](/images/sepal_files/1_SKQDEhqDNdaWkoK680AUw.gif)
+![](/images/sepal_files/1__SKQDEhqDNdaWkoK680AUw.png)
 
 ### Creating a Model and Predict
 
@@ -98,15 +96,17 @@ Use the function above to plot a new sample on the `petal_length` vs `petal_widt
 
 ![](/images/sepal_files/1_TWiLM1N-yXsetittXBxJ1Q.gif)
 
+![](/images/sepal_files/1_TWiLM1N-yXsetittXBxJ1Q.png)
+
 Note that the **yellow dots** indicate the **high probability** that these dots have a **label of 0**. The more purple the dots are, the less likely that these dots have a label 0.
 
 We can see that the red dot (the new sample) is in the region with many yellow dots. But are there similar patterns in other plots? Let’s find out by applying the same function to other pairs of columns.
 
-![](/images/sepal_files/1_kATnN0TD0bZcQ3yi0m2dg.gif)
+![](/images/sepal_files/1__kATnN0TD0bZcQ3yi0m2dg.png)
 
-![](/images/sepal_files/1_s7EFcEElMbz0QnTksd8DnQ.gif)
+![](/images/sepal_files/1_s7EFcEElMbz0QnTksd8DnQ.png)
 
-![](/images/sepal_files/1_h3bE7gJ4wj-Zrkasou7bKA.gif)
+![](/images/sepal_files/1_h3bE7gJ4wj-Zrkasou7bKA.png)
 
 In all plots, we can see the red dot are in the region with many yellow dots! That explains why the model predicts the new sample to have a label 0. Pretty cool, isn’t it?
 
