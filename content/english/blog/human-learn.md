@@ -46,29 +46,25 @@ Human-learn allows you to draw over your datasets, and then use your drawings to
 
 ![](/images/1_C75bN2iFe8AqVN05XoTk1w.webp)
 
-Image by Author
-
 When looking at the plot above, you can see how you can split them into 3 different regions like the below:
 
 ![](/images/1_eMnFM9ceLquSPQIlLbuOqw.webp)
 
-Image by Author
-
-However, it can be difficult to write your drawing as rules and put them into a function. That is when human learns interactive drawing comes in handy.
+However, it can be difficult to write your drawing as rules and put them into a function. That is when humans learn interactive drawing comes in handy.
 
 Now you can start drawing over your chart like below!
 
-![](/images/1*aG1xWjuHYRDP7cBSKwWnHw.gif)
+![](/images/1_aG1xWjuHYRDP7cBSKwWnHw.gif)
 
 **Drawing instruction**: Use double-click to start drawing a polygon. Then click to create an edge for the polygon. Use double-click again to stop drawing the current polygon. If this is not clear to you, you can watch a video [here](https://www.loom.com/share/5f622a6c40504f2094f4b472fe2b04d0).
 
 We also do the same things with other columns:
 
-![](/images/1*SunRl4nEdKiT173hM2qmeg.gif)
+![](/images/1_SunRl4nEdKiT173hM2qmeg.gif)
 
-![](/images/1*IaRVbTP-D8y7vv-9xghUoQ.gif)
+![](/images/1_IaRVbTP-D8y7vv-9xghUoQ.gif)
 
-![](/images/1*_SKQDEhqDNdaWkoK680AUw.gif)
+![](/images/1_SKQDEhqDNdaWkoK680AUw.gif)
 
 ### Creating a Model and Predict
 
@@ -98,19 +94,17 @@ Start with creating a function to visualize our new sample.
 
 Use the function above to plot a new sample on the `petal_length` vs `petal_width` plot whose_points are colo_red by the probability that t_ey have label 0_
 
-![](/images/1*TWiLM1N-yXsetittXBxJ1Q.gif)
+![](/images/1_TWiLM1N-yXsetittXBxJ1Q.gif)
 
 Note that the **yellow dots** indicate the **high probability** that these dots have a **label of 0**. The more purple the dots are, the less likely that these dots have a label 0.
 
 We can see that the red dot (the new sample) is in the region with many yellow dots. But are there similar patterns in other plots? Let’s find out by applying the same function to other pairs of columns.
 
-![](/images/1*_kATnN0TD0bZcQ3yi0m2dg.gif)
+![](/images/1_kATnN0TD0bZcQ3yi0m2dg.gif)
 
-![](/images/1*s7EFcEElMbz0QnTksd8DnQ.gif)
+![](/images/1_s7EFcEElMbz0QnTksd8DnQ.gif)
 
-![](/images/1*h3bE7gJ4wj-Zrkasou7bKA.gif)
-
-Image by Author
+![](/images/1_h3bE7gJ4wj-Zrkasou7bKA.gif)
 
 In all plots, we can see the red dot are in the region with many yellow dots! That explains why the model predicts the new sample to have a label 0. Pretty cool, isn’t it?
 
