@@ -14,6 +14,8 @@ type = "post"
 
 **Create a Human Learning Model by Drawing**
 
+Excerpt reference from [Khuyen Tran](https://towardsdatascience.com/human-learn-create-rules-by-drawing-on-the-dataset-bcbca229f00)
+
 ### Use your Domain Knowledge to Label your Data
 
 ![](/images/1_aG1xWjuHYRDP7cBSKwWnHw.gif)
@@ -28,6 +30,8 @@ Instead of letting a machine learning model figure out everything, is there a wa
 
 ![](/images/1_5NLMRismhkeXze-BdO5o0A.webp)
 
+That can be done with human-learn.
+
 ### What is human-learn?
 
 [Human-learn](https://github.com/koaning/human-learn/) is a tool that allows you to set the rules for data labelling using interactive drawings and custom models. In this article, we will explore how to create a model with interactive drawings using human-learn.
@@ -36,7 +40,19 @@ To install human-learn, type
 
     pip install human-learn
 
-I will use Iris data from sklearn to show how human-learn works.
+We use Iris data from sklearn to show how human-learn works.
+
+    from sklearn.datasets import load_iris
+    from sklearn.model_selection import train_test_split
+    import pandas as pd
+    #Load data
+    X, y = load_iris(return_X_y=True, as_frame=True)
+    X.columns = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+    #Train test split
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
+    #Concatenate features and labels of the training data
+    train = pd.concat([X_train, pd.DataFrame(y_train)], axis=1)
+    train
 
 ### Interactive Drawing
 
@@ -46,29 +62,25 @@ Human-learn allows you to draw over your datasets, and then use your drawings to
 
 ![](/images/1_C75bN2iFe8AqVN05XoTk1w.webp)
 
-Image by Author
-
 When looking at the plot above, you can see how you can split them into 3 different regions like the below:
 
 ![](/images/1_eMnFM9ceLquSPQIlLbuOqw.webp)
 
-Image by Author
-
-However, it can be difficult to write your drawing as rules and put them into a function. That is when human learns interactive drawing comes in handy.
+However, it can be difficult to write your drawing as rules and put them into a function. That is when humans learn interactive drawing comes in handy.
 
 Now you can start drawing over your chart like below!
 
-![](/images/1*aG1xWjuHYRDP7cBSKwWnHw.gif)
+![](/images/1_aG1xWjuHYRDP7cBSKwWnHw.gif)
 
 **Drawing instruction**: Use double-click to start drawing a polygon. Then click to create an edge for the polygon. Use double-click again to stop drawing the current polygon. If this is not clear to you, you can watch a video [here](https://www.loom.com/share/5f622a6c40504f2094f4b472fe2b04d0).
 
 We also do the same things with other columns:
 
-![](/images/1*SunRl4nEdKiT173hM2qmeg.gif)
+![](/images/sepal_files/1_SunRl4nEdKiT173hM2qmeg.png)
 
-![](/images/1*IaRVbTP-D8y7vv-9xghUoQ.gif)
+![](/images/sepal_files/1_IaRVbTP-D8y7vv-9xghUoQ.png)
 
-![](/images/1*_SKQDEhqDNdaWkoK680AUw.gif)
+![](/images/sepal_files/1__SKQDEhqDNdaWkoK680AUw.png)
 
 ### Creating a Model and Predict
 
@@ -98,19 +110,19 @@ Start with creating a function to visualize our new sample.
 
 Use the function above to plot a new sample on the `petal_length` vs `petal_width` plot whose_points are colo_red by the probability that t_ey have label 0_
 
-![](/images/1*TWiLM1N-yXsetittXBxJ1Q.gif)
+![](/images/sepal_files/1_TWiLM1N-yXsetittXBxJ1Q.gif)
+
+![](/images/sepal_files/1_TWiLM1N-yXsetittXBxJ1Q.png)
 
 Note that the **yellow dots** indicate the **high probability** that these dots have a **label of 0**. The more purple the dots are, the less likely that these dots have a label 0.
 
 We can see that the red dot (the new sample) is in the region with many yellow dots. But are there similar patterns in other plots? Let’s find out by applying the same function to other pairs of columns.
 
-![](/images/1*_kATnN0TD0bZcQ3yi0m2dg.gif)
+![](/images/sepal_files/1__kATnN0TD0bZcQ3yi0m2dg.png)
 
-![](/images/1*s7EFcEElMbz0QnTksd8DnQ.gif)
+![](/images/sepal_files/1_s7EFcEElMbz0QnTksd8DnQ.png)
 
-![](/images/1*h3bE7gJ4wj-Zrkasou7bKA.gif)
-
-Image by Author
+![](/images/sepal_files/1_h3bE7gJ4wj-Zrkasou7bKA.png)
 
 In all plots, we can see the red dot are in the region with many yellow dots! That explains why the model predicts the new sample to have a label 0. Pretty cool, isn’t it?
 
@@ -134,4 +146,10 @@ Congratulations! You have just learned how to generate rules to label your data 
 
 I hope human-learn will encourage you to visualize your data before applying any machine learning algorithms. In the next article, I will show you other ways to create rules using human-learn.
 
-The source code of this article could be found here:
+The source code of this article could be found [here]()
+
+For more info, see the articles from Vincent D Warmerdam:
+
+* [Human-Learn](https://koaning.github.io/human-learn/index.html)
+* [At the BLIPZ](https://www.blipz.io/speakers/vincent-warmerdam)
+* [PyPI](https://pypi.org/project/human-learn/)
