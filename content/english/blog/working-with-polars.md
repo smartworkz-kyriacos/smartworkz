@@ -10,9 +10,10 @@ title = "Working with Polars"
 type = "post"
 
 +++
+
 ### **Introduction**
 
-Excerpt reference from [Barney Darlington](https://www.analyticsvidhya.com/blog/2021/06/polars-the-fastest-dataframe-library-youve-never-heard-of/)
+Excerpt reference from [Robin van den Brink](https://medium.com/analytics-vidhya/introduction-to-polars-ee9e638dc163)
 
 Pandas is the most popular library when it comes to working with structured data. The reason behind this is the panda’s powerful tool called DataFrame. A DataFrame is a table where each column represents a different type of data(sometimes called a field). The columns have names. Each row represents a record or entity.
 
@@ -52,7 +53,7 @@ Let us start with a basic Data Analysis.
 
     data.shape
     > (150930, 11)
-    
+
     data.columns
 
 ![](/images/96375p7.png)

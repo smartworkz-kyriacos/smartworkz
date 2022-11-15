@@ -10,6 +10,9 @@ title = "Dockerizing"
 type = "post"
 
 +++
+
+Excerpt taken from [Lennard Eijsackers](https://www.linkedin.com/in/lennard-eijsackers/)
+
 Most development environments are not heterogeneous. Over time more languages, libraries, frameworks & tools are introduced into the organisation, while others are phased out. This means that you need to keep your development environment up to date with these changes. And of course, just when you updated your environment, a legacy application experiences an issue and now you need to ensure that your environment also supports older versions of the tools in use.
 
-[Read more...](https://www.blokje5.dev/posts/dockerizing-your-development-environment/) 
+[Read more...](https://www.blokje5.dev/posts/dockerizing-your-development-environment/)
