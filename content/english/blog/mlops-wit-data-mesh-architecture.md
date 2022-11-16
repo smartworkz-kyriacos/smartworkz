@@ -175,7 +175,7 @@ To set up resources in the producer account, complete the following steps:
 
  1. Sign in to the producer account’s AWS CloudFormation console in the target Region.
  2. Choose **Launch Stack**:[
-    ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.002.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=stack-producer&templateURL=https://aws-bigdata-blog.s3.amazonaws.com/artifacts/lakeformationtbac/cfn/tbac-cross-account-producer.yaml)
+    ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.002.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=stack-producer&templateURL=https://aws-bigdata-blog.s3.amazonaws.com/artifacts/lakeformationtbac/cfn/tbac-cross-account-producer.yaml)
  3. Choose **Next**.
  4. For **Stack name**, enter stack-producer.
  5. For **CentralAccountID**, copy and paste the value of the <CentralAccountID> .
@@ -193,7 +193,7 @@ To create resources in the consumer account, complete the following steps:
 
  1. Sign in to the consumer account’s AWS CloudFormation console in the target Region.
  2. Choose **Launch Stack**:
-    [![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.002.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=stack-consumer&templateURL=https://aws-bigdata-blog.s3.amazonaws.com/artifacts/lakeformationtbac/cfn/tbac-cross-account-consumer.yaml)
+    [![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.002.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=stack-consumer&templateURL=https://aws-bigdata-blog.s3.amazonaws.com/artifacts/lakeformationtbac/cfn/tbac-cross-account-consumer.yaml)
  3. Choose **Next**.
  4. For **Stack name**, enter stack-consumer.
  5. For **ConsumerAdminUserName** and **ConsumerAdminUserPassword**, enter the user name and password you want for the data lake admin IAM user.
@@ -217,7 +217,7 @@ In the central account, complete the following steps:
 
 The CloudFormation template added the data mesh owner as the data lake administrator.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.003.png)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.003.png)
 
 Next, we update the Data Catalog settings to use Lake Formation permissions to control catalog resources instead of IAM-based access control.
 
@@ -225,7 +225,7 @@ Next, we update the Data Catalog settings to use Lake Formation permissions to c
 2. Uncheck **Use only IAM access control for new databases**.
 3. Uncheck **Use only IAM access control for new tables in new databases**.
 4. Choose **Save**.
-   ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.004.png)
+   ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.004.png)
 
 Next, we need to set up the AWS Glue Data Catalog resource policy to grant cross-account access to Data Catalog resources.
 
@@ -252,7 +252,7 @@ For more information about this policy, see [put-resource-policy](https://docs.a
 
 You should see the S3 bucket registered under the data lake locations.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.005.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.005.jpeg)
 
 ## **Configure Lake Formation Data Catalog settings in the central account**:
 
@@ -267,11 +267,11 @@ DataMeshOwner creates the tag ontology by defining LF-tags. Complete the followi
 3. For **Key**, enter database and for **Values**, choose credit-card.
 4. Choose **Add** and then **Add LF-tag**.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.006.png)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.006.png)
 
 1. The result looks like the image below.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.007.png)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.007.png)
 
 ### **Grant permissions**
 
@@ -285,11 +285,11 @@ In our situation, we will only have one LF tag assigned which points to the data
 4. In the **LF-Tags** section, add all three key-values:
    1. Key database with values credit-card.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.008.png)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.008.png)
 
 1. For **Permissions**, select **Describe** and **Associate** for both **LF-tag permissions** and **Grantable permissions**.
 2. Choose **Grant.
-   ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.009.png)**
+   ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.009.png)**
 
 Next, we grant ProducerSteward tag-based data lake permissions. This enables ProducerSteward to create, alter, and drop tables in the databases with corresponding tags. ProducerSteward in the producer account can further grant the permission across accounts.
 
@@ -307,7 +307,7 @@ This permission allows a principal to perform every supported Lake Formation ope
 3. Select **Super** permission under **Grantable permissions**.
 4. Choose **Grant**.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.010.png)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.010.png)
 
 ## **Producer data steward actions in the central account**:
 
@@ -318,7 +318,7 @@ Next, we log in as the ProducerSteward user in the central account and create sk
 3. Choose the credit-card database.
 4. On the **Actions** menu, choose **Edit LF-tags**
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.011.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.011.jpeg)
 
 1. Choose **Assign new LF-tag**.
 2. For **Assigned** **Keys**, enter the database and for **Values**, choose credit-card.
@@ -326,7 +326,7 @@ Next, we log in as the ProducerSteward user in the central account and create sk
 
 This assigns the database=credit-card tag to the credit-card database.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.012.png)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.012.png)
 
 Next, we share the LF-tags and data lake permissions with the producer account so that ProducerSteward in the producer account can run AWS Glue crawlers and generate tables in the preceding skeleton databases.
 
@@ -338,20 +338,20 @@ Next, we share the LF-tags and data lake permissions with the producer account s
  6. For **Key**, enter database and for **Values**, choose credit-card.
  7. For **Permissions**, choose **Describe** and **Associate** for both **LF-tag permissions** and **Grantable permissions**.
  8. Choose **Grant**.
-    ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.013.jpeg)
+    ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.013.jpeg)
  9. In the navigation pane, under **Permissions**, **Data lake permissions**, choose **Grant**.
 10. For **Principals**, select **External accounts**.
 11. For **AWS account or AWS organization**, enter the account ID for the producer account.
 12. For **LF-tags or catalog resources**, select **Resources matched by LF-Tags (recommended)**.
 13. Choose **Add LF-Tag**.
 14. Choose the key database and value credit-card.
-    ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.014.jpeg)
+    ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.014.jpeg)
 15. For **Database permissions**, select **Create table** and **Describe** because the ProducerSteward user in the producer account will add tables in the database.
 16. Select **Create table** and **Describe** under **Grantable permissions** so the ProducerSteward user can further grant the permission to the AWS Glue crawler.
 17. For **Table permissions**, select all the permissions.
 18. Select all the permissions under **Grantable permissions.**
 19. Choose **Grant**.
-    ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.015.png)
+    ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.015.png)
 
 Now the Lake Formation administrators on the producer account side has the right permissions to add tables.
 
@@ -362,28 +362,28 @@ Next, we log in as the ProducerSteward user in the producer account to crawl the
 1. Sign in to the Lake Formation console as ProducerSteward.
 2. In the navigation pane, under **Administrative Roles and Tasks**, verify that ProducerSteward is configured as the data lake administrator.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.016.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.016.jpeg)
 
 1. In the navigation pane, under **Permissions**, then choose **Administrative roles and tasks**, choose **LF-Tags**.
 
 You can verify the database tag that was shared with the producer account.
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.017.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.017.jpeg)
 
 1. In the navigation pane, under **Data catalog**, select **Databases.**
 
 You can verify the two databases cards and retail that were shared with the producer account from the previous step.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.018.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.018.jpeg)
 
 Now, we create a [resource link](https://docs.aws.amazon.com/lake-formation/latest/dg/resource-links-about.html) in the producer account for this database. This link point at the shared database and is used by AWS Glue crawler to create the tables. First, we create a resource link for the credit-card database.
 
 1. Select the cards database and on the **Actions** menu, choose **Create resource link**.
-   ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.019.jpeg)
+   ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.019.jpeg)
 2. For **Resource link name**, enter rl_credit-card.
 3. Choose **Create**.
 
 After the resource link creation, you should see both the resource link databases as shown in the following screenshot.
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.020.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.020.jpeg)
 
 Next, we need to grant permissions to the AWS Glue crawler role so that the crawler can crawl the source bucket and create the tables.
 
@@ -392,7 +392,7 @@ Next, we need to grant permissions to the AWS Glue crawler role so that the craw
  3. For **Databases**, choose rl_credit-card.
  4. For **Resource link permissions**, select **Describe**.
  5. Choose **Grant**.
-    ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.021.png)
+    ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.021.png)
  6. Next, in the navigation pane, choose **Data lake Permissions** and choose **Grant**.
  7. For **IAM users and roles**, choose the role stack-producer-AWSGlueServiceRoleDefault-XXXX.
  8. For **LF-Tags or catalog resources**, select **Resources matched by LF-Tags**.
@@ -404,7 +404,7 @@ Next, we need to grant permissions to the AWS Glue crawler role so that the craw
 Next, we will verify grant permissions on the S3 bucket locations corresponding to credit-card producer to the AWS Glue crawler role. This is completed by the CloudFormation template.
 
 In the navigation pane, under **Permissions**, on the **Data Locations**, you should see the locations.
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.022.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.022.jpeg)
 
 Now we’re ready to run the crawler. We configure the crawler that the CloudFormation template created, to point it to the resource link database.
 
@@ -413,12 +413,12 @@ Now we’re ready to run the crawler. We configure the crawler that the CloudFor
 The crawler you created should be listed.
 
 1. Select the crawler for the cards database CardsCrawler-xxxxxxxxxxxx and on the **Action** menu, choose **Edit crawler**.
-   ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.023.jpeg)
+   ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.023.jpeg)
 2. For the input data store, choose the S3 bucket for the credit-card producer.
 3. For **IAM role**, choose the AWS Glue service role created by the CloudFormation template.
 4. For **Schedule**, choose **Run on demand**.
 5. For the output database, choose the resource link database rl_credit-card corresponding to the cards database.
-   ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.024.jpeg)
+   ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.024.jpeg)
 6. Verify all the information and choose **Save**.
 7. Select the crawler and choose **Run crawler**.
 
@@ -430,7 +430,7 @@ When the crawler finish, it creates table(s) corresponding to the producer in it
 2. On the Lake Formation console, in the navigation pane, choose **Data catalog** and then choose **Tables.**
 
 You should see the credit_card table corresponding to credit-card database.
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.025.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.025.jpeg)
 
 ### **Grant tag permissions**
 
@@ -442,11 +442,11 @@ Next, grant LF-tag permissions to the external consumer account.
 4. For **AWS account or AWS organization**, enter the AWS account number corresponding to the consumer account.
 5. For **LF-Tags**, choose **Add LF-Tag**.
 6. For **Key**, choose database and for **Values**, choose credit-card.
-   ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.026.jpeg)
+   ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.026.jpeg)
 7. For **Permissions**, choose **Describe**.
 8. For **Grantable permissions**, choose **Describe**.
 9. Choose **Grant**.
-   ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.027.png)
+   ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.027.png)
 
 Next, we grant Lake Formation policy tag expression permissions to the external consumer account.
 
@@ -475,7 +475,7 @@ Next, we grant table permissions.
 
 When you sign in to the Lake Formation console in the consumer account as ConsumerAdmin, you can see the tags and the corresponding value that was shared by the producer.
 
-![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.028.jpeg)
+![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.028.jpeg)
 
 In these next steps, we share and consume the table in the consumer account.
 
@@ -484,7 +484,7 @@ In these next steps, we share and consume the table in the consumer account.
 On the **Databases** page on the Lake Formation console, you can see all the databases that were shared to the consumer account. To create a resource link, complete the following steps:
 
 1. On the **Databases** page, select the credit-card database and on the **Actions** menu, choose **Create resource link**.
-   ![](Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.029.jpeg)
+   ![](/images/Aspose.Words.06580717-e26c-40ea-bebf-be8283065088.029.jpeg)
 2. Enter the resource link name as rl_credit-card.
 3. Leave the shared database and shared database’s owner ID as default.
 4. Choose **Create**.
