@@ -12,6 +12,10 @@ type = "post"
 +++
 # Data Mesh
 
+_The code for this example is available on_ [_GitHub_](https://github.com/aws-samples/amazon-sagemaker-lakeformation-datamesh)_._
+
+_Excerpt from_ [_AWS Machine Learning Blog_](https://aws.amazon.com/blogs/machine-learning/part-1-build-and-train-ml-models-using-a-data-mesh-architecture-on-aws/)
+
 ## Overview:
 
 This model has been described by the founder of the data mesh pattern Zhamak Dehghani of Thoughtworks, who coined the term, [**Data Mesh**](https://martinfowler.com/articles/data-monolith-to-mesh.html).
@@ -740,9 +744,3 @@ We showcased how you can build and train ML models with a multi-account data mes
 Each data producer account defines data products that are curated by people who understand the data and its access control, use, and limitations. The data products and the application domains that consume them are interconnected to form the data mesh. The data mesh architecture allows the ML teams to discover and access these curated data products.
 
 Lake Formation allows cross-account access to Data Catalog metadata and underlying data. You can use Lake Formation to create a multi-account data mesh architecture. SageMaker provides an ML platform with key capabilities around data management, data science experimentation, model training, model hosting, workflow automation, and CI/CD pipelines for productionization. You can set up one or more analytics and ML CoE environments to build and train models with data products registered across multiple accounts in a data mesh.
-
-## References
-
-_The code for this example is available on_ [_GitHub_](https://github.com/aws-samples/amazon-sagemaker-lakeformation-datamesh)_._
-
-_Excerpt from_ [_AWS Machine Learning Blog_](https://aws.amazon.com/blogs/machine-learning/part-1-build-and-train-ml-models-using-a-data-mesh-architecture-on-aws/)
