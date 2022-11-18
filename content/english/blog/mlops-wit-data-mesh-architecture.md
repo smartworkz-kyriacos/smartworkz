@@ -6,19 +6,19 @@ date = 2022-11-15T23:00:00Z
 description = ""
 image = "/images/DM.jpg"
 tags = []
-title = "MLOps with Data Mesh Architecture"
+title = "MLOps on Data Mesh"
 type = "post"
 
 +++
 # Data Mesh
 
-_The code for this example is available on_ [_GitHub_](https://github.com/aws-samples/amazon-sagemaker-lakeformation-datamesh)_._
-
-_Excerpt from_ [_AWS Machine Learning Blog_](https://aws.amazon.com/blogs/machine-learning/part-1-build-and-train-ml-models-using-a-data-mesh-architecture-on-aws/)
-
 ## Overview:
 
 This model has been described by the founder of the data mesh pattern Zhamak Dehghani of Thoughtworks, who coined the term, [**Data Mesh**](https://martinfowler.com/articles/data-monolith-to-mesh.html).
+
+_The code for this example is available on_ [_GitHub_](https://github.com/aws-samples/amazon-sagemaker-lakeformation-datamesh)_._
+
+_Excerpt from_ [_AWS Machine Learning Blog_](https://aws.amazon.com/blogs/machine-learning/part-1-build-and-train-ml-models-using-a-data-mesh-architecture-on-aws/)
 
 In her book [Data Mesh Delivering Data-Driven Value at Scale](https://www.oreilly.com/library/view/data-mesh/9781492092384/) defined four principles towards the objective of the data mesh:
 
